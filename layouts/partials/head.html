@@ -1,0 +1,20 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Certificate Transparency">
+  <link rel="shortcut icon" type="image/png" href='{{ absURL "img/favicon.png" }}'/>
+
+  <title>
+    {{ if .Title }}{{.Title}} : {{end}}Certificate Transparency
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{- partial "styles.html"}}
+  
+  {{ $waypoints := resources.Get "/js/noframework.waypoints.min.js" }}
+  {{ $countup := resources.Get "/js/countUp.min.js" }}
+  {{ $siteJS := resources.Get "/js/site.js" }}
+
+  {{ $js := slice $waypoints $countup $siteJS | resources.Concat "js/bundle.js" | resources.Minify | resources.Fingerprint }}
+  <script type='text/javascript' src='{{ $js.Permalink }}'></script>
+</head>

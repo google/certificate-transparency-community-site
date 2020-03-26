@@ -1,0 +1,5 @@
+{{ if .Get "md"}}
+{{ readFile (.Get "src") | markdownify }}
+{{ else }}
+{{ readFile (.Get "src") }}
+{{ end }}

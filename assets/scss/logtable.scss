@@ -1,0 +1,163 @@
+table {
+  &#logs-table {
+    border-spacing: 0;
+  }
+  font-family: $font-duo, monospace;
+  width: 100%;
+
+  th, td {
+    padding: 10px 5px;
+    line-height: 1.75;
+
+    &.loghash {
+      padding: 0 5px;
+    }
+  }
+
+  td {
+    border-top: 1px solid $col-lightgrey;
+  }
+
+  td.loading {
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  td.noborder {
+    border-top: 1px solid white;
+  }
+
+  .uptime {
+    text-align: right;
+  }
+
+  thead {
+    th {
+      font-weight: bold;
+      text-align: left;
+      &.orgcol {
+        
+        @include lg {
+          width: 13rem;
+        }
+      }
+      &.datecol {
+        width: 6rem;
+      }
+    }
+  }
+
+  a {
+    &:link, &:visited {
+      color: $col-black;
+      text-decoration: underline;
+      &.loghash {
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+      }
+    }
+    &:hover, &:active {
+      color: red;
+      text-decoration: underline;
+      &.loghash {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.table-footnotes {
+  text-align: right;
+  font-family: $font-duo;
+  font-size: 80%;
+  margin: 1rem 0;
+  color: $col-midgrey;
+}
+
+#logtable-disclaimer {
+  text-align: center;
+  font-family: $font-duo;
+  margin: 3rem 0;
+}
+
+#show-logs {
+  text-align: center;
+  margin: 3rem 0;
+  a {
+    font-family: $font-duo, monospace;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    &:link, &:visited {
+      background: $col-black;
+    }
+    &:hover, &:active {
+      background: red;
+    }
+  }
+
+  display: block;
+  @include md {
+    display: none;
+  }
+}
+
+.cta {
+  a.link {
+    margin: 2rem 0;
+    padding: 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #ccc;
+    text-align: center;
+    font-family: $font-duo;
+    line-height: 1.75;
+    
+    display: block;
+
+    &:link, &:visited {
+      h4 {
+        color: $col-black;
+      }
+      p {
+        color: $col-black;
+      }
+    }
+
+    &:hover, &:active {
+      border: 1px solid $col-greyish;
+      h4 {
+        color: $col-black;
+        text-decoration: none !important;
+      }
+      p {
+        color: $col-black;
+        text-decoration: underline;
+      }
+    }
+
+    h4 {
+      margin: 0;
+      font-family: $font-neue-haas;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.01rem;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  @include md {
+    width: 40%;
+    margin: 2rem auto;
+  }
+}

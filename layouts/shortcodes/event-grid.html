@@ -1,0 +1,19 @@
+{{ $dir := printf "/events/%s" (.Get 0)}}
+{{ $bundle := .Site.GetPage $dir }}
+{{ $events := $bundle.Resources.Match "*" }}
+
+{{ range $index, $event := sort $events "Date"}}
+  <div class='event-wrapper' data-is-headline={{.Params.isHeadline}}>
+    <div class="event">
+      <div class="date">
+      {{ if .Params.hideMonth}}
+        {{ .Date.year}}
+      {{ else }}
+        {{.Date.Month}} {{.Date.Year}}
+      {{ end }}
+      </div>
+      <h4>{{.Title}}</h4>
+      {{.Content}}
+    </div>
+  </div>
+{{ end }}

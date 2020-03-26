@@ -1,0 +1,17 @@
+{{/* this is all so we get sensible sourcemaps. Likely to be fixed around Hugo 0.63/0.64 */}}
+{{- $sassOptions := dict "targetPath" "/css/ct.css" -}}
+
+{{- if eq hugo.Environment "production" -}}
+  {{- $sassOptions = merge $sassOptions (dict "outputStyle" "compressed") -}}
+{{- else -}}
+  {{- $sassOptions = merge $sassOptions (dict "enableSourceMap" true) -}}
+{{- end -}}
+
+{{- $style := resources.Get "scss/ct.scss" | toCSS $sassOptions -}}
+
+{{- if eq hugo.Environment "production" -}}
+  {{- $style = $style | postCSS | fingerprint -}}
+{{- end }}
+
+<link rel="stylesheet" href="https://use.typekit.net/qwe1caa.css">
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}">

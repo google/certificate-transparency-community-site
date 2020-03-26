@@ -1,0 +1,24 @@
+<li>
+  <a class='link' href="{{.url}}">
+    <div class='top'>
+      {{ if .logo }}
+      <div class='img-container'>
+        <img {{if .customWidth}}style="width: {{.customWidth}}px" {{ end }}
+          src='{{  printf "img/collab-logos/%s" .logo | absURL }}'>
+      </div>
+      {{ else }}
+      <h3>{{.name}}</h3>
+      {{ end }}
+    </div>
+    <div class='body'>
+      {{ if .textTitle }}
+      <h4>{{.name}}</h4>
+      {{ end }}
+      <div>{{.description}}</div>
+    </div>
+    <div class='arr'>
+      {{$svg := "static/img/arrow-cards.svg" }}
+      {{ $svg  | readFile | safeHTML }}
+    </div>
+  </a>
+</li>

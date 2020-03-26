@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+  {{- partial "head.html" . -}}
+  {{- if .IsHome }}
+  <body id='scheme-home'>
+  {{- else }}
+  <body id='scheme-{{ lower .File.ContentBaseName -}} '>
+  {{- end }}
+    <div id="page-container">
+      <div id="content-container">
+        {{- partial "topnav.html" . -}}
+
+        {{- block "main" . }}
+        {{- end }}
+
+        {{- block "bigfooter" . }}
+        {{- end }}
+      </div>
+
+      <div id="footer-container">
+        {{- partial "footer.html" . -}}
+      </div>
+    </div>
+  </body>
+
+
+</html>

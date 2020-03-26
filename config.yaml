@@ -1,0 +1,9 @@
+title: Certificate Transparency
+url: https://willsneck.projectsbyif.com
+baseURL: https://willsneck.projectsbyif.com
+disableKinds:
+- taxonomy
+- taxonomyTerm
+params:
+  githubUrl: https://github.com/google/certificate-transparency-go
+  googlegroup: https://groups.google.com/forum/#!forum/certificate-transparency

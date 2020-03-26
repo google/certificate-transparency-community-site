@@ -1,0 +1,7 @@
+{{ range $.Site.Data.operators.operators }}
+<li>
+  <a title="{{.name}}" href="{{.url}}">
+    <img {{if .customWidth}}style="width: {{.customWidth}}px" {{ end }}src="img/collab-logos/{{.logo}}" />
+  </a>
+</li>
+{{ end }}

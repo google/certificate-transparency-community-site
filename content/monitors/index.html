@@ -1,0 +1,51 @@
+---
+title: Monitors
+url: /monitors
+layout: index
+aliases:
+  - /resources-for-site-owners
+---
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="Monitors" style="margin-top: 25px;" class="monitors svg-obj sm" data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml" data="img/monitors-header-small.svg"></object>
+        <object title="Monitors" style="margin-top: 25px;" class="monitors svg-obj md" data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml" data="img/monitors-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>Monitors</div>
+            <h1>The list of existing monitors</h1>
+          </div>
+          <div class='details'>
+            <p>Monitors make sure that all logged certificates are visible in the log and watch for suspicious certificates in logs</p>
+            <p class='link-buttons'>
+              <a class="linkbutton" href='{{< ref "logs" >}}'>Go to Logs</a>
+              <a class="linkbutton" href='{{< ref "user_agents" >}}'>Go to User Agents</a>
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class='wrap-outer tint'>
+    <div class='wrap'>
+      <ul id="actor-grid">
+        {{< monitor-grid >}}
+        <li class='add'>
+          <a class='link' href='{{< siteparams "googlegroup" >}}'>
+            <div class='top'>
+              <img src='{{<abs "img/plus-sign.svg">}}'>
+            </div>
+            <div class='body'>
+              <p><strong>Add your monitor to this list</strong></p>
+              <p><span class='add-join'>Join the Google Group</span></p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+    

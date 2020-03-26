@@ -1,0 +1,29 @@
+{{ range $j, $operator := $.Site.Data.consolidated_log_list}}
+{{ range $i, $log := $operator}}
+<tr data-log-url="{{ .url }}">
+  {{if eq $i 0}}
+  <td>
+    {{ .operator }}
+  </td>
+  {{ else}}
+  <td class='noborder'></td>
+  {{ end}}
+  <!-- <td class='noborder'> -->
+  <!-- </td> -->
+  <td>{{ .description}}</td>
+  <td>
+    {{ if .temporal_interval.start_inclusive}}
+    {{ $time := .temporal_interval.start_inclusive | time}}
+    {{ $time.Format "2006-01-02" }}
+    {{ end}}
+  </td>
+  <td>
+    {{ if .temporal_interval.end_exclusive}}
+    {{ $time := .temporal_interval.end_exclusive | time}}
+    {{ $time.Format "2006-01-02" }}
+    {{ end}}
+  </td>
+  <td class='uptime'>{{ .uptime }}</td>
+</tr>
+{{ end }}
+{{ end }}

@@ -1,0 +1,191 @@
+---
+title: How CT Works
+url: /howctworks
+layout: index
+aliases:
+  - /log-proofs-work
+  - /how-ct-works
+---
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="How Certificate Transparency works" style="margin-top: 25px;" class="howitworks svg-obj sm"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/how-it-works-header-small.svg"></object>
+        <object title="How Certificate Transparency works" style="margin-top: 25px;" class="howitworks svg-obj md"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/how-it-works-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>How CT works</div>
+            <h1>How CT fits into the wider Web PKI ecosystem</h1>
+          </div>
+          <div class='details'>
+            <h4>Contents:</h4>
+            <ol>
+              <li><a href="#with-without">Certificate Transparency: an ecosystem</a></li>
+              <li><a href="#stepby">Certificate Transparency: step by step</a></li>
+              <li><a href="#pki">How Certificate Transparency fits in Web Public Key Infrastructure</a></li>
+            </ol>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="with-without">
+  <div class='wrap-outer tint'>
+    <div class='wrap'>
+      <h2 class='middle'>Certificate Transparency: an ecosystem</h2>
+      <div class='explainer'>
+        <div class='explanation'>
+
+          <div class="explanation-block">
+            <h3>Certificates are deposited in public, transparent logs</h3>
+
+            <p>Certificate logs are append-only ledgers of certificates. Because they're distributed and independent,
+              anyone can query them to see what certificates have been included and when. Because they're append-only,
+              they are verifiable by Monitors. Organisations and individuals with the technical skills and capacity can
+              run a log.</p>
+
+            <p><a href='{{< relref "user_agents" >}}'>User agents</a> - browsers like Chrome and Safari - help enforce
+              Certificate Transparency.</p>
+
+            <p><a href='{{< siteparams "githubUrl" >}}'>Check out the documentation on Github
+                {{< svg "static/img/arrow-links.svg">}}</a></p>
+          </div>
+
+          <div class="explanation-block">
+            <h3>Logs are cryptographically monitored</h3>
+            <p>Monitors cryptographically check which certificates have been included in logs. </p>
+
+            <p>If you subscribe to a CT monitor for your domain, you get updates when precertificates and certificates for those domains are included in any of the logs checked by that monitor. Monitors can be set up and run by anyone</p>
+
+            <p><a href="{{< relref "monitors" >}}">See the list of current monitors
+                {{< svg "static/img/arrow-links.svg" >}}</a></p>
+          </div>
+        </div>
+        <div class='illustration'>
+          <object title="How Web PKI works with Certificate Transparency" class="svg-obj"
+            data-animated-stroke-width="1px" data-animate-svg-selector=".f" id="with-ct-illustration"
+            type="image/svg+xml" data="img/with-ct-mix.svg"><img alt="How Web PKI works with Certificate Transparency"
+              src="img/with-ct-mix.png " /></object>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stepby">
+  <div class='wrap-outer pad'>
+    <div class='wrap'>
+      <h2 class='middle'>Certificate Transparency: step by step</h2>
+
+      <div id="illustration-and-steps">
+        <div id="large-illustration">
+          <object title="How Certificate Transparency works, step-by-step." class="svg-obj"
+            data-animated-stroke-width="1px" data-animate-svg-selector=".st8" id="step-by-svg" type="image/svg+xml"
+            data="img/step-by-step_full.svg"></object>
+        </div>
+        <div id="step-by-step">
+          {{< step-by-step-blocks >}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pki">
+  <div class='wrap-outer tint'>
+    <div class='wrap'>
+      <h2 class='middle'>How Certificate Transparency fits in Web Public Key Infrastructure</h2>
+      <div class="explanation-block half">
+        <h3>What is Web PKI?</h3>
+        <div class='copy'>
+          <p>CT sits within a wider ecosystem, Web Public Key Infrastructure (<a
+              href="https://en.wikipedia.org/wiki/Public_key_infrastructure">Web PKI</a>), which allows secure,
+            encrypted communication that can be set up by non-specialists. Without encryption, communication between
+            servers and browsers can be read by anyone. When the ecosystem works well, that information is private.</p>
+
+          <p>When an end user accesses a website that has an <a
+              href="https://transparencyreport.google.com/https/overview?hl=en_GB">HTTPS URL</a>, they’re interacting
+            with Web PKI. It is a system of everything needed to issue, distribute and verify cryptographic keys and
+            certificates, and tie them to the right domain. At the core of the Web PKI are cryptographic keys that
+            enable cryptographic operations like authentication, authorisation and encryption. A certificate is,
+            essentially, a binding of a cryptographic key (in this case a public key) to a web domain by a Certificate
+            Authority (CA).</p>
+        </div>
+      </div>
+      <div class="explanation-block half">
+        <h3>Why does CT matter to Web PKI?</h3>
+        <div class='copy'>
+          <p>CT brings transparency to the <a href="https://tools.ietf.org/html/rfc5246">SSL/TLS</a> certificate system
+            that supports the web. SSL/TLS protocols underpin HTTPS and Web PKI. A lack of transparency weakens the
+            reliability and effectiveness of encrypted connections, which can compromise critical TLS/SSL mechanisms. As
+            a result, they can enable a wide range of security attacks, such as website spoofing, server impersonation,
+            and man-in-the-middle attacks.</p>
+        </div>
+      </div>
+      <div class="explanation-block half">
+        <h3>How does Web PKI work?</h3>
+        <div class='copy'>
+          <p>Web PKI depends on a system of public and private keys. This system is called asymmetric cryptography.
+            Something encrypted with one key of a key pair can only be decrypted with the corresponding key: you can
+            share one of these keys as a public key while keeping the other private. This allows for uses like creating
+            digital signatures and securely exchanging other cryptographic keys. TLS’s use of digital certificates
+            employs both these properties. Digital signatures are used to authenticate a certificate, and the public key
+            in a certificate is used to facilitate negotiating which cryptographic key to use when encrypting a session.
+            Find out more about PKI in <a href="https://smallstep.com/blog/everything-pki/">this blog post.</a></p>
+        </div>
+
+      </div>
+      <div class="explanation-block half">
+        <h3>How do Certificate Authorities participate in Web PKI?</h3>
+        <div class='copy'>
+          <p>In Web PKI, Certificate Authorities create digital certificates which map public keys to domains on the
+            internet: the CA is used by User Agents to perform this role. To begin, the website owner generates a new
+            key pair and uses that to generate a Certificate Signing Request (CSR) that is used to prove the website
+            operator controls the private key associated with the public key in the request. Next the website owner
+            proves to the CA that they control their domain, there are a couple of different ways for them to do this.
+            The CA can, for example, ask them to create a DNS record with random value demonstrating they control the
+            domain. Once domain control has been verified, the CA takes the public key from the request and places it,
+            along with the verified domains into a digital certificate that is signed by the CA. It is then returned to
+            the website owner. With the certificate and private key in hand, the domain owner can renew and revoke the
+            certificate.</p>
+        </div>
+      </div>
+      <div class="explanation-block half">
+        <h3>How do Certificate Authorities work?</h3>
+        <div class='copy'>
+          <p>
+            Web PKI depends on CAs acting as trustworthy gatekeepers by issuing certificates only to the right parties
+            and by avoiding giving additional permissions accidentally to those parties. An important part of how CAs
+            meet these obligations is to design their systems so they are resilient to failure. That is partly achieved
+            by keeping the most important private keys in vault-like facilities to protect them from physical and
+            logical security threats.
+          </p>
+
+          <p>
+            These private keys are associated with what are called "root certificates" which are distributed by user
+            agents as "trust anchors" signaling the holders of the associated private keys are trusted to perform this
+            role. These root certificates and their private keys are used to create intermediate CA certificates
+            (sometimes called missing CAs), each with their own private keys, that are used to issue the web server
+            certificates that make TLS on the web work in real time.
+          </p>
+
+          <p>
+            A website then provides its certificate and those of its issuers as a "certificate chain" to the user agent,
+            which in turn uses them to verify that the website certificate is associated with one of these "root
+            certificates". The user agent does this by verifying each certificate signature, ensuring the each
+            certificate in the chain was ultimately issued by a certificate authority that the browser trusts. This
+            process is commonly called certificate chain verification. All of this is described in more detail in <a
+              href="https://tools.ietf.org/html/rfc5280">RFC 5280</a>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+</section>

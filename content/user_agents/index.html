@@ -1,0 +1,49 @@
+---
+title: User Agents
+url: /useragents
+layout: index
+---
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="User Agents" style="margin-top: 25px;" class="user_agents svg-obj sm" data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml" data="img/user_agents-header-small.svg"></object>
+        <object title="User Agents" style="margin-top: 25px;" class="user_agents svg-obj md" data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml" data="img/user_agents-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>User Agents</div>
+            <h1>User agents using CT</h1>
+          </div>
+          <div class='details'>
+            <p>User agents are typically browsers and help perform certificate auditing by verifying that certificates have legimitately been added to a log.</p>
+            <p class='link-buttons'>
+              <a class="linkbutton" href='{{< ref "logs" >}}'>Go to Logs</a>
+              <a class="linkbutton" href='{{< ref "monitors" >}}'>Go to Monitors</a>
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class='wrap-outer noscroll tint'>
+    <div class='wrap'>
+      <ul id="actor-grid">
+        {{< ua-grid >}}
+        <li class='add'>
+          <a class='link' href='{{< siteparams "googlegroup" >}}'>
+            <div class='top'>
+              <img src='{{<abs "img/plus-sign.svg">}}'>
+            </div>
+            <div class='body'>
+              <p><strong>Add CT to your user agent</strong></p>
+              <p><span class='add-join'>Join the Google Group</span></p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+    
