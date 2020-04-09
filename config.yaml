@@ -13,8 +13,8 @@
 # limitations under the License.
 
 title: Certificate Transparency
-url: https://willsneck.projectsbyif.com
-baseURL: https://willsneck.projectsbyif.com
+url: https://certificate.transparency.dev
+baseURL: https://certificate.transparency.dev
 disableKinds:
 - taxonomy
 - taxonomyTerm
