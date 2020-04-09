@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="description" content="Certificate Transparency">
+  <link rel="shortcut icon" type="image/png" href='https://certificate.transparency.dev/img/favicon.png'/>
+
+  <title>
+    How CT Works : Certificate Transparency
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Inter:700,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/ct.7b0d19dad0c96654628cb31f44848706c43314cc74899f8b06e5562b6af1372f.css">
+
+  
+  
+  
+  
+
+  
+  <script type='text/javascript' src='https://certificate.transparency.dev/js/bundle.min.9d184193dc75fda6bda8438008a16070092998ef0c53fc44b1f6becd8493f05e.js'></script>
+</head>
+
+  <body id='scheme-howctworks'>
+    <div id="page-container">
+      <div id="content-container"><nav id="top">
+  <div id="brand"><a href='/'>Certificate Transparency</a></div>
+  <div id="mobilemenu-controls">
+    <a class='hide-menu' href="#">&#215;</a>
+    <a class='show-menu' href="#">&#9776;</a>
+  </div>
+
+  <div class="menus">
+    <ul class="menu">
+      <li class='howctworks'><a href='/howctworks'>How CT works</a></li>
+      <li class='submenu-target'>
+        <span>
+          Actors 
+            <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-triangle">
+              <polygon points="0,0 10,0 5,8"/>
+            </svg>
+        </span>
+        <ul class='submenu'>
+          <li class='logs'><a href='/logs'>Logs</a></li>
+          <li class='monitors'><a href='/monitors'>Monitors</a></li>
+          <li class='user_agents'><a href='/useragents'>User Agents</a></li>
+        </ul>
+      </li>
+
+      <li class='community'><a href='/community'>Our story</a></li>
+    </ul>
+    <ul class="elsewhere">
+      <li class='github'><a href="https://github.com/google/certificate-transparency-go">GitHub</a></li>
+      <li class='ggroup'><a href="https://groups.google.com/forum/#!forum/certificate-transparency">Google Group</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="nav-shield"></div>
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="How Certificate Transparency works" style="margin-top: 25px;" class="howitworks svg-obj sm"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/how-it-works-header-small.svg"></object>
+        <object title="How Certificate Transparency works" style="margin-top: 25px;" class="howitworks svg-obj md"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/how-it-works-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>How CT works</div>
+            <h1>How CT fits into the wider Web PKI ecosystem</h1>
+          </div>
+          <div class='details'>
+            <h4>Contents:</h4>
+            <ol>
+              <li><a href="#with-without">Certificate Transparency: an ecosystem</a></li>
+              <li><a href="#stepby">Certificate Transparency: step by step</a></li>
+              <li><a href="#pki">How Certificate Transparency fits in Web Public Key Infrastructure</a></li>
+            </ol>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="with-without">
+  <div class='wrap-outer tint'>
+    <div class='wrap'>
+      <h2 class='middle'>Certificate Transparency: an ecosystem</h2>
+      <div class='explainer'>
+        <div class='explanation'>
+
+          <div class="explanation-block">
+            <h3>Certificates are deposited in public, transparent logs</h3>
+
+            <p>Certificate logs are append-only ledgers of certificates. Because they're distributed and independent,
+              anyone can query them to see what certificates have been included and when. Because they're append-only,
+              they are verifiable by Monitors. Organisations and individuals with the technical skills and capacity can
+              run a log.</p>
+
+            <p><a href='/useragents/'>User agents</a> - browsers like Chrome and Safari - help enforce
+              Certificate Transparency.</p>
+
+            <p><a href='https://github.com/google/certificate-transparency-go'>Check out the documentation on Github
+                
+<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 4.5H10" stroke="black"/>
+<path d="M6.31641 1L10.0006 4.5L6.31641 8" stroke="black"/>
+</svg>
+</a></p>
+          </div>
+
+          <div class="explanation-block">
+            <h3>Logs are cryptographically monitored</h3>
+            <p>Monitors cryptographically check which certificates have been included in logs. </p>
+
+            <p>If you subscribe to a CT monitor for your domain, you get updates when precertificates and certificates for those domains are included in any of the logs checked by that monitor. Monitors can be set up and run by anyone</p>
+
+            <p><a href="/monitors/">See the list of current monitors
+                
+<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 4.5H10" stroke="black"/>
+<path d="M6.31641 1L10.0006 4.5L6.31641 8" stroke="black"/>
+</svg>
+</a></p>
+          </div>
+        </div>
+        <div class='illustration'>
+          <object title="How Web PKI works with Certificate Transparency" class="svg-obj"
+            data-animated-stroke-width="1px" data-animate-svg-selector=".f" id="with-ct-illustration"
+            type="image/svg+xml" data="img/with-ct-mix.svg"><img alt="How Web PKI works with Certificate Transparency"
+              src="img/with-ct-mix.png " /></object>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stepby">
+  <div class='wrap-outer pad'>
+    <div class='wrap'>
+      <h2 class='middle'>Certificate Transparency: step by step</h2>
+
+      <div id="illustration-and-steps">
+        <div id="large-illustration">
+          <object title="How Certificate Transparency works, step-by-step." class="svg-obj"
+            data-animated-stroke-width="1px" data-animate-svg-selector=".st8" id="step-by-svg" type="image/svg+xml"
+            data="img/step-by-step_full.svg"></object>
+        </div>
+        <div id="step-by-step">
+          
+
+<ol>
+  
+  <li data-margin-top-md="140" data-margin-top-lg="260">
+    <div class='illustration'>
+      <object title="Website owner requests a certificate from the Certificate Authority (CA)" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/1.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>1</div>
+      <div class='description'>
+        <h3>Website owner requests a certificate from the Certificate Authority (CA)</h3>
+        <div class='body'>
+          <p>A certificate ties together a domain and a public key. Certificate Transparency works with Web PKI/SSL certificate system, providing transparency and verification. The append-only log is tamper-proof, the User agent checks that logs are cryptographically consistent, and the Certificate Authority's monitors will check for suspicious logs.</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="379" data-margin-top-lg="659">
+    <div class='illustration'>
+      <object title="CA issues a precertificate" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/2.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>2</div>
+      <div class='description'>
+        <h3>CA issues a precertificate</h3>
+        <div class='body'>
+          <p>A CA receives a request for a certificate from a domain owner. It checks that the domain owner has the right to request the certificate, and creates a precertificate, which ties the domain to a public key. A precertificate contains all the information a certificate does. It also has a poison extension so that user agents won’t accept it. Precertificates help break a deadlock in CT. Before a CA can log a certificate, the certificate needs an SCT (Signed Certificate Timestamp). But for the certificate to get an SCT, it needs to have been submitted to a log.</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="627" data-margin-top-lg="1076">
+    <div class='illustration'>
+      <object title="CA sends precertificates to logs" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/3.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>3</div>
+      <div class='description'>
+        <h3>CA sends precertificates to logs</h3>
+        <div class='body'>
+          <p>Anyone can submit a certificate to a log, but most of them are submitted by CAs. When a CA submits one of these to a log, the log responds with a signed certificate timestamp (SCT). This is a promise to add the certificate to the log within a time period called the Maximum Merge Delay (MMD).</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="874" data-margin-top-lg="1487">
+    <div class='illustration'>
+      <object title="Precertificates are added to the logs" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/4.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>4</div>
+      <div data-overflow-at='420' class='description'>
+        <h3>Precertificates are added to the logs</h3>
+        <div class='body'>
+          <p>Logs maintain a record of certificates. They use a special cryptographic mechanism, a Merkle tree, to allow public audits. Logs are:</p>
+<ul>
+<li>Append-only. Certificates can only be added to a log, not deleted, modified, or retroactively inserted.</li>
+<li>Cryptographically assured. They use Merkle trees which prevent tampering and misbehaviour.</li>
+<li>Publicly auditable. Anyone can query a log and verify that it’s well behaved, or verify a SSL certificate or precertificate has been legitimately appended to the log.</li>
+</ul>
+<p>Merkle trees are simple binary trees, made up of leaves and nodes. In CT, leaves are the hashes of individual certificates that have been appended to the log. Nodes are the hashes of paired child leaves or paired child nodes. The root hash, from which all nodes and leaves stem, is also a Merkle tree. When the log server signs the root Merkle tree it creates a Signed Tree Head (STH). Periodically, a log appends all the new certificates to the log. It creates a separate Merkle tree hash with the new certificates. It then combines this Merkle tree with the old Merkle tree to form a new Merkle tree. The new Merkle tree hash is then signed to create a new Signed Tree Head.</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="1311" data-margin-top-lg="2215">
+    <div class='illustration'>
+      <object title="Logs return SCTs to the CA" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/5.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>5</div>
+      <div data-overflow-at='260' class='description'>
+        <h3>Logs return SCTs to the CA</h3>
+        <div class='body'>
+          <p>Each log immediately returns an SCT to the CA, with a commitment to include the certificate within the Maximum Merge Delay. The MMD is usually 24 hours: this timespan is designed to give log operators the time to fix anything that's gone wrong before they are excluded from the list of approved logs. The MMD also helps ensure logs don’t block the issuance or use of certificates.</p>
+<p>CAs attach SCTs to a certificate using an X.509v3 extension. They sign the certificate and deliver the certificate to the server operator. (There are also two other, less common, ways of doing this: OCSP stapling and TLS extension.) CT doesn’t require server modification, so server operators can manage SSL certificates the way they always have.</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="1596" data-margin-top-lg="2690">
+    <div class='illustration'>
+      <object title="CAs send the certificate to the domain owner" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/6.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>6</div>
+      <div class='description'>
+        <h3>CAs send the certificate to the domain owner</h3>
+        <div class='body'>
+          <p>The SCTs accompany the certificate throughout its lifetime. A server must deliver the SCT with the certificate during a TLS handshake. (A TLS handshake is when two sides of an encrypted communication verify each other and agree which encryption algorithms and keys to use. Here, that process begins when a user goes to an HTTPS website, and the web server responds to the HTTPS request.)</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="1997" data-margin-top-lg="3361">
+    <div class='illustration'>
+      <object title="Browsers and user agents help keep the web secure" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/7.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>7</div>
+      <div class='description'>
+        <h3>Browsers and user agents help keep the web secure</h3>
+        <div class='body'>
+          <p>Some browsers, like Chrome and Safari, help enforce CT.</p>
+<p>Both the number of logs, and the selection of logs a CA chooses to log, is determined by user agent policy. Both <a href="https://support.apple.com/en-gb/HT205280">Safari</a> and <a href="https://github.com/chromium/ct-policy#chromium-certificate-transparency-policy">Chrome</a> user agents require at least 2 certificates, depending on certificate lifetimes.</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+  <li data-margin-top-md="2431" data-margin-top-lg="4070">
+    <div class='illustration'>
+      <object title="Logs are cryptographically monitored" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/8.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>8</div>
+      <div class='description'>
+        <h3>Logs are cryptographically monitored</h3>
+        <div class='body'>
+          <p>Monitors are publicly run servers. They periodically contact all log servers and watch for suspicious certificates. Monitors work with website operators to help them understand if an unauthorized certificate has been issued for a domain. They can watch for certificates that have unusual extensions or permissions, such as certificates that have CA capabilities. Monitors can prove, efficiently and quickly, that all certificates have been consistently appended to the log. They can also prove that a particular certificate has been appended to the log.</p>
+<p>For a monitor to check the consistency of a particular log, it computes a consistency proof itself and then uses this to verify the consistency of the log. A consistent later version includes everything in the earlier version, and following the entries from the older version.</p>
+<p>If a monitor ever needs to verify that a particular certificate exists in a log, it can compute an audit proof itself and use it to verify the presence of that certificate.</p>
+<p>Some monitors are run by companies and organizations. Others will be run as subscription services for domain owners and certificate authorities. Individuals can also run their own monitors.</p>
+
+        </div>
+      </div>
+    </div>
+  </li>
+  
+</ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pki">
+  <div class='wrap-outer tint'>
+    <div class='wrap'>
+      <h2 class='middle'>How Certificate Transparency fits in Web Public Key Infrastructure</h2>
+      <div class="explanation-block half">
+        <h3>What is Web PKI?</h3>
+        <div class='copy'>
+          <p>CT sits within a wider ecosystem, Web Public Key Infrastructure (<a
+              href="https://en.wikipedia.org/wiki/Public_key_infrastructure">Web PKI</a>), which allows secure,
+            encrypted communication that can be set up by non-specialists. Without encryption, communication between
+            servers and browsers can be read by anyone. When the ecosystem works well, that information is private.</p>
+
+          <p>When an end user accesses a website that has an <a
+              href="https://transparencyreport.google.com/https/overview?hl=en_GB">HTTPS URL</a>, they’re interacting
+            with Web PKI. It is a system of everything needed to issue, distribute and verify cryptographic keys and
+            certificates, and tie them to the right domain. At the core of the Web PKI are cryptographic keys that
+            enable cryptographic operations like authentication, authorisation and encryption. A certificate is,
+            essentially, a binding of a cryptographic key (in this case a public key) to a web domain by a Certificate
+            Authority (CA).</p>
+        </div>
+      </div>
+      <div class="explanation-block half">
+        <h3>Why does CT matter to Web PKI?</h3>
+        <div class='copy'>
+          <p>CT brings transparency to the <a href="https://tools.ietf.org/html/rfc5246">SSL/TLS</a> certificate system
+            that supports the web. SSL/TLS protocols underpin HTTPS and Web PKI. A lack of transparency weakens the
+            reliability and effectiveness of encrypted connections, which can compromise critical TLS/SSL mechanisms. As
+            a result, they can enable a wide range of security attacks, such as website spoofing, server impersonation,
+            and man-in-the-middle attacks.</p>
+        </div>
+      </div>
+      <div class="explanation-block half">
+        <h3>How does Web PKI work?</h3>
+        <div class='copy'>
+          <p>Web PKI depends on a system of public and private keys. This system is called asymmetric cryptography.
+            Something encrypted with one key of a key pair can only be decrypted with the corresponding key: you can
+            share one of these keys as a public key while keeping the other private. This allows for uses like creating
+            digital signatures and securely exchanging other cryptographic keys. TLS’s use of digital certificates
+            employs both these properties. Digital signatures are used to authenticate a certificate, and the public key
+            in a certificate is used to facilitate negotiating which cryptographic key to use when encrypting a session.
+            Find out more about PKI in <a href="https://smallstep.com/blog/everything-pki/">this blog post.</a></p>
+        </div>
+
+      </div>
+      <div class="explanation-block half">
+        <h3>How do Certificate Authorities participate in Web PKI?</h3>
+        <div class='copy'>
+          <p>In Web PKI, Certificate Authorities create digital certificates which map public keys to domains on the
+            internet: the CA is used by User Agents to perform this role. To begin, the website owner generates a new
+            key pair and uses that to generate a Certificate Signing Request (CSR) that is used to prove the website
+            operator controls the private key associated with the public key in the request. Next the website owner
+            proves to the CA that they control their domain, there are a couple of different ways for them to do this.
+            The CA can, for example, ask them to create a DNS record with random value demonstrating they control the
+            domain. Once domain control has been verified, the CA takes the public key from the request and places it,
+            along with the verified domains into a digital certificate that is signed by the CA. It is then returned to
+            the website owner. With the certificate and private key in hand, the domain owner can renew and revoke the
+            certificate.</p>
+        </div>
+      </div>
+      <div class="explanation-block half">
+        <h3>How do Certificate Authorities work?</h3>
+        <div class='copy'>
+          <p>
+            Web PKI depends on CAs acting as trustworthy gatekeepers by issuing certificates only to the right parties
+            and by avoiding giving additional permissions accidentally to those parties. An important part of how CAs
+            meet these obligations is to design their systems so they are resilient to failure. That is partly achieved
+            by keeping the most important private keys in vault-like facilities to protect them from physical and
+            logical security threats.
+          </p>
+
+          <p>
+            These private keys are associated with what are called "root certificates" which are distributed by user
+            agents as "trust anchors" signaling the holders of the associated private keys are trusted to perform this
+            role. These root certificates and their private keys are used to create intermediate CA certificates
+            (sometimes called missing CAs), each with their own private keys, that are used to issue the web server
+            certificates that make TLS on the web work in real time.
+          </p>
+
+          <p>
+            A website then provides its certificate and those of its issuers as a "certificate chain" to the user agent,
+            which in turn uses them to verify that the website certificate is associated with one of these "root
+            certificates". The user agent does this by verifying each certificate signature, ensuring the each
+            certificate in the chain was ultimately issued by a certificate authority that the browser trusts. This
+            process is commonly called certificate chain verification. All of this is described in more detail in <a
+              href="https://tools.ietf.org/html/rfc5280">RFC 5280</a>.
+          </p>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+      </div>
+
+      <div id="footer-container"><div id="footer">
+  <div class='row'>
+    <h3>Certificate Transparency</h3>
+    <ul class="footer-menu">
+      <li><a href='/howctworks'>How CT works</a></li>
+      <li><a href='/community'>Our story</a></li>
+    </ul>
+  </div>
+  <div class="row rev">
+    <ul class='footer-menu'>
+      <li>
+        <ul>
+          <li><a href='/logs'>Logs</a></li>
+          <li><a href='/monitors'>Monitors</a></li>
+          <li><a href='/useragents'>User agents</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a href="https://github.com/google/certificate-transparency-go">GitHub</a></li>
+          <li><a href="https://groups.google.com/forum/#!forum/certificate-transparency">Google Group</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class='tag'>
+      <span>
+        Started by engineers at Google,<br>
+        <strong>for the internet.</strong>
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  </body>
+
+
+</html>
