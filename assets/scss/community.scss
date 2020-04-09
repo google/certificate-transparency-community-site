@@ -1,0 +1,100 @@
+.event-description {
+  font-family: $font-mono;
+  margin-bottom: 4rem;
+
+  img,
+  object.svg-obj {
+    margin: 0 auto 2rem;
+    @include sm {
+      display: none;
+    }
+    @include md {
+      display: block;
+      float: right;
+    }
+  }
+
+  @include md {
+    width: 75%;
+    margin-left: 12.5%;
+    p {
+      width: 50%;
+    }
+  }
+}
+
+#scheme-community {
+  object.svg-obj.sm {
+    display: none;
+    @include sm {
+      display: block;
+      margin: 0 auto 2rem;
+    }
+  }
+}
+
+.tint .event {
+  background: white !important;
+}
+
+.event-grid {
+  @include md {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+  }
+
+  .event {
+    padding: 10px 12px;
+    border: 1px solid $col-black;
+    border-radius: 2px;
+    background: map-get(map-get($palettes, "community"), "tint");
+
+    flex: 0 0;
+
+    @include sm {
+      margin: 0 0 1rem;
+    }
+
+    h4 {
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: $col-black;
+    }
+
+    .date {
+      text-transform: uppercase;
+      font-family: $font-mono, monospace;
+      font-size: 0.7rem;
+      color: $col-black;
+    }
+
+    p {
+      font-family: $font-mono, monospace;
+      font-size: 0.8rem;
+      margin: 0 0 1rem;
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  .event-wrapper {
+    display: none;
+  }
+
+  .event-wrapper[data-is-headline="true"],
+  &.show-all .event-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.toggle-all-events {
+  font-family: $font-mono;
+  text-align: center;
+  margin: 2rem 0;
+}

@@ -1,0 +1,54 @@
+body {
+  font-size: 15px;
+  font-family: $font-sans, "Helvetica", "Arial", sans-serif;
+  color: $col-black;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+p {
+  line-height: 1.75;
+  letter-spacing: -0.025rem;
+}
+
+p, li, dd, td {
+  color: $col-bodyblack;
+}
+
+::selection {
+  background-color: $col-highlight;
+}
+
+a:link, a:visited {
+  color: $col-black;
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+a.linkbutton {
+  display: inline-block;
+  border: 1px solid $col-black;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-weight:bold;
+  &:link, &:visited {
+    text-decoration: none;
+    background: #888;
+    color: white;
+  }
+  &:hover, &:active {
+    background: #333;
+    color: white;
+  }
+}
+
+*:focus {
+  background-color: white;
+  outline-color: #00B2A4;
+}

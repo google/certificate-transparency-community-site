@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1270 294" style="enable-background:new 0 0 1270 294;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#B0B1B5;}
+	.st1{fill:none;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:5.9668,2.9834;}
+	.st2{fill:#FFE5E5;stroke:#1A1B1F;stroke-width:2;}
+	.st3{fill:#FFFFFF;stroke:#1A1B1F;stroke-width:2;}
+</style>
+<line class="st0" x1="25.5" y1="0" x2="25.5" y2="50"/>
+<line class="st0" x1="50" y1="25.5" x2="0" y2="25.5"/>
+<line class="st0" x1="1123.5" y1="0" x2="1123.5" y2="50"/>
+<line class="st0" x1="1148" y1="25.5" x2="1098" y2="25.5"/>
+<line class="st0" x1="1245.5" y1="0" x2="1245.5" y2="50"/>
+<line class="st0" x1="1270" y1="25.5" x2="1220" y2="25.5"/>
+<line class="st0" x1="1001.5" y1="0" x2="1001.5" y2="50"/>
+<line class="st0" x1="1026" y1="25.5" x2="976" y2="25.5"/>
+<line class="st0" x1="879.5" y1="0" x2="879.5" y2="50"/>
+<line class="st0" x1="904" y1="25.5" x2="854" y2="25.5"/>
+<line class="st0" x1="757.5" y1="0" x2="757.5" y2="50"/>
+<line class="st0" x1="782" y1="25.5" x2="732" y2="25.5"/>
+<line class="st0" x1="25.5" y1="122" x2="25.5" y2="172"/>
+<line class="st0" x1="50" y1="147.5" x2="0" y2="147.5"/>
+<line class="st0" x1="1123.5" y1="122" x2="1123.5" y2="172"/>
+<line class="st0" x1="1148" y1="147.5" x2="1098" y2="147.5"/>
+<line class="st0" x1="1245.5" y1="122" x2="1245.5" y2="172"/>
+<line class="st0" x1="1270" y1="147.5" x2="1220" y2="147.5"/>
+<line class="st0" x1="1001.5" y1="122" x2="1001.5" y2="172"/>
+<line class="st0" x1="1026" y1="147.5" x2="976" y2="147.5"/>
+<line class="st0" x1="879.5" y1="122" x2="879.5" y2="172"/>
+<line class="st0" x1="904" y1="147.5" x2="854" y2="147.5"/>
+<line class="st0" x1="757.5" y1="122" x2="757.5" y2="172"/>
+<line class="st0" x1="782" y1="147.5" x2="732" y2="147.5"/>
+<line class="st0" x1="25.5" y1="244" x2="25.5" y2="294"/>
+<line class="st0" x1="50" y1="269.5" x2="0" y2="269.5"/>
+<line class="st0" x1="1123.5" y1="244" x2="1123.5" y2="294"/>
+<line class="st0" x1="1148" y1="269.5" x2="1098" y2="269.5"/>
+<line class="st0" x1="1245.5" y1="244" x2="1245.5" y2="294"/>
+<line class="st0" x1="1270" y1="269.5" x2="1220" y2="269.5"/>
+<line class="st0" x1="1001.5" y1="244" x2="1001.5" y2="294"/>
+<line class="st0" x1="1026" y1="269.5" x2="976" y2="269.5"/>
+<line class="st0" x1="879.5" y1="244" x2="879.5" y2="294"/>
+<line class="st0" x1="904" y1="269.5" x2="854" y2="269.5"/>
+<line class="st0" x1="757.5" y1="244" x2="757.5" y2="294"/>
+<line class="st0" x1="782" y1="269.5" x2="732" y2="269.5"/>
+<g>
+	<circle class="rev anim st1" cx="1001.5" cy="147.5" r="122.5"/>
+</g>
+<g>
+	<circle class="rev anim st1" cx="878.5" cy="147.5" r="122.5"/>
+</g>
+<circle class="st2" cx="879" cy="25" r="24"/>
+<circle class="st2" cx="1001" cy="25" r="24"/>
+<circle class="st2" cx="879" cy="269" r="24"/>
+<circle class="st2" cx="1001" cy="269" r="24"/>
+<circle class="st2" cx="757" cy="147" r="24"/>
+<circle class="st2" cx="879" cy="147" r="24"/>
+<circle class="st2" cx="1001" cy="147" r="24"/>
+<circle class="st3" cx="1123" cy="147" r="24"/>
+<circle class="st2" cx="1123" cy="147" r="24"/>
+<circle class="st2" cx="1088" cy="61" r="24"/>
+<circle class="st2" cx="793" cy="61" r="24"/>
+<circle class="st2" cx="1088" cy="234" r="24"/>
+<circle class="st2" cx="793" cy="234" r="24"/>
+</svg>

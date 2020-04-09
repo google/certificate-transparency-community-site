@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1270 294" style="enable-background:new 0 0 1270 294;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#B0B1B5;}
+	.st1{fill:none;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:6,3;}
+	.st2{fill:#E0F0FF;stroke:#1A1B1F;stroke-width:2;}
+	.st3{fill:none;stroke:#000000;stroke-width:2;}
+	.st4{fill:#E0F0FF;}
+	.st5{fill:none;stroke:#1A1B1F;stroke-width:2;}
+	.st6{fill:#FFFFFF;}
+</style>
+<line class="st0" x1="25.5" y1="0" x2="25.5" y2="50"/>
+<line class="st0" x1="50" y1="25.5" x2="0" y2="25.5"/>
+<line class="st0" x1="1123.5" y1="0" x2="1123.5" y2="50"/>
+<line class="st0" x1="1148" y1="25.5" x2="1098" y2="25.5"/>
+<line class="st0" x1="1245.5" y1="0" x2="1245.5" y2="50"/>
+<line class="st0" x1="1270" y1="25.5" x2="1220" y2="25.5"/>
+<line class="st0" x1="1001.5" y1="0" x2="1001.5" y2="50"/>
+<line class="st0" x1="1026" y1="25.5" x2="976" y2="25.5"/>
+<line class="st0" x1="879.5" y1="0" x2="879.5" y2="50"/>
+<line class="st0" x1="904" y1="25.5" x2="854" y2="25.5"/>
+<line class="st0" x1="757.5" y1="0" x2="757.5" y2="50"/>
+<line class="st0" x1="782" y1="25.5" x2="732" y2="25.5"/>
+<line class="st0" x1="25.5" y1="122" x2="25.5" y2="172"/>
+<line class="st0" x1="50" y1="147.5" x2="0" y2="147.5"/>
+<line class="st0" x1="1123.5" y1="122" x2="1123.5" y2="172"/>
+<line class="st0" x1="1148" y1="147.5" x2="1098" y2="147.5"/>
+<line class="st0" x1="1245.5" y1="122" x2="1245.5" y2="172"/>
+<line class="st0" x1="1270" y1="147.5" x2="1220" y2="147.5"/>
+<line class="st0" x1="1001.5" y1="122" x2="1001.5" y2="172"/>
+<line class="st0" x1="1026" y1="147.5" x2="976" y2="147.5"/>
+<line class="st0" x1="879.5" y1="122" x2="879.5" y2="172"/>
+<line class="st0" x1="904" y1="147.5" x2="854" y2="147.5"/>
+<line class="st0" x1="757.5" y1="122" x2="757.5" y2="172"/>
+<line class="st0" x1="782" y1="147.5" x2="732" y2="147.5"/>
+<line class="st0" x1="25.5" y1="244" x2="25.5" y2="294"/>
+<line class="st0" x1="50" y1="269.5" x2="0" y2="269.5"/>
+<line class="st0" x1="1123.5" y1="244" x2="1123.5" y2="294"/>
+<line class="st0" x1="1148" y1="269.5" x2="1098" y2="269.5"/>
+<line class="st0" x1="1245.5" y1="244" x2="1245.5" y2="294"/>
+<line class="st0" x1="1270" y1="269.5" x2="1220" y2="269.5"/>
+<line class="st0" x1="1001.5" y1="244" x2="1001.5" y2="294"/>
+<line class="st0" x1="1026" y1="269.5" x2="976" y2="269.5"/>
+<line class="st0" x1="879.5" y1="244" x2="879.5" y2="294"/>
+<line class="st0" x1="904" y1="269.5" x2="854" y2="269.5"/>
+<line class="st0" x1="757.5" y1="244" x2="757.5" y2="294"/>
+<line class="st0" x1="782" y1="269.5" x2="732" y2="269.5"/>
+<rect x="758" y="26" class="anim rev st1" width="365" height="243"/>
+<circle class="st2" cx="940" cy="208" r="35"/>
+<path class="st3" d="M940,173v35l-15.5,31.5"/>
+<path class="st3" d="M940,208l-30-18"/>
+<path class="st4" d="M1045,83.8l17,13.7l18-46.5l17,15.5V121h-17h-18h-17h-18v-9L1045,83.8z"/>
+<path class="st5" d="M1045,83.8V121 M1045,121c-5.5,0-11.4,0-18,0v-9l18-28.2l0,0l17,13.7 M1062,97.5V121 M1062,97.5l18-46.5l0,0
+	l17,15.5V121c-6.2,0-11.8,0-17,0 M1080,51v70 M1080,121c-6.3,0-12.2,0-18,0 M1062,121c-5.5,0-11.1,0-17,0"/>
+<circle class="st2" cx="1087" cy="203" r="31"/>
+<path class="st2" d="M1086.5,234c-33.4,0-60.5,26.4-60.5,59h121C1147,260.4,1119.9,234,1086.5,234z"/>
+<rect x="783" y="173" class="st2" width="70" height="70"/>
+<line class="st3" x1="816" y1="173" x2="816" y2="243"/>
+<line class="st3" x1="798" y1="173" x2="798" y2="243"/>
+<line class="st3" x1="789" y1="173" x2="789" y2="243"/>
+<rect x="732" y="1" class="st6" width="121" height="121"/>
+<rect x="768" y="50" class="st2" width="72" height="23"/>
+<rect x="757" y="86" class="st2" width="72" height="23"/>
+<rect x="745" y="14" class="st2" width="72" height="23"/>
+<line class="st5" x1="793" y1="37" x2="793" y2="50"/>
+<line class="st5" x1="793" y1="110" x2="793" y2="121.5"/>
+<line class="st5" x1="793" y1="73" x2="793" y2="86"/>
+<rect x="732" y="1" class="st5" width="121" height="121"/>
+<rect x="912" y="51" class="st2" width="56" height="70"/>
+<line class="st3" x1="921" y1="65" x2="960" y2="65"/>
+<line class="st3" x1="921" y1="73" x2="960" y2="73"/>
+<line class="st3" x1="921" y1="81" x2="960" y2="81"/>
+<line class="st3" x1="921" y1="89" x2="960" y2="89"/>
+<line class="st3" x1="921" y1="97" x2="951.9" y2="97"/>
+</svg>

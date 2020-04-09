@@ -1,0 +1,122 @@
+<!--
+ Copyright 2020 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+---
+title: Community
+url: /community
+layout: index
+---
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="Community" style="margin-top: 25px;" class="community svg-obj sm"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/community-header-small.svg"></object>
+        <object title="Community" style="margin-top: 25px;" class="community svg-obj md"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/community-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>Our Story</div>
+            <h1>Thank you to our amazing community</h1>
+          </div>
+          <div class='details'>
+            <p>Certificate Transparency works thanks to the ecosystem of people and organizations who set up and run <a
+                href='{{< relref "user_agents" >}}'>user agents</a>, <a href='{{< relref "logs" >}}'>logs</a> and <a
+                href='{{< relref "monitors" >}}'>monitors</a>. Join us!</p>
+            <p>
+              <a class="linkbutton" href='{{ .Site.Params.googlegroup }'>Join Google Group</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap-outer tint">
+    <div class='wrap'>
+      <object class="sm svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim" data='img/our-origin-story.svg'></object>
+      <h2 class='middle'>Our origin story</h2>
+      <div class='event-description'>
+        <object class="svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim" data='img/our-origin-story.svg'></object>
+        <p>Certificate Transparency was a response to the 2011 attack on DigiNotar and other Certificate Authorities. These attacks showed that the lack of transparency in the way CAs operated was a significant risk to the Web Public Key Infrastructure. It led to the creation of this ambitious project to improve security online by bringing accountability to the system that protects HTTPS.</p>
+      </div>
+
+      <div id="origins-grid" class='event-grid'>
+        {{< event-grid "origins" >}}
+      </div>
+      <div class=' toggle-all-events'>
+                <a data-grid="origins" href="#origins-grid">see all +</a>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section>
+  <div class="wrap-outer pad">
+    <div class='wrap'>
+      <object class="sm svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim"
+        data='img/how-we-grew.svg'></object>
+      <h2 class='middle'>How we grew</h2>
+      <div class='event-description'>
+        <object class="svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim"
+          data='img/how-we-grew.svg'></object>
+        <p>Although CT provides desirable security benefits, no single organization could convince the entire Internet
+          to adopt and benefit from it at once. Similarly, user agents could not begin requiring all websites to support
+          CT at once due to the risk of breaking large numbers of websites. So the members of the CT ecosystem worked
+          together to define the standards and to incrementally deploy and later enforce CT.</p>
+      </div>
+
+      <div id="growth-grid" class='event-grid'>
+        {{< event-grid "growth" >}}
+      </div>
+      <div class='toggle-all-events'>
+        <a data-grid="growth" href="#growth-grid">see all +</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap-outer tint">
+    <div class='wrap'>
+      <object class="svg-obj sm" type="image/svg+xml" data-animate-svg-selector=".anim"
+        data='img/our-successes.svg'></object>
+      <h2 class='middle'>Our Successes</h2>
+      <div class='event-description'>
+        <object class="svg-obj md" type="image/svg+xml" data-animate-svg-selector=".anim"
+          data='img/our-successes.svg'></object>
+        <p>The Certificate Transparency ecosystem has effectively monitored and fixed certificate anomalies since
+          2013. The CT ecosystem works as designed and provides meaningful protection to users.</p>
+
+        <p>Products are being launched that help website administrators use CT to protect their brands and their users,
+          as well as being able to detect and respond accordingly when the CT ecosystem itself is not working as
+          intended. This work is performed by a community and continues today, making the internet safer for everyone.
+        </p>
+      </div>
+
+      <div id="successes-grid" class='event-grid'>
+        {{< event-grid "successes" >}}
+      </div>
+
+      <div class='toggle-all-events'>
+        <a data-grid="successes" href="#successes-grid">see all +</a>
+      </div>
+    </div>
+  </div>
+</section>

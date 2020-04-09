@@ -1,0 +1,171 @@
+$col-black: #1a1b1f;
+$col-lightgrey: #e7e7e7;
+$col-midgrey: #9b9ca0;
+$col-greyish: #3e3f42;
+$col-tintblue: #f8ffff;
+$col-turquoise: #effffd;
+$col-orange: #f9a11d;
+$col-eyebrow-grey: #636469;
+$col-bodyblack: #4a4b4f;
+$col-highlight: #b8fff6;
+$col-divider: #d8d8da;
+
+$palettes: (
+  logs: (
+    "tint": #f5fff7,
+    "mid": #d4f7da,
+    "dark": #1fad36,
+    "full": #178229
+  ),
+  monitors: (
+    "tint": #f5faff,
+    "mid": #e0f0ff,
+    "dark": #3899fa,
+    "full": #0059b2
+  ),
+  user_agents: (
+    "tint": #fafaff,
+    "mid": #e5e5ff,
+    "dark": #7575f0,
+    "full": #3333cc
+  ),
+  howctworks: (
+    "tint": #fffcfa,
+    "mid": #ffe7db,
+    "dark": #ff9966,
+    "full": #d96226
+  ),
+  community: (
+    "tint": #fff9f9,
+    "mid": #ffe5e5,
+    "dark": #ff6666,
+    "full": #cc3333
+  ),
+  home: (
+    "tint": #F5FFFD,
+    "mid": #D6FFF8,
+    "dark": #00B3B2,
+    "full": #178270
+  )
+);
+
+@each $page, $colors in $palettes {
+  body#scheme-#{$page} {
+    section {
+      a:link,
+      a:visited {
+        color: map-get($colors, "full");
+        text-decoration: none;
+
+        svg path {
+          stroke: map-get($colors, "full");
+        }
+      }
+      a:hover,
+      a:active {
+        text-decoration: underline;
+        svg path {
+        }
+      }
+    }
+
+    .wrap-outer.tint {
+      background: map-get($colors, "tint");
+    }
+
+    .cta {
+      a.link {
+        background: map-get($colors, "mid");
+        border: 1px solid map-get($colors, "mid");
+
+        &:hover, &:active {
+          text-decoration: none;
+          border: 1px solid map-get($colors, "full");
+        }
+      }
+    }
+
+    ul#actor-grid {
+      li {
+        .top {
+          background: white;
+          color: map-get($colors, "dark");
+        }
+        .body {
+          background: map-get($colors, "tint");
+        }
+        a.link {
+          .arr svg {
+            path {
+              stroke: map-get($colors, "dark") !important;
+            }
+          }
+
+          &:link,
+          &:visited {
+            .arr svg {
+              path {
+                stroke: map-get($colors, "full") !important;
+              }
+            }
+          }
+          &:hover,
+          &:active {
+            border: 1px solid map-get($colors, "dark");
+
+            .arr svg {
+              path {
+                stroke: map-get($colors, "dark") !important;
+              }
+            }
+          }
+        }
+      }
+
+      li.add {
+        background: map-get($colors, "mid");
+        .top,
+        .body {
+          color: $col-black;
+          background: map-get($colors, "mid");
+        }
+        a.link {
+          &:link, &:visited {
+            border: 1px solid map-get($colors, "mid");
+            span.add-join {
+              color: map-get($colors, "full");
+              text-decoration: none;
+            }
+          }
+          &:hover, &:active {
+            border: 1px solid map-get($colors, "dark");
+            span.add-join {
+              color: map-get($colors, "full");
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    a.linkbutton {
+      &:link,
+      &:visited {
+        color: white;
+        background: map-get($colors, "dark");
+      }
+      &:hover,
+      &:active {
+        background: darken(map-get($colors, "dark"), 10%);
+        text-decoration: underline;
+      }
+    }
+  }
+  // each nav element should have the background of $page
+  nav ul.menu li.#{$page} a {
+    &:hover,
+    &:active {
+      background: map-get($colors, "tint");
+    }
+  }
+}

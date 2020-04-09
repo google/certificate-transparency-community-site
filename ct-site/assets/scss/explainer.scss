@@ -1,0 +1,114 @@
+.explainer {
+  position: relative;
+
+  @include md {
+    display: flex;
+  }
+
+  .explanation {
+    width: 100%;
+    @include md {
+      flex: 3;
+    }
+
+  }
+
+  .illustration {
+    flex: 5;
+
+    @include md {
+      margin-left: 6rem;
+    }
+
+    position: sticky;
+    position: -webkit-sticky;
+    top: 3rem;
+
+    margin-bottom: 3rem;
+
+    &.placeholder {
+      @include placeholder;
+    }
+  }
+
+}
+
+.explanation-block {
+  margin: 0 0 4rem;
+  clear: both;
+
+  &.half {
+    margin-bottom: 5rem;
+
+    img {
+      width: 300px;
+      margin: 2rem auto;
+      display: block;
+    }
+
+    @include md {
+      h3 {
+        width: 75%;
+        margin-left: 12.5%;
+      }
+      .copy {
+        width: 75%;
+        margin: 0 0 5rem;
+        margin-left: 12.5%;
+      }
+      p {
+      }
+    }
+  }
+
+  h3 {
+    font-weight: 700;
+    margin: 0 0 1rem;
+    font-size: 1.3rem;
+    letter-spacing: -0.035em;
+    line-height: 105%;
+  }
+
+  p, li {
+    margin:0 0 1rem;
+    font-family: $font-mono, monospace;
+    font-size: 0.8rem;
+    line-height: 1.75;
+  }
+
+  &.merkle {
+    @include sm {
+      img {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+      }
+    }
+    @include md {
+      img {
+        position: absolute;
+        width: 55%;
+        right: 0;
+      }
+
+      p {
+        padding-right: 50%;
+        position: relative;
+      }
+
+      h3 {
+        padding-right: 50%;
+      }
+
+      ul {
+        padding-right: 50%;
+      }
+    }
+
+    @include lg {
+      img {
+        width: 45%;
+      }
+    }
+  }
+}

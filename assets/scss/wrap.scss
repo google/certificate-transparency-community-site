@@ -1,0 +1,71 @@
+.wrap {
+  @include responsive-wrapper;
+
+  @include sm {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  &.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  &.bordered {
+    border-top: 1px solid $col-greyish;
+  }
+}
+
+.head-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.wrap-outer {
+  // min-height: 300px;
+  clear: both;
+  &.backdrop {
+    margin: 0;
+    @include sm {
+      background: none;
+    }
+    @include md {
+      overflow: hidden;
+      background: url('../img/crosshair-grid.svg') no-repeat center top;
+      // background-size: 906px;
+    }
+
+    @include lg {
+      // background-size: 1267px;
+    }
+  }
+  &.hero {
+    @include md {
+      overflow: hidden;
+      background: url('../img/hero-grid.svg') no-repeat center 0;
+      background-size: 955px;
+    }
+    @include lg {
+      background-size: 1270px;
+    }
+
+  }
+
+  &.noscroll {
+    overflow: hidden;
+  }
+
+  &.tint, &.pad {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  &.bordered {
+    border-top: 1px solid $col-lightgrey;
+  }
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" 
+  xmlns="http://www.w3.org/2000/svg" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 538 294" style="enable-background:new 0 0 538 294;" xml:space="preserve">
+  <style type="text/css">
+	.st0{fill:none;stroke:#B0B1B5;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#D6FFF8;stroke:#1A1B1F;stroke-width:2;}
+	.st3{fill:none;stroke:#1A1B1F;stroke-width:2;}
+	.st4{fill:none;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:6,3;}
+	.st5{clip-path:url(#SVGID_2_);}
+  </style>
+  <line class="st0" x1="25.5" y1="0" x2="25.5" y2="50"/>
+  <line class="st0" x1="50" y1="25.5" x2="0" y2="25.5"/>
+  <line class="st0" x1="25.5" y1="122" x2="25.5" y2="172"/>
+  <line class="st0" x1="50" y1="147.5" x2="0" y2="147.5"/>
+  <line class="st0" x1="25.5" y1="244" x2="25.5" y2="294"/>
+  <line class="st0" x1="50" y1="269.5" x2="0" y2="269.5"/>
+  <line class="st0" x1="513.5" y1="0" x2="513.5" y2="50"/>
+  <line class="st0" x1="538" y1="25.5" x2="488" y2="25.5"/>
+  <line class="st0" x1="513.5" y1="122" x2="513.5" y2="172"/>
+  <line class="st0" x1="538" y1="147.5" x2="488" y2="147.5"/>
+  <line class="st0" x1="513.5" y1="244" x2="513.5" y2="294"/>
+  <line class="st0" x1="538" y1="269.5" x2="488" y2="269.5"/>
+  <line class="st0" x1="391.5" y1="0" x2="391.5" y2="50"/>
+  <line class="st0" x1="416" y1="25.5" x2="366" y2="25.5"/>
+  <line class="st0" x1="269.5" y1="0" x2="269.5" y2="50"/>
+  <line class="st0" x1="294" y1="25.5" x2="244" y2="25.5"/>
+  <line class="st0" x1="147.5" y1="0" x2="147.5" y2="50"/>
+  <line class="st0" x1="172" y1="25.5" x2="122" y2="25.5"/>
+  <line class="st0" x1="391.5" y1="122" x2="391.5" y2="172"/>
+  <line class="st0" x1="416" y1="147.5" x2="366" y2="147.5"/>
+  <line class="st0" x1="269.5" y1="122" x2="269.5" y2="172"/>
+  <line class="st0" x1="294" y1="147.5" x2="244" y2="147.5"/>
+  <line class="st0" x1="147.5" y1="122" x2="147.5" y2="172"/>
+  <line class="st0" x1="172" y1="147.5" x2="122" y2="147.5"/>
+  <line class="st0" x1="391.5" y1="244" x2="391.5" y2="294"/>
+  <line class="st0" x1="416" y1="269.5" x2="366" y2="269.5"/>
+  <line class="st0" x1="269.5" y1="244" x2="269.5" y2="294"/>
+  <line class="st0" x1="294" y1="269.5" x2="244" y2="269.5"/>
+  <line class="st0" x1="147.5" y1="244" x2="147.5" y2="294"/>
+  <line class="st0" x1="172" y1="269.5" x2="122" y2="269.5"/>
+  <rect x="1" y="172" class="st1" width="121" height="121"/>
+  <rect x="14" y="221" class="st2" width="72" height="23"/>
+  <rect x="37" y="257" class="st2" width="72" height="23"/>
+  <rect x="26" y="185" class="st2" width="72" height="23"/>
+  <line class="st3" x1="62" y1="208" x2="62" y2="221"/>
+  <line class="st3" x1="62" y1="281" x2="62" y2="292.5"/>
+  <line class="st3" x1="62" y1="244" x2="62" y2="257"/>
+  <path class="anim st4" d="M1,172v121h121V172H1z"/>
+  <rect x="172" y="1" class="st1" width="121" height="121"/>
+  <rect x="196" y="50" class="st2" width="72" height="23"/>
+  <rect x="208" y="86" class="st2" width="72" height="23"/>
+  <rect x="185" y="14" class="st2" width="72" height="23"/>
+  <line class="st3" x1="233" y1="37" x2="233" y2="50"/>
+  <line class="st3" x1="233" y1="110" x2="233" y2="121.5"/>
+  <line class="st3" x1="233" y1="73" x2="233" y2="86"/>
+  <path class="anim st4" d="M172,1v121h121V1H172z"/>
+  <g>
+    <defs>
+      <rect id="SVGID_1_" x="50" y="50" width="195" height="195"/>
+    </defs>
+    <clipPath id="SVGID_2_">
+      <use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+    </clipPath>
+    <g class="st5">
+      <ellipse class="st2" cx="147.5" cy="147.5" rx="96.7" ry="96.7"/>
+      <ellipse class="st3" cx="147.9" cy="147.5" rx="68.4" ry="96.7"/>
+      <ellipse class="st3" cx="147.9" cy="147.5" rx="35.8" ry="96.7"/>
+      <line class="st3" x1="148.1" y1="50.8" x2="148.1" y2="244.2"/>
+      <line class="anim st4" x1="243.4" y1="148.1" x2="50" y2="148.1"/>
+      <path class="anim st4" d="M232.3,194.7H62.7"/>
+      <path class="anim st4" d="M232.3,100.7H62.7"/>
+    </g>
+  </g>
+</svg>

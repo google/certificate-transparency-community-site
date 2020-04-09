@@ -1,0 +1,56 @@
+<svg width="1270" height="294" viewBox="0 0 1270 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="25.5" y1="2.18557e-08" x2="25.5" y2="50" stroke="#B0B1B5"/>
+<line x1="50" y1="25.5" x2="-3.64262e-08" y2="25.5" stroke="#B0B1B5"/>
+<line x1="1123.5" y1="2.18557e-08" x2="1123.5" y2="50" stroke="#B0B1B5"/>
+<line x1="1148" y1="25.5" x2="1098" y2="25.5" stroke="#B0B1B5"/>
+<line x1="1245.5" y1="2.18557e-08" x2="1245.5" y2="50" stroke="#B0B1B5"/>
+<line x1="1270" y1="25.5" x2="1220" y2="25.5" stroke="#B0B1B5"/>
+<line x1="1001.5" y1="2.18557e-08" x2="1001.5" y2="50" stroke="#B0B1B5"/>
+<line x1="1026" y1="25.5" x2="976" y2="25.5" stroke="#B0B1B5"/>
+<line x1="879.5" y1="2.18557e-08" x2="879.5" y2="50" stroke="#B0B1B5"/>
+<line x1="904" y1="25.5" x2="854" y2="25.5" stroke="#B0B1B5"/>
+<line x1="757.5" y1="2.18557e-08" x2="757.5" y2="50" stroke="#B0B1B5"/>
+<line x1="782" y1="25.5" x2="732" y2="25.5" stroke="#B0B1B5"/>
+<line x1="25.5" y1="122" x2="25.5" y2="172" stroke="#B0B1B5"/>
+<line x1="50" y1="147.5" x2="-3.64262e-08" y2="147.5" stroke="#B0B1B5"/>
+<line x1="1123.5" y1="122" x2="1123.5" y2="172" stroke="#B0B1B5"/>
+<line x1="1148" y1="147.5" x2="1098" y2="147.5" stroke="#B0B1B5"/>
+<line x1="1245.5" y1="122" x2="1245.5" y2="172" stroke="#B0B1B5"/>
+<line x1="1270" y1="147.5" x2="1220" y2="147.5" stroke="#B0B1B5"/>
+<line x1="1001.5" y1="122" x2="1001.5" y2="172" stroke="#B0B1B5"/>
+<line x1="1026" y1="147.5" x2="976" y2="147.5" stroke="#B0B1B5"/>
+<line x1="879.5" y1="122" x2="879.5" y2="172" stroke="#B0B1B5"/>
+<line x1="904" y1="147.5" x2="854" y2="147.5" stroke="#B0B1B5"/>
+<line x1="757.5" y1="122" x2="757.5" y2="172" stroke="#B0B1B5"/>
+<line x1="782" y1="147.5" x2="732" y2="147.5" stroke="#B0B1B5"/>
+<line x1="25.5" y1="244" x2="25.5" y2="294" stroke="#B0B1B5"/>
+<line x1="50" y1="269.5" x2="-3.64262e-08" y2="269.5" stroke="#B0B1B5"/>
+<line x1="1123.5" y1="244" x2="1123.5" y2="294" stroke="#B0B1B5"/>
+<line x1="1148" y1="269.5" x2="1098" y2="269.5" stroke="#B0B1B5"/>
+<line x1="1245.5" y1="244" x2="1245.5" y2="294" stroke="#B0B1B5"/>
+<line x1="1270" y1="269.5" x2="1220" y2="269.5" stroke="#B0B1B5"/>
+<line x1="1001.5" y1="244" x2="1001.5" y2="294" stroke="#B0B1B5"/>
+<line x1="1026" y1="269.5" x2="976" y2="269.5" stroke="#B0B1B5"/>
+<line x1="879.5" y1="244" x2="879.5" y2="294" stroke="#B0B1B5"/>
+<line x1="904" y1="269.5" x2="854" y2="269.5" stroke="#B0B1B5"/>
+<line x1="757.5" y1="244" x2="757.5" y2="294" stroke="#B0B1B5"/>
+<line x1="782" y1="269.5" x2="732" y2="269.5" stroke="#B0B1B5"/>
+<path d="M1123.5 148C1056.4 148 1002 201.518 1002 267.536V269H1245V267.536C1245 201.518 1190.6 148 1123.5 148Z" fill="#EFFFFD" stroke="#1A1B1F" stroke-width="2"/>
+<circle cx="1174.5" cy="245.5" r="14.5" stroke="#1A1B1F" stroke-width="2"/>
+<circle cx="1177" cy="246" r="11" stroke="#1A1B1F" stroke-width="2"/>
+<circle class='anim rev' cx="1123.5" cy="245.5" r="11.5" stroke="#1A1B1F" stroke-width="2" stroke-dasharray="6 3"/>
+<circle cx="1123.5" cy="193.5" r="14.5" stroke="#1A1B1F" stroke-width="2"/>
+<path d="M1011 222L1150 222L1150 269" stroke="#1A1B1F" stroke-width="2"/>
+<path d="M1236 222L1199 222L1199 269" stroke="#1A1B1F" stroke-width="2"/>
+<path d="M1060.5 165.5H1187" stroke="#1A1B1F" stroke-width="2"/>
+<path d="M1101.08 216L1104.37 171H1142.63L1145.92 216H1101.08Z" stroke="black" stroke-width="2"/>
+<path d="M879.5 26C812.397 26 758 80.3974 758 147.5V269H1001V147.5C1001 80.3974 946.603 26 879.5 26Z" fill="#EFFFFD" stroke="#1A1B1F" stroke-width="2"/>
+<path d="M879.035 36C817.16 36 767 86.2762 767 148.295V269H991.07V148.295C991.07 86.2762 940.91 36 879.035 36Z" stroke="#1A1B1F" stroke-width="2"/>
+<circle cx="933" cy="211" r="37" stroke="#1A1B1F" stroke-width="2"/>
+<circle class='anim rev' cx="933" cy="211" r="8.63636" stroke="#1A1B1F" stroke-width="2" stroke-dasharray="6 3"/>
+<circle cx="826" cy="211" r="36" stroke="#1A1B1F" stroke-width="2"/>
+<circle class='anim rev' cx="826" cy="211" r="8.63636" stroke="#1A1B1F" stroke-width="2" stroke-dasharray="6 3"/>
+<path d="M976 171C964.737 156.979 947.421 148 928 148C908.579 148 891.263 156.979 880 171C868.737 156.979 851.421 148 832 148C812.579 148 795.263 156.979 784 171" stroke="black" stroke-width="2"/>
+<line x1="880" y1="172" x2="880" y2="252" stroke="black" stroke-width="2"/>
+<path d="M900 268.981C892.286 264.648 885.496 258.864 880 252C874.504 258.864 867.714 264.648 860 268.981" stroke="black" stroke-width="2"/>
+</svg>
