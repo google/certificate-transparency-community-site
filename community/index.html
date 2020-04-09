@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="description" content="Certificate Transparency">
+  <link rel="shortcut icon" type="image/png" href='https://certificate.transparency.dev/img/favicon.png'/>
+
+  <title>
+    Community : Certificate Transparency
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Inter:700,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/ct.7b0d19dad0c96654628cb31f44848706c43314cc74899f8b06e5562b6af1372f.css">
+
+  
+  
+  
+  
+
+  
+  <script type='text/javascript' src='https://certificate.transparency.dev/js/bundle.min.9d184193dc75fda6bda8438008a16070092998ef0c53fc44b1f6becd8493f05e.js'></script>
+</head>
+
+  <body id='scheme-community'>
+    <div id="page-container">
+      <div id="content-container"><nav id="top">
+  <div id="brand"><a href='/'>Certificate Transparency</a></div>
+  <div id="mobilemenu-controls">
+    <a class='hide-menu' href="#">&#215;</a>
+    <a class='show-menu' href="#">&#9776;</a>
+  </div>
+
+  <div class="menus">
+    <ul class="menu">
+      <li class='howctworks'><a href='/howctworks'>How CT works</a></li>
+      <li class='submenu-target'>
+        <span>
+          Actors 
+            <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-triangle">
+              <polygon points="0,0 10,0 5,8"/>
+            </svg>
+        </span>
+        <ul class='submenu'>
+          <li class='logs'><a href='/logs'>Logs</a></li>
+          <li class='monitors'><a href='/monitors'>Monitors</a></li>
+          <li class='user_agents'><a href='/useragents'>User Agents</a></li>
+        </ul>
+      </li>
+
+      <li class='community'><a href='/community'>Our story</a></li>
+    </ul>
+    <ul class="elsewhere">
+      <li class='github'><a href="https://github.com/google/certificate-transparency-go">GitHub</a></li>
+      <li class='ggroup'><a href="https://groups.google.com/forum/#!forum/certificate-transparency">Google Group</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="nav-shield"></div>
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="Community" style="margin-top: 25px;" class="community svg-obj sm"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/community-header-small.svg"></object>
+        <object title="Community" style="margin-top: 25px;" class="community svg-obj md"
+          data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml"
+          data="img/community-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>Our Story</div>
+            <h1>Thank you to our amazing community</h1>
+          </div>
+          <div class='details'>
+            <p>Certificate Transparency works thanks to the ecosystem of people and organizations who set up and run <a
+                href='/user_agents/'>user agents</a>, <a href='/logs/'>logs</a> and <a
+                href='/monitors/'>monitors</a>. Join us!</p>
+            <p>
+              <a class="linkbutton" href='{{ .Site.Params.googlegroup }'>Join Google Group</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap-outer tint">
+    <div class='wrap'>
+      <object class="sm svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim" data='img/our-origin-story.svg'></object>
+      <h2 class='middle'>Our origin story</h2>
+      <div class='event-description'>
+        <object class="svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim" data='img/our-origin-story.svg'></object>
+        <p>Certificate Transparency was a response to the 2011 attack on DigiNotar and other Certificate Authorities. These attacks showed that the lack of transparency in the way CAs operated was a significant risk to the Web Public Key Infrastructure. It led to the creation of this ambitious project to improve security online by bringing accountability to the system that protects HTTPS.</p>
+      </div>
+
+      <div id="origins-grid" class='event-grid'>
+        
+
+
+
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        July 2011
+      
+      </div>
+      <h4>DigiNotar Hack</h4>
+      <p>An unknown attacker compromises DigiNotar, a Dutch CA, and issues rogue certificates for numerous domains. Over 500 fake certificates are detected. These certificates were used for man-in-the-middle attacks on traffic from Iran.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        February 2012
+      
+      </div>
+      <h4>TrustWave issues root certificate to a customer</h4>
+      <p>U.S. Certificate Authority TrustWave provided subordinate root certificates to a customer which could have been be used to create SSL certificates for nearly any domain on the Internet. CA missteps could lead to severe consequences.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        September 2012
+      
+      </div>
+      <h4>IETF works</h4>
+      <p>The IETF accepts the Trans Working Group charter and begins work on the CT related RFCs.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        March 2013
+      
+      </div>
+      <h4>First CT Log</h4>
+      <p>Google launches their CT logs pre-populated with the certificates discovered by their web crawler.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        June 2013
+      
+      </div>
+      <h4>IETF RFC</h4>
+      <p>The IETF publishes Certificate Transparency as RFC 6962.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        September 2013
+      
+      </div>
+      <h4>First third party log</h4>
+      <p>DigiCert launches the first non-Google CT log to support the growth of the CT ecosystem.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        May 2015
+      
+      </div>
+      <h4>Chrome EV</h4>
+      <p>Chrome announces that all EV certificates issued after January 1, 2015 will be required to be CT logged.</p>
+
+    </div>
+  </div>
+
+
+      </div>
+      <div class=' toggle-all-events'>
+                <a data-grid="origins" href="#origins-grid">see all +</a>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section>
+  <div class="wrap-outer pad">
+    <div class='wrap'>
+      <object class="sm svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim"
+        data='img/how-we-grew.svg'></object>
+      <h2 class='middle'>How we grew</h2>
+      <div class='event-description'>
+        <object class="svg-obj" type="image/svg+xml" data-animate-svg-selector=".anim"
+          data='img/how-we-grew.svg'></object>
+        <p>Although CT provides desirable security benefits, no single organization could convince the entire Internet
+          to adopt and benefit from it at once. Similarly, user agents could not begin requiring all websites to support
+          CT at once due to the risk of breaking large numbers of websites. So the members of the CT ecosystem worked
+          together to define the standards and to incrementally deploy and later enforce CT.</p>
+      </div>
+
+      <div id="growth-grid" class='event-grid'>
+        
+
+
+
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        September 2015
+      
+      </div>
+      <h4>crt.sh</h4>
+      <p><a href="https://www.comodo.com/news/press_releases/2015/06/comodo-launches-new-certificate-transparency-search-web-site.html">crt.sh</a>, a website offering a friendly environment to query Certificate Transparency logs is launched.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        December 2016
+      
+      </div>
+      <h4>Facebook CT monitor</h4>
+      <p>Facebook announces their <a href="https://www.facebook.com/notes/protect-the-graph/introducing-our-certificate-transparency-monitoring-tool/1811919779048165/">Certificate Transparency Monitoring Tool</a> that allows website owners to monitor issues of certificates for domains they own.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        March 2017
+      
+      </div>
+      <h4>Comodo CT log</h4>
+      <p>COMODO, a UK based CA, announces its contribution of a CT log to support the CT ecosystem.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        March 2018
+      
+      </div>
+      <h4>CloudFlare Merkle Town</h4>
+      <p>CloudFlare launches their <a href="https://blog.cloudflare.com/introducing-certificate-transparency-and-nimbus/">Nimbus CT log</a> and <a href="http://merkle.town/">Merkle Town</a>, a site making it easy to monitor the CT ecosystems growth.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        April 2018
+      
+      </div>
+      <h4>Microsoft AD</h4>
+      <p>Microsoft <a href="https://support.microsoft.com/en-us/help/4093260/introduction-of-ad-cs-certificate-transparency">announces support for Certificate Transparency</a> in Active Directory Certificate Services.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        May 2019
+      
+      </div>
+      <h4>Let&#39;s Encrypt CT monitor</h4>
+      <p><a href="https://sectigo.com/blog/sectigo-is-sponsoring-a-certificate-transparency-ct-log-from-lets-encrypt-heres-why">Let's Encrypt launch Oak</a>, a free and open Certificate Transparency Log.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        August 2019
+      
+      </div>
+      <h4>CloudFlare CT monitor</h4>
+      <p>CloudFlare launches a <a href="https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/">CT Log monitoring service</a> to help customers detect mississued certificates for their domains.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        December 2019
+      
+      </div>
+      <h4>DigiCert CT monitor</h4>
+      <p>DigiCert launches a <a href="https://www.digicert.com/news/digicert-launches-ct-log-monitoring-now-available-in-secure-site-pro/">CT Log monitoring service</a> to help customers detect mississued certificates for their domains.</p>
+
+    </div>
+  </div>
+
+
+      </div>
+      <div class='toggle-all-events'>
+        <a data-grid="growth" href="#growth-grid">see all +</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap-outer tint">
+    <div class='wrap'>
+      <object class="svg-obj sm" type="image/svg+xml" data-animate-svg-selector=".anim"
+        data='img/our-successes.svg'></object>
+      <h2 class='middle'>Our Successes</h2>
+      <div class='event-description'>
+        <object class="svg-obj md" type="image/svg+xml" data-animate-svg-selector=".anim"
+          data='img/our-successes.svg'></object>
+        <p>The Certificate Transparency ecosystem has effectively monitored and fixed certificate anomalies since
+          2013. The CT ecosystem works as designed and provides meaningful protection to users.</p>
+
+        <p>Products are being launched that help website administrators use CT to protect their brands and their users,
+          as well as being able to detect and respond accordingly when the CT ecosystem itself is not working as
+          intended. This work is performed by a community and continues today, making the internet safer for everyone.
+        </p>
+      </div>
+
+      <div id="successes-grid" class='event-grid'>
+        
+
+
+
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        April 2016
+      
+      </div>
+      <h4>Facebook polices certificates internally</h4>
+      <p>Facebook announces that <a href="https://www.facebook.com/notes/protect-the-graph/early-impacts-of-certificate-transparency/1709731569266987">CT helped it detect an internal policy violation</a> and advocates for CT being required not only for EV certificates, but for all certificates issued by CAs.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        May 2016
+      
+      </div>
+      <h4>Izenpe reuses production keys</h4>
+      <p>It is discovered that Izenpe, a Spanish CA and log operator reused their production CT log signing key for test/development purposes, and had inadvertently produced a split view of their log. As a result they are ultimately disqualified as a log operator.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        July 2017
+      
+      </div>
+      <h4>WoSign backdates certificates</h4>
+      <p>CT shows that Chinese CA WoSign/Startcom has backdated certificates, and would later be distrusted.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        September 2017
+      
+      </div>
+      <h4>Symantec misissuance detected</h4>
+      <p>CT shows that US CA Symantec has misissued thousands of certificates. Ultimately all major platforms will distrust Symantec.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        May 2018
+      
+      </div>
+      <h4>Chrome enforces CT for new TLS certificates</h4>
+      <p>In version 68, Chrome began enforcing that all TLS server certificates issued after April 30, 2018 comply with the Chromium CT Policy in order to be trusted. Main page connections served over a non-compliant connection began to display a full page warning, and sub-resources served over a non-compliant connection stopped loading.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=true>
+    <div class="event">
+      <div class="date">
+      
+        October 2018
+      
+      </div>
+      <h4>Apple enforces CT</h4>
+      <p>All TLS certificates issued after October 15, 2018 must meet Apple's Certificate Transparency (CT) policy in order to be trusted on Apple platforms.</p>
+
+    </div>
+  </div>
+
+  <div class='event-wrapper' data-is-headline=>
+    <div class="event">
+      <div class="date">
+      
+        May 2019
+      
+      </div>
+      <h4>Certinomis misissuance</h4>
+      <p>French CA is found to have misissued numerous certificates and is distrusted.</p>
+
+    </div>
+  </div>
+
+
+      </div>
+
+      <div class='toggle-all-events'>
+        <a data-grid="successes" href="#successes-grid">see all +</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </div>
+
+      <div id="footer-container"><div id="footer">
+  <div class='row'>
+    <h3>Certificate Transparency</h3>
+    <ul class="footer-menu">
+      <li><a href='/howctworks'>How CT works</a></li>
+      <li><a href='/community'>Our story</a></li>
+    </ul>
+  </div>
+  <div class="row rev">
+    <ul class='footer-menu'>
+      <li>
+        <ul>
+          <li><a href='/logs'>Logs</a></li>
+          <li><a href='/monitors'>Monitors</a></li>
+          <li><a href='/useragents'>User agents</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a href="https://github.com/google/certificate-transparency-go">GitHub</a></li>
+          <li><a href="https://groups.google.com/forum/#!forum/certificate-transparency">Google Group</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class='tag'>
+      <span>
+        Started by engineers at Google,<br>
+        <strong>for the internet.</strong>
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  </body>
+
+
+</html>

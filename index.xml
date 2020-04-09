@@ -11,16 +11,6 @@
     
     <item>
       <title></title>
-      <link>https://certificate.transparency.dev/community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://certificate.transparency.dev/community/</guid>
-      <description>--- title: Community url: /community layout: index ---    Our Story Thank you to our amazing community  Certificate Transparency works thanks to the ecosystem of people and organizations who set up and run user agents, logs and monitors. Join us!
- Join Google Group         Our origin story  Certificate Transparency was a response to the 2011 attack on DigiNotar and other Certificate Authorities.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://certificate.transparency.dev/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -65,6 +55,16 @@ Go to Logs Go to User Agents                   Get an email every time a certifi
       <guid>https://certificate.transparency.dev/user_agents/</guid>
       <description>--- title: User Agents url: /useragents layout: index ---    User Agents User agents using CT  User agents are typically browsers and help perform certificate auditing by verifying that certificates have legimitately been added to a log.
 Go to Logs Go to Monitors          Google Chrome Supporting CT since early 2015         Apple Safari Supporting CT since 2018       Add CT to your user agent</description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>https://certificate.transparency.dev/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/community/</guid>
+      <description>Our Story Thank you to our amazing community  Certificate Transparency works thanks to the ecosystem of people and organizations who set up and run user agents, logs and monitors. Join us!
+ Join Google Group         Our origin story  Certificate Transparency was a response to the 2011 attack on DigiNotar and other Certificate Authorities. These attacks showed that the lack of transparency in the way CAs operated was a significant risk to the Web Public Key Infrastructure.</description>
     </item>
     
   </channel>
