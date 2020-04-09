@@ -1,6 +1,4 @@
-# "Willsneck"
-
-Certificate Transparency website.
+# Certificate Transparency website.
 
 This website is built as a static site using [Hugo][hugo]. Stylesheets are written in SCSS.
 
