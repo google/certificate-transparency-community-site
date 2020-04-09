@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 538 294" style="enable-background:new 0 0 538 294;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#B0B1B5;}
+	.st1{fill:#D6FFF8;stroke:#1A1B1F;stroke-width:2;}
+	.st2{fill:none;stroke:#1A1B1F;stroke-width:2;}
+	.st3{fill:none;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:6,3;}
+</style>
+<line class="st0" x1="513.5" y1="0" x2="513.5" y2="50"/>
+<line class="st0" x1="538" y1="25.5" x2="488" y2="25.5"/>
+<line class="st0" x1="391.5" y1="0" x2="391.5" y2="50"/>
+<line class="st0" x1="416" y1="25.5" x2="366" y2="25.5"/>
+<line class="st0" x1="269.5" y1="0" x2="269.5" y2="50"/>
+<line class="st0" x1="294" y1="25.5" x2="244" y2="25.5"/>
+<line class="st0" x1="147.5" y1="0" x2="147.5" y2="50"/>
+<line class="st0" x1="172" y1="25.5" x2="122" y2="25.5"/>
+<line class="st0" x1="25.5" y1="0" x2="25.5" y2="50"/>
+<line class="st0" x1="50" y1="25.5" x2="0" y2="25.5"/>
+<line class="st0" x1="513.5" y1="122" x2="513.5" y2="172"/>
+<line class="st0" x1="538" y1="147.5" x2="488" y2="147.5"/>
+<line class="st0" x1="391.5" y1="122" x2="391.5" y2="172"/>
+<line class="st0" x1="416" y1="147.5" x2="366" y2="147.5"/>
+<line class="st0" x1="269.5" y1="122" x2="269.5" y2="172"/>
+<line class="st0" x1="294" y1="147.5" x2="244" y2="147.5"/>
+<line class="st0" x1="147.5" y1="122" x2="147.5" y2="172"/>
+<line class="st0" x1="172" y1="147.5" x2="122" y2="147.5"/>
+<line class="st0" x1="25.5" y1="122" x2="25.5" y2="172"/>
+<line class="st0" x1="50" y1="147.5" x2="0" y2="147.5"/>
+<line class="st0" x1="513.5" y1="244" x2="513.5" y2="294"/>
+<line class="st0" x1="538" y1="269.5" x2="488" y2="269.5"/>
+<line class="st0" x1="391.5" y1="244" x2="391.5" y2="294"/>
+<line class="st0" x1="416" y1="269.5" x2="366" y2="269.5"/>
+<line class="st0" x1="269.5" y1="244" x2="269.5" y2="294"/>
+<line class="st0" x1="294" y1="269.5" x2="244" y2="269.5"/>
+<line class="st0" x1="147.5" y1="244" x2="147.5" y2="294"/>
+<line class="st0" x1="172" y1="269.5" x2="122" y2="269.5"/>
+<line class="st0" x1="25.5" y1="244" x2="25.5" y2="294"/>
+<line class="st0" x1="50" y1="269.5" x2="0" y2="269.5"/>
+<rect x="39" y="197" class="st1" width="72" height="23"/>
+<rect x="62" y="233" class="st1" width="72" height="23"/>
+<rect x="51" y="161" class="st1" width="72" height="23"/>
+<line class="st2" x1="87" y1="184" x2="87" y2="197"/>
+<line class="st2" x1="87" y1="257" x2="87" y2="268.5"/>
+<line class="st2" x1="87" y1="220" x2="87" y2="233"/>
+<rect x="62" y="75" class="st1" width="72" height="23"/>
+<rect x="51" y="111" class="st1" width="72" height="23"/>
+<rect x="39" y="39" class="st1" width="72" height="23"/>
+<line class="st2" x1="87" y1="62" x2="87" y2="75"/>
+<line class="st2" x1="87" y1="135" x2="87" y2="146.5"/>
+<line class="st2" x1="87" y1="98" x2="87" y2="111"/>
+<path class="anim st3" d="M26,26v121h121V26H26z"/>
+<path class="anim st3" d="M148,147h121V26H148"/>
+<path class="anim st3" d="M26,148v121h121V148"/>
+<path class="anim st3" d="M148,269h121V148"/>
+<rect x="172" y="75" class="st1" width="72" height="23"/>
+<rect x="184" y="111" class="st1" width="72" height="23"/>
+<rect x="161" y="39" class="st1" width="72" height="23"/>
+<line class="st2" x1="209" y1="62" x2="209" y2="75"/>
+<line class="st2" x1="209" y1="135" x2="209" y2="146.5"/>
+<line class="st2" x1="209" y1="98" x2="209" y2="111"/>
+<rect x="184" y="197" class="st1" width="72" height="23"/>
+<rect x="172" y="233" class="st1" width="72" height="23"/>
+<rect x="161" y="161" class="st1" width="72" height="23"/>
+<line class="st2" x1="209" y1="184" x2="209" y2="197"/>
+<line class="st2" x1="209" y1="257" x2="209" y2="268.5"/>
+<line class="st2" x1="209" y1="220" x2="209" y2="233"/>
+</svg>

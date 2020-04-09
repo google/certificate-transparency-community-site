@@ -1,0 +1,368 @@
+nav {
+  @include responsive-wrapper;
+
+  @include md {
+    display: flex;
+  }
+
+  position: relative;
+
+  #brand {
+    font-size: 1.13rem;
+    @include sm {
+      padding: 1rem 1.5rem;
+    }
+
+    @include md {
+      flex: 0 1 250px;
+      @include lg {
+        flex: 1;
+      }
+
+      a {
+        padding: 0.5rem;
+        margin-left: -0.5rem;
+        &:link,
+        &:visited {
+          text-decoration: none;
+          color: $col-greyish;
+        }
+        &:hover,
+        &:active {
+          text-decoration: underline;
+          color: $col-greyish;
+        }
+        &:focus-visible {
+          border: 2px solid $col-orange;
+          color: $col-black !important;
+          text-decoration: none !important;
+          margin-left: calc(-0.5rem - 2px);
+        }
+      }
+    }
+
+    padding: 1.9rem 0;
+
+    font-weight: 700;
+    letter-spacing: -0.035em;
+
+    a {
+      &:link,
+      &:visited {
+        color: $col-black;
+        text-decoration: none;
+      }
+      &:hover,
+      &:active {
+        color: $col-black;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #mobilemenu-controls {
+    @include md {
+      display: none;
+    }
+
+    @include lg {
+      display: none;
+    }
+
+    position: absolute;
+    top: 0.2rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+
+    .hide-menu {
+      display: none;
+      padding-top: 0.2rem;
+    }
+
+    .show-menu {
+      font-size: 1.5rem;
+    }
+
+    &.menu-visible {
+      .hide-menu {
+        display: block;
+      }
+      .show-menu {
+        display: none;
+      }
+    }
+
+    a {
+      &:link,
+      &:visited {
+        color: $col-black;
+        text-decoration: none;
+      }
+      &:hover,
+      &:active {
+        color: $col-black;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .menus {
+    @include md {
+      margin: 1rem 0;
+      flex: 2;
+      text-align: right;
+    }
+  }
+
+  ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li button {
+      border: none;
+      margin: 0;
+      padding: 0;
+      background: none;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    @include sm {
+      display: none;
+
+      &.visible {
+        display: block;
+      }
+
+      li {
+        span,
+        a {
+          display: block;
+          padding: 1rem 1.5rem;
+          border-top: 1px solid $col-divider;
+          font-size: 1.6rem;
+          font-weight: 700;
+          letter-spacing: -0.035em;
+        }
+
+        span {
+          color: $col-black;
+        }
+
+        a {
+          &:link,
+          &:visited {
+            color: $col-black;
+            text-decoration: none;
+          }
+
+          &:hover,
+          &:active {
+            color: $col-black;
+            text-decoration: underline;
+          }
+        }
+
+        > ul {
+          list-style: none;
+          margin: 0;
+          padding: 0 0 0 3rem;
+
+          &.submenu {
+            border-top: 1px solid $col-divider;
+            li:first-child {
+              a {
+                border-top: none;
+              }
+            }
+          }
+
+          li {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    @include md {
+      display: inline-block;
+      li {
+        position: relative;
+        text-align: center;
+        font-family: $font-mono, monospace;
+        margin: 0.5rem;
+        display: inline-block;
+
+        a {
+          padding: 0.5rem;
+          display: inline-block;
+          &:link,
+          &:visited {
+            text-decoration: none;
+            color: $col-greyish;
+          }
+          &:hover,
+          &:active {
+            text-decoration: underline;
+            color: $col-greyish;
+          }
+          &:focus-visible {
+            border: 2px solid $col-orange;
+          }
+        }
+      }
+
+      li.submenu-target {
+        padding: 0.5rem;
+        &:hover {
+          > ul.submenu {
+            display: block;
+          }
+        }
+      }
+      ul.submenu {
+        display: none;
+        &.visible {
+          display: block;
+        }
+
+        &:hover {
+          display: block;
+        }
+
+        z-index: 100;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        padding-top: 2rem;
+        width: 12rem;
+        > li {
+          background: white;
+          border-top: 1px solid $col-black;
+          border-right: 1px solid $col-black;
+          border-left: 1px solid $col-black;
+          border-bottom: none;
+          text-align: left;
+          margin: 0;
+          display: block;
+          &:first-child {
+            border-radius: 2px 2px 0 0;
+          }
+          &:last-child {
+            border-radius: 0 0 2px 2px;
+            border-bottom: 1px solid $col-black;
+          }
+          a {
+            display: block;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  ul.elsewhere {
+    font-family: $font-mono, monospace;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+
+    @include sm {
+      display: none;
+      padding-top: 2rem;
+      &.visible {
+        display: block;
+        border-top: 1px solid $col-divider;
+      }
+    }
+
+    li {
+      @include sm {
+        display: block;
+        padding: 0 0 0 1.5rem;
+        margin: 0 0 2rem;
+      }
+
+      a {
+        &:link,
+        &:visited {
+          color: $col-greyish;
+          text-decoration: none;
+        }
+
+        &:hover,
+        &:active {
+          color: $col-greyish;
+          text-decoration: underline;
+        }
+      } // end sm
+
+      @include md {
+        display: none;
+
+        &:first-child {
+          display: inline-block;
+          text-align: right;
+          align-self: center;
+          padding-bottom: 8px;
+
+          a {
+            margin-top: 0.5rem;
+            display: inline-block;
+            text-align: center;
+            padding: 0.5rem 1rem;
+            border-radius: 2px;
+
+            &:link,
+            &:visited {
+              border: 1px solid $col-greyish;
+              color: $col-greyish;
+            }
+
+            &:hover,
+            &:active {
+              color: white;
+              text-decoration: none;
+              background: $col-black;
+            }
+          }
+        }
+      } // end md
+    }
+  }
+}
+
+#nav-shield {
+  background: $col-black;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  z-index: 11;
+
+  &.menu-visible {
+    display: block;
+  }
+}
+
+.dropdown-triangle {
+  display: none;
+  @include md {
+    display: inline-block;
+    width: 15px;
+    height: 8px;
+    color: $col-greyish;
+    polygon {
+      fill: $col-greyish;
+      stroke-width: 0px;
+    }
+  }
+}

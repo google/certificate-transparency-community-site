@@ -1,0 +1,50 @@
+{
+  "operators": [
+    {
+      "name": "Apple",
+      "url": "https://apple.com",
+      "logo": "apple.svg"
+    },
+    {
+      "name": "Google",
+      "url": "https://github.com/chromium/ct-policy/blob/master/ct_policy.md#qualifying-certificate ",
+      "logo": "google.svg"
+    },
+    {
+      "name": "Censys",
+      "url": "https://censys.io/certificates",
+      "customWidth": 130,
+      "logo": "censys.png"
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://developers.cloudflare.com/ssl/ct-monitoring/",
+      "logo": "cloudflare.svg"
+    },
+    {
+      "name": "Digicert",
+      "url": "https://www.digicert.com/certificate-transparency/overview.htm",
+      "logo": "digicert.svg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/notes/protect-the-graph/introducing-our-certificate-transparency-monitoring-tool/1811919779048165/",
+      "logo": "facebook.png"
+    },
+    {
+      "name": "Let's Encrypt",
+      "url": "https://letsencrypt.org/2019/11/20/how-le-runs-ct-logs.html",
+      "logo": "lets-encrypt.svg"
+    },
+    {
+      "name": "Sectigo",
+      "url": "https://sectigo.com/ssl-certificates-tls",
+      "logo": "sectigo.svg"
+    },
+    {
+      "name": "SSLMate",
+      "url": "https://sslmate.com/certspotter/",
+      "logo": "sslmate.svg"
+    }
+  ]
+}

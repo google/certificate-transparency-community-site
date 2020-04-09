@@ -1,0 +1,569 @@
+{
+  "Cloudflare": [
+    {
+      "description": "Cloudflare 'Nimbus 2020' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE01EAhx4o0zPQrXTcYjgCt4MVFsT0Pwjzb1RwrM0lhWDlxAYPP6/gyMCXNkOn/7KFsjL7rwk78tHMpY8rXn8AYg==",
+      "log_id": "Xqdz+d9WwOe1Nkh90EngMnqRmgyEoRIShBh1loFxRVg=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2018-02-15T18:42:47Z",
+          "version": "14"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2021-01-01T00:00:00Z",
+        "start_inclusive": "2020-01-01T00:00:00Z"
+      },
+      "url": "https://ct.cloudflare.com/logs/nimbus2020/",
+      "operator": "Cloudflare",
+      "uptime": "99.9985"
+    },
+    {
+      "description": "Cloudflare 'Nimbus 2021' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExpon7ipsqehIeU1bmpog9TFo4Pk8+9oN8OYHl1Q2JGVXnkVFnuuvPgSo2Ep+6vLffNLcmEbxOucz03sFiematg==",
+      "log_id": "RJRlLrDuzq/EQAfYqP4owNrmgr7YyzG1P9MzlrW2gag=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2018-02-15T18:42:47Z",
+          "version": "14"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2022-01-01T00:00:00Z",
+        "start_inclusive": "2021-01-01T00:00:00Z"
+      },
+      "url": "https://ct.cloudflare.com/logs/nimbus2021/",
+      "operator": "Cloudflare",
+      "uptime": "99.9985"
+    },
+    {
+      "description": "Cloudflare 'Nimbus 2022' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESLJHTlAycmJKDQxIv60pZG8g33lSYxYpCi5gteI6HLevWbFVCdtZx+m9b+0LrwWWl/87mkNN6xE0M4rnrIPA/w==",
+      "log_id": "QcjKsd8iRkoQxqE6CUKHXk4xixsD6+tLx2jwkGKWBvY=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-06-19T06:31:12Z",
+          "version": "59"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2023-01-01T00:00:00Z",
+        "start_inclusive": "2022-01-01T00:00:00Z"
+      },
+      "url": "https://ct.cloudflare.com/logs/nimbus2022/",
+      "operator": "Cloudflare",
+      "uptime": "99.9985"
+    },
+    {
+      "description": "Cloudflare 'Nimbus 2023' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEi/8tkhjLRp0SXrlZdTzNkTd6HqmcmXiDJz3fAdWLgOhjmv4mohvRhwXul9bgW0ODgRwC9UGAgH/vpGHPvIS1qA==",
+      "log_id": "ejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS61I=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-06-19T06:31:29Z",
+          "version": "60"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2024-01-01T00:00:00Z",
+        "start_inclusive": "2023-01-01T00:00:00Z"
+      },
+      "url": "https://ct.cloudflare.com/logs/nimbus2023/",
+      "operator": "Cloudflare",
+      "uptime": "99.9985"
+    }
+  ],
+  "DigiCert": [
+    {
+      "description": "DigiCert 'Nessie 2020' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4hHIyMVIrR9oShgbQMYEk8WX1lmkfFKB448Gn93KbsZnnwljDHY6MQqEnWfKGgMOq0gh3QK48c5ZB3UKSIFZ4g==",
+      "log_id": "xlKg7EjOs/yrFwmSxDqHQTMJ6ABlomJSQBujNioXxWU=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-03-18T18:11:49Z",
+          "version": "44"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2021-01-01T00:00:00Z",
+        "start_inclusive": "2020-01-01T00:00:00Z"
+      },
+      "url": "https://nessie2020.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9784"
+    },
+    {
+      "description": "DigiCert 'Nessie 2021' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9o7AiwrbGBIX6Lnc47I6OfLMdZnRzKoP5u072nBi6vpIOEooktTi1gNwlRPzGC2ySGfuc1xLDeaA/wSFGgpYFg==",
+      "log_id": "7sCV7o1yZA+S48O5G8cSo2lqCXtLahoUOOZHssvtxfk=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-03-18T18:12:26Z",
+          "version": "45"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2022-01-01T00:00:00Z",
+        "start_inclusive": "2021-01-01T00:00:00Z"
+      },
+      "url": "https://nessie2021.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9830"
+    },
+    {
+      "description": "DigiCert 'Nessie 2022' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJyTdaAMoy/5jvg4RR019F2ihEV1McclBKMe2okuX7MCv/C87v+nxsfz1Af+p+0lADGMkmNd5LqZVqxbGvlHYcQ==",
+      "log_id": "UaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeU=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-03-18T18:13:27Z",
+          "version": "46"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2023-01-01T00:00:00Z",
+        "start_inclusive": "2022-01-01T00:00:00Z"
+      },
+      "url": "https://nessie2022.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9691"
+    },
+    {
+      "description": "DigiCert 'Nessie 2023' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEXu8iQwSCRSf2CbITGpUpBtFVt8+I0IU0d1C36Lfe1+fbwdaI0Z5FktfM2fBoI1bXBd18k2ggKGYGgdZBgLKTg==",
+      "log_id": "s3N3B+GEUPhjhtYFqdwRCUp5LbFnDAuH3PADDnk2pZo=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:34:00Z",
+          "version": "73"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2024-01-01T00:00:00Z",
+        "start_inclusive": "2023-01-01T00:00:00Z"
+      },
+      "url": "https://nessie2023.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9846"
+    },
+    {
+      "description": "DigiCert 'Yeti 2020' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEURAG+Zo0ac3n37ifZKUhBFEV6jfcCzGIRz3tsq8Ca9BP/5XUHy6ZiqsPaAEbVM0uI3Tm9U24RVBHR9JxDElPmg==",
+      "log_id": "8JWkWfIA0YJAEC0vk4iOrUv+HUfjmeHQNKawqKqOsnM=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2018-05-18T19:25:41Z",
+          "version": "17"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2021-01-01T00:00:00Z",
+        "start_inclusive": "2020-01-01T00:00:00Z"
+      },
+      "url": "https://yeti2020.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9846"
+    },
+    {
+      "description": "DigiCert 'Yeti 2021' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6J4EbcpIAl1+AkSRsbhoY5oRTj3VoFfaf1DlQkfi7Rbe/HcjfVtrwN8jaC+tQDGjF+dqvKhWJAQ6Q6ev6q9Mew==",
+      "log_id": "XNxDkv7mq0VEsV6a1FbmEDf71fpH3KFzlLJe5vbHDso=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2018-05-18T19:25:41Z",
+          "version": "17"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2022-01-01T00:00:00Z",
+        "start_inclusive": "2021-01-01T00:00:00Z"
+      },
+      "url": "https://yeti2021.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9938"
+    },
+    {
+      "description": "DigiCert 'Yeti 2022' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEn/jYHd77W1G1+131td5mEbCdX/1v/KiYW5hPLcOROvv+xA8Nw2BDjB7y+RGyutD2vKXStp/5XIeiffzUfdYTJg==",
+      "log_id": "IkVFB1lVJFaWP6Ev8fdthuAjJmOtwEt/XcaDXG7iDwI=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2018-05-18T19:25:41Z",
+          "version": "17"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2023-01-01T00:00:00Z",
+        "start_inclusive": "2022-01-01T00:00:00Z"
+      },
+      "url": "https://yeti2022.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9954"
+    },
+    {
+      "description": "DigiCert 'Yeti 2023' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfQ0DsdWYitzwFTvG3F4Nbj8Nv5XIVYzQpkyWsU4nuSYlmcwrAp6m092fsdXEw6w1BAeHlzaqrSgNfyvZaJ9y0Q==",
+      "log_id": "Nc8ZG7+xbFe/D61MbULLu7YnICZR6j/hKu+oA8M71kw=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:33:19Z",
+          "version": "72"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2024-01-01T00:00:00Z",
+        "start_inclusive": "2023-01-01T00:00:00Z"
+      },
+      "url": "https://yeti2023.ct.digicert.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9892"
+    },
+    {
+      "description": "DigiCert Log Server",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAkbFvhu7gkAW6MHSrBlpE1n4+HCFRkC5OLAjgqhkTH+/uzSfSl8ois8ZxAD2NgaTZe1M9akhYlrYkes4JECs6A==",
+      "log_id": "VhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2015-12-02T22:55:17Z",
+          "version": "1"
+        }
+      },
+      "url": "https://ct1.digicert-ct.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9969"
+    },
+    {
+      "description": "DigiCert Log Server 2",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzF05L2a4TH/BLgOhNKPoioYCrkoRxvcmajeb8Dj4XQmNY+gxa4Zmz3mzJTwe33i0qMVp+rfwgnliQ/bM/oFmhA==",
+      "log_id": "h3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-09-19T18:24:24Z",
+          "version": "7"
+        }
+      },
+      "url": "https://ct2.digicert-ct.com/log/",
+      "operator": "DigiCert",
+      "uptime": "99.9938"
+    }
+  ],
+  "Google": [
+    {
+      "description": "Google 'Argon 2020' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6Tx2p1yKY4015NyIYvdrk36es0uAc1zA4PQ+TGRY+3ZjUTIYY9Wyu+3q/147JG4vNVKLtDWarZwVqGkg6lAYzA==",
+      "log_id": "sh4FzIuizYogTodm+Su5iiUgZ2va+nDnsklTLe+LkF4=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-12-12T02:57:54Z",
+          "version": "8"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2021-01-01T00:00:00Z",
+        "start_inclusive": "2020-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/argon2020/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Argon 2021' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETeBmZOrzZKo4xYktx9gI2chEce3cw/tbr5xkoQlmhB18aKfsxD+MnILgGNl0FOm0eYGilFVi85wLRIOhK8lxKw==",
+      "log_id": "9lyUL9F3MCIUVBgIMJRWjuNNExkzv98MLyALzE7xZOM=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-12-12T02:57:54Z",
+          "version": "8"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2022-01-01T00:00:00Z",
+        "start_inclusive": "2021-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/argon2021/",
+      "operator": "Google",
+      "uptime": "99.9985"
+    },
+    {
+      "description": "Google 'Argon 2022' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeIPc6fGmuBg6AJkv/z7NFckmHvf/OqmjchZJ6wm2qN200keRDg352dWpi7CHnSV51BpQYAj1CQY5JuRAwrrDwg==",
+      "log_id": "KXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4Q=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-06-19T06:28:07Z",
+          "version": "53"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2023-01-01T00:00:00Z",
+        "start_inclusive": "2022-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/argon2022/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Argon 2023' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0JCPZFJOQqyEti5M8j13ALN3CAVHqkVM4yyOcKWCu2yye5yYeqDpEXYoALIgtM3TmHtNlifmt+4iatGwLpF3eA==",
+      "log_id": "6D7Q2j71BjUy51covIlryQPTy9ERa+zraeF3fW0GvW4=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:34:24Z",
+          "version": "74"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2024-01-01T00:00:00Z",
+        "start_inclusive": "2023-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/argon2023/",
+      "operator": "Google",
+      "uptime": "99.9985"
+    },
+    {
+      "description": "Google 'Icarus' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETtK8v7MICve56qTHHDhhBOuV4IlUaESxZryCfk9QbG9co/CqPvTsgPDbCpp6oFtyAHwlDhnvr7JijXRD9Cb2FA==",
+      "log_id": "KTxRllTIOWW6qlD8WAfUt2+/WHopctykwwz05UVH9Hg=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-05-04T22:18:39Z",
+          "version": "5"
+        }
+      },
+      "url": "https://ct.googleapis.com/icarus/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Pilot' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfahLEimAoz2t01p3uMziiLOl/fHTDM0YDOhBRuiBARsV4UvxG2LdNgoIGLrtCzWE0J5APC2em4JlvR8EEEFMoA==",
+      "log_id": "pLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BA=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2015-12-02T22:55:17Z",
+          "version": "1"
+        }
+      },
+      "url": "https://ct.googleapis.com/pilot/",
+      "operator": "Google",
+      "uptime": "99.9985"
+    },
+    {
+      "description": "Google 'Rocketeer' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIFsYyDzBi7MxCAC/oJBXK7dHjG+1aLCOkHjpoHPqTyghLpzA9BYbqvnV16mAw04vUjyYASVGJCUoI3ctBcJAeg==",
+      "log_id": "7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/cs=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2015-12-02T22:55:17Z",
+          "version": "1"
+        }
+      },
+      "url": "https://ct.googleapis.com/rocketeer/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Skydiver' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEmyGDvYXsRJsNyXSrYc9DjHsIa2xzb4UR7ZxVoV6mrc9iZB7xjI6+NrOiwH+P/xxkRmOFG6Jel20q37hTh58rA==",
+      "log_id": "u9nfvB+KcbWTlCOXqpJ7RzhXlQqrUugakJZkNo4e0YU=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-05-04T22:18:39Z",
+          "version": "5"
+        }
+      },
+      "url": "https://ct.googleapis.com/skydiver/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Xenon 2020' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZU75VqjyzSTgFZKAnWg1QeYfFFIRZTMK7q3kWWZsmHhQdrBYnHRZ3OA4kUeUx0JN+xX+dSgt1ruqUhhl7jOvmw==",
+      "log_id": "B7dcG+V9aP/xsMYdIxXHuuZXfFeUt2ruvGE6GmnTohw=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-06-19T06:29:42Z",
+          "version": "56"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2021-01-01T00:00:00Z",
+        "start_inclusive": "2020-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/xenon2020/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Xenon 2021' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAER+1MInu8Q39BwDZ5Rp9TwXhwm3ktvgJzpk/r7dDgGk7ZacMm3ljfcoIvP1E72T8jvyLT1bvdapylajZcTH6W5g==",
+      "log_id": "fT7y+I//iFVoJMLAyp5SiXkrxQ54CX8uapdomX4i8Nc=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-06-19T06:29:58Z",
+          "version": "57"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2022-01-01T00:00:00Z",
+        "start_inclusive": "2021-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/xenon2021/",
+      "operator": "Google",
+      "uptime": "99.9969"
+    },
+    {
+      "description": "Google 'Xenon 2022' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+WS9FSxAYlCVEzg8xyGwOrmPonoV14nWjjETAIdZvLvukPzIWBMKv6tDNlQjpIHNrUcUt1igRPpqoKDXw2MeKw==",
+      "log_id": "RqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUc=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-06-19T06:30:14Z",
+          "version": "58"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2023-01-01T00:00:00Z",
+        "start_inclusive": "2022-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/xenon2022/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    },
+    {
+      "description": "Google 'Xenon 2023 log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEchY+C+/vzj5g3ZXLY3q5qY1Kb2zcYYCmRV4vg6yU84WI0KV00HuO/8XuQqLwLZPjwtCymeLhQunSxgAnaXSuzg==",
+      "log_id": "rfe++nz/EMiLnT2cHj4YarRnKV3PsQwkyoWGNOvcgoo=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:34:53Z",
+          "version": "75"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2024-01-01T00:00:00Z",
+        "start_inclusive": "2023-01-01T00:00:00Z"
+      },
+      "url": "https://ct.googleapis.com/logs/xenon2023/",
+      "operator": "Google",
+      "uptime": "100.0000"
+    }
+  ],
+  "Let's Encrypt": [
+    {
+      "description": "Let's Encrypt 'Oak2020' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfzb42Zdr/h7hgqgDCo1vrNJqGqbcUvJGJEER9DDqp19W/wFSB0l166hD+U5cAXchpH8ZkBNUuvOHS0OnJ4oJrQ==",
+      "log_id": "5xLysDd+GmL7jskMYYTx6ns3y1YdESZb8+DzS/JBVG4=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:35:51Z",
+          "version": "77"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2021-01-07T00:00:00Z",
+        "start_inclusive": "2020-01-01T00:00:00Z"
+      },
+      "url": "https://oak.ct.letsencrypt.org/2020/",
+      "operator": "Let's Encrypt",
+      "uptime": "99.9969"
+    },
+    {
+      "description": "Let's Encrypt 'Oak2021' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELsYzGMNwo8rBIlaklBIdmD2Ofn6HkfrjK0Ukz1uOIUC6Lm0jTITCXhoIdjs7JkyXnwuwYiJYiH7sE1YeKu8k9w==",
+      "log_id": "lCC8Ho7VjWyIcx+CiyIsDdHaTV5sT5Q9YdtOL1hNosI=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:36:08Z",
+          "version": "78"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2022-01-07T00:00:00Z",
+        "start_inclusive": "2021-01-01T00:00:00Z"
+      },
+      "url": "https://oak.ct.letsencrypt.org/2021/",
+      "operator": "Let's Encrypt",
+      "uptime": "99.9938"
+    },
+    {
+      "description": "Let's Encrypt 'Oak2022' log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEhjyxDVIjWt5u9sB/o2S8rcGJ2pdZTGA8+IpXhI/tvKBjElGE5r3de4yAfeOPhqTqqc+o7vPgXnDgu/a9/B+RLg==",
+      "log_id": "36Veq2iCTx9sre64X04+WurNohKkal6OOxLAIERcKnM=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2019-12-02T18:36:21Z",
+          "version": "79"
+        }
+      },
+      "temporal_interval": {
+        "end_exclusive": "2023-01-07T00:00:00Z",
+        "start_inclusive": "2022-01-01T00:00:00Z"
+      },
+      "url": "https://oak.ct.letsencrypt.org/2022/",
+      "operator": "Let's Encrypt",
+      "uptime": "99.9923"
+    }
+  ],
+  "Sectigo": [
+    {
+      "description": "Sectigo 'Mammoth' CT log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE7+R9dC4VFbbpuyOL+yy14ceAmEf7QGlo/EmtYU6DRzwat43f/3swtLr/L8ugFOOt1YU/RFmMjGCL17ixv66MZw==",
+      "log_id": "b1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RM=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-09-19T18:24:24Z",
+          "version": "7"
+        }
+      },
+      "url": "https://mammoth.ct.comodo.com/",
+      "operator": "Sectigo",
+      "uptime": "99.9614"
+    },
+    {
+      "description": "Sectigo 'Sabre' CT log",
+      "key": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8m/SiQ8/xfiHHqtls9m7FyOMBg4JVZY9CgiixXGz0akvKD6DEL8S0ERmFe9U4ZiA0M4kbT5nmuk3I85Sk4bagA==",
+      "log_id": "VYHUwhaQNgFK6gubVzxT8MDkOHhwJQgXL6OqHQcT0ww=",
+      "mmd": 86400,
+      "state": {
+        "usable": {
+          "timestamp": "2017-09-19T18:24:24Z",
+          "version": "7"
+        }
+      },
+      "url": "https://sabre.ct.comodo.com/",
+      "operator": "Sectigo",
+      "uptime": "99.9830"
+    }
+  ]
+}

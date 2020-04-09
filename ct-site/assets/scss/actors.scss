@@ -1,0 +1,151 @@
+#actor-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @include md {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  li {
+    margin: 0 0 2rem;
+    padding: 0;
+    border-radius: 2px;
+    display: flex;
+    flex-flow: row wrap;
+
+
+    @include sm {
+      width: 100%;
+    }
+
+    @include md {
+      // min-height: 230px;
+    }
+
+    a.link {
+      text-decoration: none;
+      display: block;
+      position: relative;
+      width: 100%;
+      border-radius: 2px;
+
+      &:link, &:visited {
+        color: $col-black;
+        border: 1px solid $col-midgrey;
+      }
+      &:hover {
+        // border: 1px solid red;
+        border: 1px solid $col-black;
+        text-decoration: none;
+
+        .arr {
+          transform: translate(5px, 0)
+        }
+      }
+    }
+
+    &.add {
+      border: none;
+      background: #ccc;
+      text-align: center;
+      .top {
+        font-family: $font-sans;
+        justify-content: flex-end;
+        h3 {
+          font-weight: normal;
+          margin: 0;
+          font-size: 8rem;
+        }
+      }
+      .body {
+        text-align: center;
+        color: $col-greyish;
+        margin-top: 0.5rem;
+        p {
+          width: 100%;
+          margin: 0 0 0.3rem;
+        }
+        strong {
+          font-family: $font-sans, "Helvetica", "Arial", sans-serif;
+          font-size: 1rem;
+          font-weight: 700;
+          letter-spacing: -0.035em;
+        }
+        padding: 0 0 1rem;
+      }
+    }
+
+    .top {
+      padding: 1rem;
+      text-align: center;
+      min-height: 140px;
+      border-radius: 2px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h3 {
+        font-size: 1.6rem;
+        flex: 0 0;
+      }
+
+      .img-container {
+        display: block;
+        flex: 1 0;
+        text-align: center;
+        margin: 0 auto;
+        // max-height: 100px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+          flex: 0 0;
+          display: block;
+          width: 100%;
+          height: auto;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .body {
+      line-height: 1.75;
+      background: #ccc;
+      padding: 1rem;
+      font-family: $font-mono;
+      color: $col-greyish;
+
+      @include md {
+        min-height: 140px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h4 {
+        display: block;
+        font-weight: bold;
+        margin: 0;
+      }
+    }
+    .arr {
+      position: absolute;
+      bottom: 0.5rem;
+      right: 1rem;
+      text-align: right;
+      font-family: $font-mono;
+      display: block;
+      font-weight: bold;
+      font-size: 2rem;
+      line-height: 1;
+      width: 100%;
+      margin-top: auto;
+
+      transition: 0.2s ease-in-out;
+    }
+  }
+}

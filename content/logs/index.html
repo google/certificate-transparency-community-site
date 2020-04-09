@@ -1,0 +1,107 @@
+<!--
+ Copyright 2020 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+---
+title: Logs
+url: /logs
+layout: index
+aliases:
+  - /known-logs
+---
+<section>
+  <div class='wrap-outer noscroll'>
+    <div class='wrap'>
+      <div class="illustrated-head">
+        <object title="Logs" style="margin-top: 25px;" class="logs svg-obj sm" data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml" data="img/logs-header-small.svg"></object>
+        <object title="Logs" style="margin-top: 25px;" class="logs svg-obj md" data-animate-svg-selector=".anim" data-animated-stroke-width="2px" type="image/svg+xml" data="img/logs-header.svg"></object>
+        <div class='page-heading half'>
+          <div class='head-group'>
+            <div class='prehead'>Logs</div>
+            <h1>The list of current, <br/>usable logs</h1>
+          </div>
+          <div class='details'>
+            <p>Certificate Transparency logs are "append-only" and publicly-auditable ledgers of certificates being created, updated, and expired.</p>
+            <p class='link-buttons'>
+              <a class="linkbutton" href='{{< ref "monitors" >}}'>Go to Monitors</a>
+              <a class="linkbutton" href='{{< ref "user_agents" >}}'>Go to User Agents</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class='wrap-outer tint'>
+    <div class='wrap'>
+      <ul id="actor-grid">
+        {{< logs-grid >}}
+        <li class='add'>
+          <a class='link' href='{{< siteparams "googlegroup" >}}'>
+            <div class='top'>
+              <img src='{{<abs "img/plus-sign.svg">}}'>
+            </div>
+            <div class='body'>
+              <p><strong>Add your Log to this list</strong></p>
+              <p><span class='add-join'>Join the Google Group</span></p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="logs">
+  <div class="wrap-outer">
+    <div class='wrap'>
+      <h2 class='middle'>All Usable Logs</h2>
+      <table id="logs-table">
+      <thead>
+          <tr>
+            <th class='orgcol'>Organisation</th>
+            <th>Log name</th>
+            <th class='datecol'>Start</th>
+            <th class='datecol'>End</th>
+            <th class='uptime'>Uptime (%)<a href="#uptime-footnote"><sup>*</sup></a></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="5" class="loading">Loading logs...</td></tr>
+        </tbody>
+      </table>
+
+      <div id="uptime-footnote" name="uptime-footnote" class='table-footnotes'>
+        <sup>*</sup>Uptime as measured by Google's network perspectives.
+      </div>
+
+      <div id="logtable-disclaimer">
+        For production use, please refer to the published log lists from user agents.
+      </div>
+
+      <div>
+        <div class='cta'>
+          <a class='link' href='https://letsencrypt.org/2019/11/20/how-le-runs-ct-logs.html'>
+            <h4>Learn how to run a log</h4>
+            <p>
+              Read about Let's Encrypt setting up a log
+            </p>
+          </a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,5 @@
+<svg width="219" height="219" viewBox="0 0 219 219" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="109.5" cy="110" r="79" fill="#FFE5E5" stroke="#1A1B1F" stroke-width="2"/>
+<path class='anim rev' d="M76.5226 38.5C84.5844 16.115 96.3706 2 109.5 2C133.801 2 153.5 50.3532 153.5 110C153.5 169.647 133.801 218 109.5 218C96.4687 218 84.7605 204.095 76.7038 182" stroke="#1A1B1F" stroke-width="2" stroke-dasharray="6 3"/>
+<path class='anim rev' d="M181 77.0226C203.385 85.0844 217.5 96.8706 217.5 110C217.5 134.301 169.147 154 109.5 154C49.8532 154 1.5 134.301 1.5 110C1.5 96.9687 15.405 85.2605 37.5 77.2038" stroke="#1A1B1F" stroke-width="2" stroke-dasharray="6 3"/>
+</svg>

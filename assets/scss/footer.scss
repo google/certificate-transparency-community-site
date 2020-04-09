@@ -1,0 +1,229 @@
+#footer-container {
+  // position: absolute;
+  // margin-top: 2rem;
+  // bottom: 0;
+  width: 100%;
+  // border: 1px solid red;;
+}
+#footer {
+  @include responsive-wrapper;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  font-family: $font-mono, monospace;
+  font-size: 0.75rem;
+
+  a {
+    &:link, &:visited {
+      color: $col-greyish;
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      color: $col-greyish;
+      text-decoration: underline;
+    }
+  }
+
+  .row {
+    line-height: 1.75;
+
+    @include sm {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+
+    @include md {
+      display: flex;
+      &.rev {
+        flex-direction: row-reverse;
+      }
+    }
+
+    h3 {
+      margin: 0 0 2rem;
+      font-family: $font-sans, "Helvetica", "Arial", sans-serif;
+
+      font-weight: 700;
+      letter-spacing: -0.035em;
+
+      @include md {
+        flex: 1;
+      }
+    }
+
+    .tag {
+      @include md {
+        flex: 1;
+        position: relative;
+      }
+      span {
+        color: $col-greyish;
+        @include md {
+          position: absolute;
+          bottom: 0;
+        }
+      }
+    }
+
+   }
+
+  ul.footer-menu {
+    line-height: 1.75;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @include sm {
+      display: block;
+      margin: 0 0 2rem;
+    }
+
+    @include md {
+      flex: 1;
+      display: flex;
+    }
+    
+    li {
+      margin: 0;
+      padding: 0;
+    }
+    
+    > li {
+      @include md {
+        flex: 1;
+      }
+
+      @include sm {
+        margin: 0 0 1rem;
+      }
+    }
+  
+    li > ul {
+      // margin: 1rem 0 0;
+      padding: 0;
+      list-style: none;
+      text-align: left;
+
+      @include sm {
+        display: block;
+        margin: 0 0 2rem;
+      }
+
+
+      li {
+        display: block;
+        text-align: left;
+        margin-bottom: 1rem;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}
+
+#bigfooter {
+  clear: both;
+  margin: 2rem 0;
+  line-height: 105%;
+
+  @include sm {
+    font-size: 1.7rem;
+    margin: -2rem 0 0;
+  }
+
+  @include md {
+    font-size: 1.9rem;
+    margin: -2rem 0 4rem;
+  }
+
+  @include lg {
+    font-size: 2.1rem;
+    margin: 2rem 0 4rem;
+  }
+    
+
+  a {
+    &:link, &:visited {
+      color: $col-black;
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    text-align: center;
+    line-height: 1;
+    margin: 0 0 2rem;
+    letter-spacing: -0.035em;
+    font-weight: 700;
+    &:last-of-type {
+      // margin: 0;
+    }
+  }
+
+  .wrap-outer {
+    border: 1px solid white;
+    position: relative;
+    // min-height: unset;
+
+    @include md {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      // min-height: 312px;
+    }
+
+    @include lg {
+      // min-height: 420px;
+    }
+
+    @include sm {
+      &.noscroll {
+        overflow: unset;
+      }
+    }
+  }
+
+  .inner {
+    background: white;
+    font-weight: 600;
+    color: $col-midgrey;
+
+    // flex: 1;
+
+    margin: 0 auto;
+
+    p {
+      color: $col-midgrey;
+    }
+
+    br {
+      @include sm {
+        display: none;
+      }
+    }
+
+    @include sm {
+      // margin: 0 3rem;
+    }
+
+    @include sm {
+      padding: 0 1.5em;
+    }
+
+    @include md {
+      margin: 0 auto;
+      width: 665px;
+      padding: 0 4rem;
+    }
+    @include lg {
+      padding: 0;
+    }
+  }
+}

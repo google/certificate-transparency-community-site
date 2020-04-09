@@ -1,0 +1,306 @@
+.home-illustration {
+  object.svg-obj {
+    display: none;
+    @include sm {
+      &.sm {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+    @include md {
+      &.md {
+        display: block;
+      }
+      margin-left: -111px;
+      width: 955px
+    }
+    @include lg {
+      margin-left: -145px;
+      width: 1270px;
+    }
+  }
+}
+
+#home-postimage {
+  h2 {
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+    color: $col-greyish;
+    line-height: 115%;
+    letter-spacing: -0.035em;
+    font-size: 1.4rem;
+    font-weight: 700;
+    strong {
+      color: map-get(map-get($palettes, 'home'), "dark");
+      font-weight: 700;
+    }
+
+    @include sm {
+      margin: 9.5vw 0 0 0;
+      // padding: 0 1rem;
+      padding: 0;
+    }
+    @include md {
+      margin: 4rem 0 0 0;
+      padding: 0 18%;
+    }
+    @include lg {
+      margin: 5.5rem 0 0 0;
+      padding: 0 22%;
+    }
+  }
+
+  p {
+    font-family: $font-mono, monospace;
+    @include sm {
+      margin: 9.5vw 0 9.5vw 0;
+    }
+    @include md {
+      margin: 2rem 0 4rem 0;
+    }
+    @include lg {
+      margin: 3.4rem 0 5.5rem 0;
+    }
+  }
+}
+
+#home-credits {
+  background: $col-tintblue;
+  .thanks-small {
+    font-family: $font-mono, monospace;
+    text-align: center;
+    padding-top: 4rem;
+
+    @include sm {
+      margin: 9.5vw 0 9.5vw 0;
+    }
+
+    @include md {
+      margin: 4rem 0 2rem 0;
+    }
+
+    @include lg {
+      margin: 5.5rem 0 3.4rem 0;
+    }
+  }
+  .thanks-large {
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    font-size: 2rem;
+    text-align: center;
+    color: $col-black;
+    padding-bottom: 4rem;
+    line-height: 1;
+    margin: 0;
+
+    @include sm {
+      margin-bottom: 9.5vw;
+    }
+  }
+
+  ul.operators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+
+    li {
+      min-width: 162px;
+      margin-bottom: 2.5rem;
+      display: inline-block;
+      padding: 0 1.2rem;
+
+      vertical-align: middle;
+
+      img {
+        max-width: 200px;
+      }
+
+      a {
+        display: block;
+        background-position: 50% 50% !important;
+      }
+    }
+  }
+}
+
+#home-details {
+  @include sm {
+    margin-top: 11vw;
+  }
+  @include md {
+    margin-top: 4.4rem;
+  }
+  @include lg {
+    margin-top: 5.9rem;
+  }
+  .details-segment {
+    clear: both;
+    margin: 0 0 7rem;
+
+    p {
+      font-family: $font-mono;
+    }
+
+    h3 {
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -0.035em;
+      line-height: 105%;
+      @include sm {
+        font-size: 1.7rem;
+        margin-top: 9.5vw;
+      }
+      @include md {
+        font-size: 1.9rem;
+      }
+      @include lg {
+        font-size: 2.2rem;
+      }
+    }
+
+    img, .svg-obj {
+      margin-bottom: 3rem;
+      @include sm {
+        max-width: 100%;
+      }
+
+      @include sm {
+        &.sm {
+          display: block;
+          width: 100%;
+        }
+        &.md {
+          display: none;
+        }
+      }
+      @include md {
+        &.sm {
+          display: none;
+        }
+        &.md {
+          display: block;
+        }
+      }
+      @include lg {
+        margin-bottom: 10rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    @include md {
+      h3 {
+        padding-top: 0.8rem;
+      }
+      &.image-left, &.image-right {
+        p {
+          width: 50%;
+        }
+        h3 {
+          width: 50%;
+        }
+      }
+
+      img, .svg-obj {
+        width: 55%;
+      }
+
+      &.image-left {
+        img, .svg-obj {
+          float: left;
+          margin-left: -15%;
+        }
+
+        p, h3 {
+          padding-left: 50%;
+        }
+      }
+      &.image-right {
+        img, .svg-obj {
+          float: right;
+          margin-right: -15%;
+
+          &.last {
+            margin-bottom: 6rem;
+          }
+        }
+      }
+    }
+
+    @include lg {
+      img, svg-obj {
+        width: 100%;
+      }
+    }
+
+    &.hero {
+      font-family: $font-sans, "Helvetica", "Arial", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      font-size: 4.5rem;
+      letter-spacing: -0.035em;
+      line-height: 1.5;
+      margin-top: 0;
+
+      color: $col-midgrey;
+
+      span {
+        color: $col-black;
+      }
+
+      .small {
+        font-family: $font-mono;
+        font-size: 1rem;
+        color: $col-bodyblack;
+        font-weight: normal;
+        line-height: 1.75;
+        letter-spacing: -0.025em;
+        display: block;
+      }
+
+      .cert-count {
+        font-size: 4.5rem;
+        display: block;
+        letter-spacing: -0.04em;
+        font-weight: 700;
+        line-height: 1.5;
+        @include sm {
+          font-size: 3rem;
+        }
+      }
+
+      .inner {
+        @include md {
+          padding: 1rem 3rem;
+        }
+        @include sm {
+          padding: 1rem 0;
+        }
+
+        &.tight {
+          line-height: 1;
+          letter-spacing: -0.035rem;
+          @include sm {
+            font-size: 1.7rem;
+          }
+          @include md {
+            padding-top: 1.3rem;
+            font-size: 1.9rem;
+            margin: 0;
+          }
+          @include lg {
+            padding-top: 2rem;
+            margin: 0;
+            font-size: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@mixin font-face($font-family, $url, $weight:"", $style:"") {
+	@font-face {
+		font-family: '#{$font-family}';
+		src: url('#{$url}.eot');
+		src: url('#{$url}.eot?#iefix') format('embedded-opentype'),
+		     url('#{$url}.woff') format('woff'),
+         url('#{$url}.ttf') format('truetype');
+
+    @if $weight != "" {
+    font-weight: $weight;
+    }
+    @if $style != "" {
+    font-style: $style;
+    }
+	}
+}
+
+@include font-face('iAWriterDuoS', '../fonts/iAWriterDuoS-Bold', bold);
+@include font-face('iAWriterDuoS', '../fonts/iAWriterDuoS-Regular', normal);
+
+$font-mono: 'iAWriterDuoS';
+$font-sans: 'Inter';

@@ -1,0 +1,170 @@
+#illustration-and-steps {
+  position: relative;
+  clear: both;
+  margin-bottom: 3rem;
+
+  @include md {
+    display: flex;
+  }
+}
+#large-illustration {
+  display: none;
+
+  @include md {
+    display: block;
+    flex:0 0 40%;
+    width: 100%;
+    z-index: 20;
+
+    .svg-obj {
+      width: 100%;
+    }
+  }
+  @include lg {
+    display: block;
+    flex:0 0 50%;
+    .svg-obj {
+      width: unset;
+    }
+  }
+}
+#step-by-step {
+  @include md {
+    flex: 0 0 60%;
+    z-index: 1;
+  }
+  @include lg {
+    flex: 0 0 50%;
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: $col-black;
+    
+    > li {
+      line-height: 1;
+
+      color: $col-black;
+
+      margin: 0;
+      padding: 0;
+
+      @include sm {
+        margin: 0 0 2rem;
+        margin-top: 0 !important;
+      }
+
+      @include md {
+        margin: -3px 0 0;
+      position: absolute;
+      }
+
+      .illustration {
+        z-index:10;
+
+        @include sm {
+          margin: 2rem auto;
+        }
+
+        @include md {
+          display: none;
+        }
+      }
+
+      .arm-and-description {
+        position: relative;
+
+        @include sm {
+          margin-top: 0 !important;
+        }
+
+        @include md {
+          flex: 0 0 370px;
+          justify-self: end;
+          margin-left: 2rem;
+        }
+
+        .arm {
+          display: none;
+          @include md {
+            border-top: 1px solid $col-black;
+            width: 224px;
+            height: 1px;
+            display: block;
+            position: absolute;
+            top:40px;
+            right: 100%;
+            z-index: 1;
+          }
+          @include lg {
+            width: 360px;
+          }
+        }
+        
+        .index {
+          display: block !important;
+          position: absolute;
+          right: calc(100% + 5px);
+          z-index: 10;
+          font-family: $font-mono, monospace;
+        }
+
+      }
+
+      .description {
+        z-index: 3;
+        background: white;
+        border-left: 1px solid $col-black;
+        padding: 0 0 0 1rem;
+        margin: 0;
+        overflow: auto;
+
+        font-family: $font-mono, monospace;
+
+        @include sm {
+          font-size: 0.8rem;
+        }
+
+        @include md {
+          font-size: 0.7rem;
+        }
+
+        @include lg {
+          font-size: 0.8rem;
+        }
+
+        line-height: 1.75;
+
+        h3 {
+          margin: 0 0 0.5rem;
+          font-weight: 600;
+          color: $col-black;
+        }
+
+        ul {
+          list-style: disc;
+          li {
+            line-height: 1.75;
+            margin: 0 0 1rem;
+            color: $col-bodyblack;
+          }
+        }
+
+        p {
+          color: $col-bodyblack;
+          margin: 0 0 1rem;
+          &:last-child {
+            margin: 0;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+#merkle {
+  clear: both;
+}

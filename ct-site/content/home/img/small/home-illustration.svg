@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 385 145" style="enable-background:new 0 0 385 145;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:6,3;}
+	.st1{fill:none;stroke:#B0B1B5;}
+	.st2{fill:#D6FFF8;stroke:#1A1B1F;stroke-width:2;}
+	.st3{fill:#D6FFF8;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:4,3;}
+	.st4{fill:none;stroke:#1A1B1F;stroke-width:2;}
+	.st5{fill:#FFFFFF;stroke:#1A1B1F;stroke-width:2;stroke-miterlimit:4;}
+	.st6{fill:#D6FFF8;}
+	.st7{fill:none;stroke:#000000;stroke-width:2;}
+</style>
+<path class="anim st0" d="M72,25H61"/>
+<line class="st1" x1="252.5" y1="0" x2="252.5" y2="25"/>
+<line class="st1" x1="265" y1="12.5" x2="240" y2="12.5"/>
+<line class="st1" x1="312.5" y1="0" x2="312.5" y2="25"/>
+<line class="st1" x1="325" y1="12.5" x2="300" y2="12.5"/>
+<line class="st1" x1="192.5" y1="0" x2="192.5" y2="25"/>
+<line class="st1" x1="205" y1="12.5" x2="180" y2="12.5"/>
+<line class="st1" x1="72.5" y1="0" x2="72.5" y2="25"/>
+<line class="st1" x1="85" y1="12.5" x2="60" y2="12.5"/>
+<line class="st1" x1="372.5" y1="0" x2="372.5" y2="25"/>
+<line class="st1" x1="385" y1="12.5" x2="360" y2="12.5"/>
+<line class="st1" x1="132.5" y1="0" x2="132.5" y2="25"/>
+<line class="st1" x1="145" y1="12.5" x2="120" y2="12.5"/>
+<line class="st1" x1="12.5" y1="0" x2="12.5" y2="25"/>
+<line class="st1" x1="25" y1="12.5" x2="0" y2="12.5"/>
+<line class="st1" x1="252.5" y1="60" x2="252.5" y2="85"/>
+<line class="st1" x1="265" y1="72.5" x2="240" y2="72.5"/>
+<line class="st1" x1="312.5" y1="60" x2="312.5" y2="85"/>
+<line class="st1" x1="325" y1="72.5" x2="300" y2="72.5"/>
+<line class="st1" x1="192.5" y1="60" x2="192.5" y2="85"/>
+<line class="st1" x1="205" y1="72.5" x2="180" y2="72.5"/>
+<line class="st1" x1="72.5" y1="60" x2="72.5" y2="85"/>
+<line class="st1" x1="85" y1="72.5" x2="60" y2="72.5"/>
+<line class="st1" x1="372.5" y1="60" x2="372.5" y2="85"/>
+<line class="st1" x1="385" y1="72.5" x2="360" y2="72.5"/>
+<line class="st1" x1="132.5" y1="60" x2="132.5" y2="85"/>
+<line class="st1" x1="145" y1="72.5" x2="120" y2="72.5"/>
+<line class="st1" x1="12.5" y1="60" x2="12.5" y2="85"/>
+<line class="st1" x1="25" y1="72.5" x2="0" y2="72.5"/>
+<line class="st1" x1="252.5" y1="120" x2="252.5" y2="145"/>
+<line class="st1" x1="265" y1="132.5" x2="240" y2="132.5"/>
+<line class="st1" x1="312.5" y1="120" x2="312.5" y2="145"/>
+<line class="st1" x1="325" y1="132.5" x2="300" y2="132.5"/>
+<line class="st1" x1="192.5" y1="120" x2="192.5" y2="145"/>
+<line class="st1" x1="205" y1="132.5" x2="180" y2="132.5"/>
+<line class="st1" x1="72.5" y1="120" x2="72.5" y2="145"/>
+<line class="st1" x1="85" y1="132.5" x2="60" y2="132.5"/>
+<line class="st1" x1="372.5" y1="120" x2="372.5" y2="145"/>
+<line class="st1" x1="385" y1="132.5" x2="360" y2="132.5"/>
+<line class="st1" x1="132.5" y1="120" x2="132.5" y2="145"/>
+<line class="st1" x1="145" y1="132.5" x2="120" y2="132.5"/>
+<line class="st1" x1="12.5" y1="120" x2="12.5" y2="145"/>
+<line class="st1" x1="25" y1="132.5" x2="0" y2="132.5"/>
+<rect x="19" y="97" class="st2" width="35" height="11"/>
+<rect x="31" y="115" class="st2" width="35" height="11"/>
+<rect x="26" y="79" class="anim rev st3" width="35" height="11"/>
+<line class="st4" x1="43" y1="90.6" x2="43" y2="96.9"/>
+<line class="st4" x1="43" y1="126.1" x2="43" y2="131.8"/>
+<line class="st4" x1="43" y1="108.1" x2="43" y2="114.4"/>
+<rect x="13" y="73" class="st4" width="59" height="59"/>
+<rect x="91" y="97" class="st2" width="35" height="11"/>
+<rect x="85" y="115" class="st2" width="35" height="11"/>
+<rect x="79" y="79" class="anim rev st3" width="35" height="11"/>
+<line class="st4" x1="103" y1="90.6" x2="103" y2="96.9"/>
+<line class="st4" x1="103" y1="126.1" x2="103" y2="131.8"/>
+<line class="st4" x1="103" y1="108.1" x2="103" y2="114.4"/>
+<path class="st4" d="M132,73v59H73"/>
+<rect x="85" y="37" class="st2" width="35" height="11"/>
+<rect x="91" y="55" class="st2" width="35" height="11"/>
+<rect x="79" y="19" class="anim rev st3" width="35" height="11"/>
+<line class="st4" x1="103" y1="30.6" x2="103" y2="36.9"/>
+<line class="st4" x1="103" y1="66.1" x2="103" y2="71.8"/>
+<line class="st4" x1="103" y1="48.1" x2="103" y2="54.4"/>
+<rect x="73" y="13" class="st4" width="59" height="59"/>
+<path class="st2" d="M1,1h47l12,12v47H1V1z"/>
+<rect x="40.9" y="40.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -19.1361 46.7719)" class="st5" width="12" height="12"/>
+<path class="st4" d="M47,1v13h13"/>
+<line class="st4" x1="6.8" y1="19.4" x2="43.6" y2="19.4"/>
+<line class="st4" x1="6.8" y1="25.7" x2="31.5" y2="25.7"/>
+<rect x="253" y="13" class="anim rev st0" width="119" height="119"/>
+<path class="st6" d="M334,41l8,7l8-22l8,7v26h-8h-8h-8h-8v-4.2L334,41z"/>
+<path class="st4" d="M334,41v18 M342,48v11 M350,26l0,33 M334,59c-2.6,0-4.9,0-8,0v-4.2l8-13.8l8,7l8-22l8,7v26c-2.9,0-5.5,0-8,0
+	c-3,0-5.2,0-8,0C339.4,59,336.8,59,334,59z"/>
+<ellipse class="st2" cx="355" cy="100" rx="15" ry="15"/>
+<path class="st2" d="M354.5,115c-16.3,0-29.5,13-29.5,29h59C384,128,370.8,115,354.5,115z"/>
+<rect x="266" y="86" class="st2" width="33" height="33"/>
+<line class="st7" x1="284" y1="86" x2="284" y2="119"/>
+<line class="st7" x1="277" y1="86" x2="277" y2="119"/>
+<line class="st7" x1="271" y1="86" x2="271" y2="119"/>
+<circle class="st2" cx="282.5" cy="43.5" r="16.5"/>
+<path class="st7" d="M282.5,27v16.5l-7.3,14.8"/>
+<path class="st7" d="M282.5,43.5L268.4,35"/>
+<path class="anim st0" d="M193,73V42h-60"/>
+<path class="anim st0" d="M252,73h-90v29h-29"/>
+<path class="anim st0" d="M222,73v71H43v-11"/>
+<path class="anim st0" d="M43,72V61"/>
+<path class="anim st0" d="M72.7,72.3l-13-13"/>
+</svg>

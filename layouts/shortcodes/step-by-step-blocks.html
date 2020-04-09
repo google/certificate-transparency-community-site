@@ -1,0 +1,39 @@
+<!--
+ Copyright 2020 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+{{ $stepbyBundle := .Site.GetPage "/stepbystep" }}
+{{ $steps := $stepbyBundle.Resources.Match "*.md" }}
+<ol>
+  {{ range $index, $step := $steps}}
+  <li data-margin-top-md="{{ .Params.marginTopMd }}" data-margin-top-lg="{{ .Params.marginTop }}">
+    <div class='illustration'>
+      <object title="{{.Title}}" data-animate-svg-selector=".anim" class='svg-obj' data-animated-stroke-width="1px"
+        type="image/svg+xml" data="img/stepby/{{ add $index 1 }}.svg"></object>
+    </div>
+    <div class='arm-and-description'>
+      <div class='arm'>
+      </div>
+      <div class='index'>{{ add $index 1 }}</div>
+      <div {{if .Params.overflowAt}}data-overflow-at='{{.Params.overflowAt}}' {{end}}class='description'>
+        <h3>{{.Title}}</h3>
+        <div class='body'>
+          {{.Content}}
+        </div>
+      </div>
+    </div>
+  </li>
+  {{ end }}
+</ol>

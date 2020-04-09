@@ -1,0 +1,177 @@
+
+.page-heading {
+  flex: none;
+
+  position: relative;
+  z-index: 10;
+
+  &.half {
+    @include md {
+      width: 58%;
+    }
+
+    @include sm {
+      margin: 10vw 0 9.5vw 0;
+    }
+
+    .head-group {
+      @include md {
+        padding-top: 1.15rem;
+        min-height: 199px;
+      }
+      @include lg {
+        padding-top: 1.5rem;
+        min-height: 261px;
+      }
+    }
+  }
+
+  &.almost-full {
+    margin: 2rem 0;
+    @include sm {
+      margin: 10vw 0 9.5vw 0;
+      width: 100%;
+    }
+    @include md {
+      margin: 3rem 0 4rem 0;
+      width: 97%;
+    }
+    @include lg {
+      margin: 4rem 0 5.5rem 0;
+      width: 97%;
+    }
+  }
+
+  .prehead {
+    font-family: $font-mono, monospace;
+    font-size: 1.3rem;
+    line-height: 1.75;
+    letter-spacing: -0.055em;
+    color: $col-eyebrow-grey;
+
+    @include sm {
+      &.md {
+        display: none;
+      }
+    }
+  }
+
+  h1 {
+    margin: 0 0 2rem;
+    font-size: 3rem;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+    line-height: 1.1;
+
+    @include sm {
+      font-size: 2.6rem;
+      br {
+        display: none;
+      }
+    }
+
+    @include md {
+      margin: 0 0 1rem;
+    }
+  }
+
+  .details {
+    font-family: $font-mono, monospace;
+
+    h4 {
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 0;
+      line-height: 1.75rem;
+    }
+
+    @include md {
+      width: 85%;
+
+      p:first-of-type {
+        margin-top: 2px;
+      }
+    }
+
+    p.link-buttons {
+      margin-top: 3rem;
+    }
+  }
+
+  ol {
+    margin: 0;
+    padding-left: 2rem;
+    color: $col-greyish;
+
+    li {
+      line-height: 1.75rem;
+      a {
+        &:link, &:visited {
+          color: $col-greyish;
+          text-decoration: none;
+        }
+        &:hover, &:active {
+          color: $col-greyish;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+body#scheme-home {
+  .page-heading {
+    h1 {
+      text-align: center;
+
+      @include md {
+        padding: 0;
+      }
+      @include lg {
+        padding: 0 12%;
+      }
+    }
+  }
+}
+
+.illustrated-head {
+  position: relative;
+  margin: 0 0 3rem;
+
+  @include md {
+    min-height: 300px;
+  }
+
+  .svg-obj {
+    z-index: 1;
+    @include sm {
+      &.sm {
+        display: block;
+        width: 100%;
+      }
+      &.md {
+        display: none;
+      }
+    }
+
+    @include md {
+      position: absolute;
+      top: 0;
+
+      left: -111px;
+      width: 955px;
+      &.sm {
+        display: none;
+      }
+      &.md {
+        display: block;
+      }
+    }
+
+    @include lg {
+      left: -145px;
+      width: 1270px
+    }
+
+  }
+}

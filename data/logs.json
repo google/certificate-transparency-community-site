@@ -1,0 +1,34 @@
+{
+  "logs": [
+    {
+      "name": "Cloudflare",
+      "url": "https://blog.cloudflare.com/introducing-certificate-transparency-and-nimbus/",
+      "description": "",
+      "logo": "cloudflare.svg"
+    },
+    {
+      "name": "Digicert",
+      "url": "https://www.digicert.com/blog/digicerts-certificate-transparency-log-approved/",
+      "description": "",
+      "logo": "digicert.svg"
+    },
+    {
+      "name": "Google",
+      "url": "https://transparencyreport.google.com/https/certificates",
+      "description": "",
+      "logo": "google.svg"
+    },
+    {
+      "name": "Let's Encrypt",
+      "url": "https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html",
+      "description": "",
+      "logo": "lets-encrypt.svg"
+    },
+    {
+      "name": "Sectigo",
+      "url": "https://github.com/sectigo/CTLogs-AcceptedRoots/",
+      "description": "",
+      "logo": "sectigo.svg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "user_agents": [
+    {
+      "name": "Google Chrome",
+      "url": "https://github.com/chromium/ct-policy#chromium-certificate-transparency-policy",
+      "description": "Supporting CT since early 2015",
+      "logo": "chrome-logo.svg",
+      "customWidth": 90,
+      "textTitle": true
+    },
+    {
+      "name": "Apple Safari",
+      "url": "https://support.apple.com/en-gb/HT205280",
+      "description": "Supporting CT since 2018",
+      "logo": "apple.svg",
+      "customWidth": 70,
+      "textTitle": true
+    }
+  ]
+}

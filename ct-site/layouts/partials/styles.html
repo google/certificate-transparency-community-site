@@ -1,0 +1,33 @@
+<!--
+ Copyright 2020 Google LLC
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+{{/* this is all so we get sensible sourcemaps. Likely to be fixed around Hugo 0.63/0.64 */}}
+{{- $sassOptions := dict "targetPath" "/css/ct.css" -}}
+
+{{- if eq hugo.Environment "production" -}}
+  {{- $sassOptions = merge $sassOptions (dict "outputStyle" "compressed") -}}
+{{- else -}}
+  {{- $sassOptions = merge $sassOptions (dict "enableSourceMap" true) -}}
+{{- end -}}
+
+{{- $style := resources.Get "scss/ct.scss" | toCSS $sassOptions -}}
+
+{{- if eq hugo.Environment "production" -}}
+  {{- $style = $style | postCSS | fingerprint -}}
+{{- end }}
+
+<link href="https://fonts.googleapis.com/css?family=Inter:700,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ $style.Permalink | relURL }}">
