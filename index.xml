@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Certificate Transparency</title>
+    <link>https://certificate.transparency.dev/</link>
+    <description>Recent content on Certificate Transparency</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://certificate.transparency.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://certificate.transparency.dev/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/community/</guid>
+      <description>--- title: Community url: /community layout: index ---    Our Story Thank you to our amazing community  Certificate Transparency works thanks to the ecosystem of people and organizations who set up and run user agents, logs and monitors. Join us!
+ Join Google Group         Our origin story  Certificate Transparency was a response to the 2011 attack on DigiNotar and other Certificate Authorities.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://certificate.transparency.dev/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/home/</guid>
+      <description>--- title: Home date: 2019-11-30T15:26:08+00:00 url: / layout: home aliases: - /benefits - /what-is-ct ---  Working together to detect maliciously or mistakenly issued certificates.          An ecosystem that makes the issuance of website certificates transparent and verifiable.    To the participants of the Certificate Transparency (CT) ecosystem, who give their time, expertise, and resources to help keep the web secure.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://certificate.transparency.dev/howctworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/howctworks/</guid>
+      <description>--- title: How CT Works url: /howctworks layout: index aliases: - /log-proofs-work - /how-ct-works ---    How CT works How CT fits into the wider Web PKI ecosystem  Contents:  Certificate Transparency: an ecosystem Certificate Transparency: step by step How Certificate Transparency fits in Web Public Key Infrastructure        Certificate Transparency: an ecosystem Certificates are deposited in public, transparent logs Certificate logs are append-only ledgers of certificates.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://certificate.transparency.dev/logs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/logs/</guid>
+      <description>--- title: Logs url: /logs layout: index aliases: - /known-logs ---    Logs The list of current, usable logs  Certificate Transparency logs are &#34;append-only&#34; and publicly-auditable ledgers of certificates being created, updated, and expired.
+Go to Monitors Go to User Agents                                                      Add your Log to this list</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://certificate.transparency.dev/monitors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/monitors/</guid>
+      <description>--- title: Monitors url: /monitors layout: index aliases: - /resources-for-site-owners ---    Monitors The list of existing monitors  Monitors make sure that all logged certificates are visible in the log and watch for suspicious certificates in logs
+Go to Logs Go to User Agents                   Get an email every time a certificate is issued for one of your monitored domains.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://certificate.transparency.dev/user_agents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://certificate.transparency.dev/user_agents/</guid>
+      <description>--- title: User Agents url: /useragents layout: index ---    User Agents User agents using CT  User agents are typically browsers and help perform certificate auditing by verifying that certificates have legimitately been added to a log.
+Go to Logs Go to Monitors          Google Chrome Supporting CT since early 2015         Apple Safari Supporting CT since 2018       Add CT to your user agent</description>
+    </item>
+    
+  </channel>
+</rss>

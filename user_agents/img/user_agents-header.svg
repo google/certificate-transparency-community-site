@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1270 294" style="enable-background:new 0 0 1270 294;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#B0B1B5;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:#E5E5FF;stroke:#1A1B1F;stroke-width:2;}
+	.st3{fill:none;stroke:#1A1B1F;stroke-width:2;}
+	.st4{fill:none;stroke:#1A1B1F;stroke-width:2;stroke-dasharray:6,3;}
+</style>
+<line class="st0" x1="25.5" y1="0" x2="25.5" y2="50"/>
+<line class="st0" x1="50" y1="25.5" x2="0" y2="25.5"/>
+<line class="st0" x1="1123.5" y1="0" x2="1123.5" y2="50"/>
+<line class="st0" x1="1148" y1="25.5" x2="1098" y2="25.5"/>
+<line class="st0" x1="1245.5" y1="0" x2="1245.5" y2="50"/>
+<line class="st0" x1="1270" y1="25.5" x2="1220" y2="25.5"/>
+<line class="st0" x1="1001.5" y1="0" x2="1001.5" y2="50"/>
+<line class="st0" x1="1026" y1="25.5" x2="976" y2="25.5"/>
+<line class="st0" x1="879.5" y1="0" x2="879.5" y2="50"/>
+<line class="st0" x1="904" y1="25.5" x2="854" y2="25.5"/>
+<line class="st0" x1="757.5" y1="0" x2="757.5" y2="50"/>
+<line class="st0" x1="782" y1="25.5" x2="732" y2="25.5"/>
+<line class="st0" x1="25.5" y1="122" x2="25.5" y2="172"/>
+<line class="st0" x1="50" y1="147.5" x2="0" y2="147.5"/>
+<line class="st0" x1="1123.5" y1="122" x2="1123.5" y2="172"/>
+<line class="st0" x1="1148" y1="147.5" x2="1098" y2="147.5"/>
+<line class="st0" x1="1245.5" y1="122" x2="1245.5" y2="172"/>
+<line class="st0" x1="1270" y1="147.5" x2="1220" y2="147.5"/>
+<line class="st0" x1="1001.5" y1="122" x2="1001.5" y2="172"/>
+<line class="st0" x1="1026" y1="147.5" x2="976" y2="147.5"/>
+<line class="st0" x1="879.5" y1="122" x2="879.5" y2="172"/>
+<line class="st0" x1="904" y1="147.5" x2="854" y2="147.5"/>
+<line class="st0" x1="757.5" y1="122" x2="757.5" y2="172"/>
+<line class="st0" x1="782" y1="147.5" x2="732" y2="147.5"/>
+<line class="st0" x1="25.5" y1="244" x2="25.5" y2="294"/>
+<line class="st0" x1="50" y1="269.5" x2="0" y2="269.5"/>
+<line class="st0" x1="1123.5" y1="244" x2="1123.5" y2="294"/>
+<line class="st0" x1="1148" y1="269.5" x2="1098" y2="269.5"/>
+<line class="st0" x1="1245.5" y1="244" x2="1245.5" y2="294"/>
+<line class="st0" x1="1270" y1="269.5" x2="1220" y2="269.5"/>
+<line class="st0" x1="1001.5" y1="244" x2="1001.5" y2="294"/>
+<line class="st0" x1="1026" y1="269.5" x2="976" y2="269.5"/>
+<line class="st0" x1="879.5" y1="244" x2="879.5" y2="294"/>
+<line class="st0" x1="904" y1="269.5" x2="854" y2="269.5"/>
+<line class="st0" x1="757.5" y1="244" x2="757.5" y2="294"/>
+<line class="st0" x1="782" y1="269.5" x2="732" y2="269.5"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="793" y="61" width="172" height="172"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st1">
+		<circle class="st2" cx="879" cy="147" r="85"/>
+		<ellipse class="st3" cx="879.5" cy="147" rx="60.5" ry="85"/>
+		<ellipse class="st3" cx="879.5" cy="147" rx="31.5" ry="85"/>
+		<line class="st3" x1="880" y1="62" x2="880" y2="232"/>
+		<line class="st3" x1="964" y1="148" x2="794" y2="148"/>
+		<line class="st3" x1="953" y1="189" x2="805" y2="189"/>
+		<line class="st3" x1="953" y1="106" x2="805" y2="106"/>
+	</g>
+</g>
+<path class="st3" d="M1027,51h55.8l14.2,14.2V121h-70V51z"/>
+<rect x="1074.1" y="98.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 242.1211 795.7452)" class="st2" width="15" height="15"/>
+<path class="st3" d="M1082,51v15h15"/>
+<line class="st3" x1="1034" y1="71.4" x2="1078" y2="71.4"/>
+<line class="st3" x1="1034" y1="79" x2="1064" y2="79"/>
+<path class="rev anim st4" d="M965,148h98"/>
+<path class="rev anim st4" d="M1063,148v24"/>
+<rect x="1035" y="201" class="st2" width="41" height="13"/>
+<rect x="1047.8" y="222" class="st2" width="41" height="13"/>
+<rect x="1042" y="180" class="st2" width="41" height="13"/>
+<line class="st3" x1="1063" y1="193.8" x2="1063" y2="201.3"/>
+<line class="st3" x1="1063" y1="236.1" x2="1063" y2="242.7"/>
+<line class="st3" x1="1063" y1="214.7" x2="1063" y2="222.2"/>
+<rect x="1027" y="173" class="st3" width="70" height="70"/>
+<path class="anim st4" d="M1123,26H758v243h365V26z"/>
+<circle class="st2" cx="793" cy="203" r="31"/>
+<path class="st2" d="M792.5,234c-33.4,0-60.5,26.4-60.5,59h121C853,260.4,825.9,234,792.5,234z"/>
+<path class="rev anim st4" d="M1063,148v-26"/>
+</svg>

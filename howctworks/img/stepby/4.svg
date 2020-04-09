@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 775 253">
+  <defs>
+    <style>.a{fill:#d4f7da;}.a,.c,.e,.f,.g{stroke:#1a1b1f;stroke-miterlimit:10;}.b{fill:#1a1b1f;}.c,.e,.f,.g{fill:none;}.d{fill:#fff;}.e{stroke-dasharray:11 4.4;}.f{stroke-dasharray:7.78 3.11;}.g{stroke-dasharray:7.63 3.05;}</style>
+  </defs>
+  <title>04</title>
+  <polyline class="a" points="340.79 156 364.79 156 364.79 1 241.79 1 241.79 49"/>
+  <polyline class="a" points="316.79 204 340.79 204 340.79 49 217.79 49 217.79 97"/>
+  <rect class="a" x="193.79" y="97" width="123" height="155"/>
+  <path class="b" d="M306.16,231.91h-4.78l-1.15,3.86h-1.7l4.18-13.53h2.16L309,235.77h-1.73ZM303.68,224l-1.91,6.53h4L303.86,224Z"/>
+  <line class="c" x1="254.79" y1="241" x2="254.79" y2="252"/>
+  <line class="c" x1="254.79" y1="205" x2="254.79" y2="217"/>
+  <line class="c" x1="254.79" y1="169.01" x2="254.79" y2="181.01"/>
+  <line class="c" x1="254.79" y1="133" x2="254.79" y2="145"/>
+  <rect class="c" x="206.79" y="217" width="76" height="24" transform="translate(489.58 458) rotate(-180)"/>
+  <rect class="c" x="219.79" y="181" width="76" height="24" transform="translate(515.58 386) rotate(-180)"/>
+  <rect class="c" x="214.78" y="145" width="76" height="24" transform="translate(505.57 314) rotate(-180)"/>
+  <rect class="d" x="227.79" y="109" width="76" height="24"/>
+  <polyline class="c" points="227.79 128 227.79 133 232.79 133"/>
+  <line class="e" x1="237.19" y1="133" x2="296.59" y2="133"/>
+  <polyline class="c" points="298.79 133 303.79 133 303.79 128"/>
+  <line class="f" x1="303.79" y1="124.89" x2="303.79" y2="115.56"/>
+  <polyline class="c" points="303.79 114 303.79 109 298.79 109"/>
+  <line class="e" x1="294.39" y1="109" x2="234.99" y2="109"/>
+  <polyline class="c" points="232.79 109 227.79 109 227.79 114"/>
+  <line class="f" x1="227.79" y1="117.11" x2="227.79" y2="126.44"/>
+  <line class="c" x1="288.79" y1="37" x2="288.79" y2="49"/>
+  <rect class="d" x="261.79" y="13" width="76" height="24"/>
+  <polyline class="c" points="261.79 32 261.79 37 266.79 37"/>
+  <line class="e" x1="271.19" y1="37" x2="330.59" y2="37"/>
+  <polyline class="c" points="332.79 37 337.79 37 337.79 32"/>
+  <line class="f" x1="337.79" y1="28.89" x2="337.79" y2="19.56"/>
+  <polyline class="c" points="337.79 18 337.79 13 332.79 13"/>
+  <line class="e" x1="328.39" y1="13" x2="268.99" y2="13"/>
+  <polyline class="c" points="266.79 13 261.79 13 261.79 18"/>
+  <line class="f" x1="261.79" y1="21.11" x2="261.79" y2="30.44"/>
+  <line class="c" x1="275.79" y1="85" x2="275.79" y2="97"/>
+  <rect class="d" x="227.79" y="61" width="76" height="24"/>
+  <polyline class="c" points="227.79 80 227.79 85 232.79 85"/>
+  <line class="e" x1="237.19" y1="85" x2="296.59" y2="85"/>
+  <polyline class="c" points="298.79 85 303.79 85 303.79 80"/>
+  <line class="f" x1="303.79" y1="76.89" x2="303.79" y2="67.56"/>
+  <polyline class="c" points="303.79 66 303.79 61 298.79 61"/>
+  <line class="e" x1="294.39" y1="61" x2="234.99" y2="61"/>
+  <polyline class="c" points="232.79 61 227.79 61 227.79 66"/>
+  <line class="f" x1="227.79" y1="69.11" x2="227.79" y2="78.44"/>
+  <path class="b" d="M329,174.24c2.32,0,3.75,1.37,3.75,3.48a2.83,2.83,0,0,1-2.13,2.91v.06a3.05,3.05,0,0,1,2.64,3.18,3.72,3.72,0,0,1-3.67,3.9h-5.21V174.24Zm2,4v-.76c0-1.24-.84-1.86-2.2-1.86H326v4.46h2.81C330.16,180.11,331,179.51,331,178.27Zm.49,6v-.8c0-1.35-.92-2.05-2.42-2.05H326v4.9h3.08C330.57,186.35,331.49,185.67,331.49,184.3Z"/>
+  <path class="b" d="M348.22,133c0-4.5,1.62-7,4.94-7a4.28,4.28,0,0,1,4.19,3l-1.4.64c-.49-1.2-1.13-2.19-2.79-2.19-2.17,0-3.2,1.76-3.2,4.47v2.22c0,2.71,1,4.47,3.2,4.47,1.66,0,2.3-1,2.79-2.19l1.4.64a4.28,4.28,0,0,1-4.19,3C349.84,140,348.22,137.5,348.22,133Z"/>
+  <line class="c" x1="316.3" y1="204" x2="507.36" y2="204"/>
+  <line class="c" x1="316.3" y1="49" x2="507.36" y2="49"/>
+  <circle class="c" cx="506.86" cy="126.5" r="77.5"/>
+  <rect class="a" x="449.11" y="137.24" width="23.74" height="15.86"/>
+  <rect class="a" x="478.91" y="137.24" width="23.74" height="15.86"/>
+  <rect class="a" x="464.01" y="111.73" width="23.74" height="15.86"/>
+  <rect class="a" x="494.99" y="86.23" width="23.74" height="15.86"/>
+  <polyline class="c" points="490.77 137.24 475.88 127.59 460.98 137.24"/>
+  <rect class="a" x="511.07" y="137.24" width="23.74" height="15.86"/>
+  <rect class="d" x="540.86" y="137.24" width="23.74" height="15.86"/>
+  <polyline class="c" points="564.6 148.09 564.6 153.09 559.6 153.09"/>
+  <line class="g" x1="556.55" y1="153.09" x2="547.39" y2="153.09"/>
+  <polyline class="c" points="545.86 153.09 540.86 153.09 540.86 148.09"/>
+  <polyline class="c" points="540.86 142.24 540.86 137.24 545.86 137.24"/>
+  <line class="g" x1="548.92" y1="137.24" x2="558.07" y2="137.24"/>
+  <polyline class="c" points="559.6 137.24 564.6 137.24 564.6 142.24"/>
+  <rect class="a" x="525.96" y="111.73" width="23.74" height="15.86"/>
+  <polyline class="c" points="552.73 137.24 537.83 127.59 522.94 137.24"/>
+  <polyline class="c" points="537.83 111.73 506.86 102.09 475.88 111.73"/>
+</svg>
