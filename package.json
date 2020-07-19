@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "deepmerge": "^4.2.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "autoprefixer": "^9.5.1",
     "postcss-cli": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
