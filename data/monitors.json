@@ -36,6 +36,12 @@
       "logo": "google.svg"
     },
     {
+      "name": "Hardenize",
+      "url": "https://www.hardenize.com/product/ct",
+      "description": "Comprehensive network infrastructure discovery and monitoring, with focus on PKI and Certificate Transparency.",
+      "logo": "hardenize.svg"
+    },
+    {
       "name": "SSLMate",
       "url": "https://sslmate.com/certspotter/",
       "description": "Monitor domains for expiring and unauthorized SSL certificates and get notified if there’s a problem.",
