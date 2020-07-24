@@ -1,10 +1,3 @@
----
-title: Google / Known Logs
-url: /google
-layout: index
-aliases:
-  - /known-logs
----
 # Known Logs
 
 The list of CT Logs that are currently compliant with Chrome's CT policy (or
