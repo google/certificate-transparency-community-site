@@ -21,3 +21,8 @@ disableKinds:
 params:
   githubUrl: https://github.com/google/certificate-transparency-go
   googlegroup: https://groups.google.com/forum/#!forum/certificate-transparency
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
