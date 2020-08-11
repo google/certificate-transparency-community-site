@@ -1,0 +1,242 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Certificate Transparency">
+  <link rel="shortcut icon" type="image/png" href='https://certificate.transparency.dev/img/favicon.png'/>
+
+  <title>
+    Google / Known Logs : Certificate Transparency
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Inter:700,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/ct.7b0d19dad0c96654628cb31f44848706c43314cc74899f8b06e5562b6af1372f.css">
+
+  
+  
+  
+  
+
+  
+  <script type='text/javascript' src='https://certificate.transparency.dev/js/bundle.min.9d184193dc75fda6bda8438008a16070092998ef0c53fc44b1f6becd8493f05e.js'></script>
+</head>
+
+  <body id='scheme-google'>
+    <div id="page-container">
+      <div id="content-container">
+
+<nav id="top">
+  <div id="brand"><a href='/'>Certificate Transparency</a></div>
+  <div id="mobilemenu-controls">
+    <a class='hide-menu' href="#">&#215;</a>
+    <a class='show-menu' href="#">&#9776;</a>
+  </div>
+
+  <div class="menus">
+    <ul class="menu">
+      <li class='howctworks'><a href='/howctworks'>How CT works</a></li>
+      <li class='submenu-target'>
+        <span>
+          Actors 
+            <svg xmlns="http://www.w3.org/2000/svg" class="dropdown-triangle">
+              <polygon points="0,0 10,0 5,8"/>
+            </svg>
+        </span>
+        <ul class='submenu'>
+          <li class='logs'><a href='/logs'>Logs</a></li>
+          <li class='monitors'><a href='/monitors'>Monitors</a></li>
+          <li class='user_agents'><a href='/useragents'>User Agents</a></li>
+        </ul>
+      </li>
+
+      <li class='community'><a href='/community'>Our story</a></li>
+    </ul>
+    <ul class="elsewhere">
+      <li class='github'><a href="https://github.com/google/certificate-transparency-go">GitHub</a></li>
+      <li class='ggroup'><a href="https://groups.google.com/forum/#!forum/certificate-transparency">Google Group</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="nav-shield"></div>
+<section>
+  <div class='wrap'>
+        <h1 id="known-logs">Known Logs</h1>
+<p>The list of CT Logs that are currently compliant with Chrome's CT policy (or
+have been and were disqualified), and are <strong>included in Chrome</strong>:
+<a href="https://www.gstatic.com/ct/log_list/v2/log_list.json">https://www.gstatic.com/ct/log_list/v2/log_list.json</a></p>
+<p><code>log_list.json</code> is signed by Google, the signature being hosted at:
+<a href="https://www.gstatic.com/ct/log_list/v2/log_list.sig">https://www.gstatic.com/ct/log_list/v2/log_list.sig</a></p>
+<p><code>log_list.json</code> and the corresponding log_list.sig can also be obtained by
+downloading the zip file containing both of them, found at:
+<a href="https://www.gstatic.com/ct/log_list/v2/log_list.zip">https://www.gstatic.com/ct/log_list/v2/log_list.zip</a></p>
+<p>The public key to verify <code>log_list.sig</code> can be found at:
+<a href="https://www.gstatic.com/ct/log_list/v2/log_list_pubkey.pem">https://www.gstatic.com/ct/log_list/v2/log_list_pubkey.pem</a></p>
+<p>The list of all known and announced CT Logs:
+<a href="https://www.gstatic.com/ct/log_list/v2/all_logs_list.json">https://www.gstatic.com/ct/log_list/v2/all_logs_list.json</a></p>
+<p>Both <code>log_list.json</code> and <code>all_logs_list.json</code> conform with the following schema:
+<a href="https://www.gstatic.com/ct/log_list/v2/log_list_schema.json">https://www.gstatic.com/ct/log_list/v2/log_list_schema.json</a></p>
+<p>To check whether Logs are currently <strong>pending inclusion in Chrome</strong>, check the
+Chromium inclusion bugs:
+<a href="https://crbug.com/?q=component%3AInternals%3ENetwork%3ECertTrans"><a href="https://crbug.com/?q=component%3AInternals">https://crbug.com/?q=component%3AInternals</a>&gt;Network&gt;CertTrans</a></p>
+<h2 id="special-purpose-logs">Special Purpose Logs</h2>
+<pre>
+<b>https://ct.googleapis.com/daedalus/</b>
+Base64 Log ID: HQJLjrFJizRN/YfqPvwJlvdQbyNdHUlwYaR3PEOcJfs=
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<p>Daedalus is not trusted by Chrome. It only logs certificates that have expired.
+See the
+<a href="https://groups.google.com/forum/#!topic/certificate-transparency/GUgWzCSN30I">announcement post</a>.</p>
+<pre>
+<b>https://ct.googleapis.com/submariner/</b>
+Base64 Log ID: qJnYeAySkKr0YvMYgMz71SRR6XDQ+/WR73Ww2ZtkVoE=
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<p>Submariner is not trusted by Chrome. It only logs certificates that chain to
+roots that are on track for inclusion in browser roots or were trusted at some
+previous point
+<a href="https://security.googleblog.com/2016/03/certificate-transparency-for-untrusted.html">announcement blog post</a>.</p>
+<h2 id="test-logs">Test Logs</h2>
+<p>These logs are intended for <strong>testing purposes only</strong> and will only log
+certificates that chain to a test root explicitly added to it.</p>
+<p>To add a test root to the Google test Logs, please email
+<code>google-ct-logs@googlegroups.com</code></p>
+<p>A test root should:</p>
+<ol>
+<li>
+<p>have a certificate <code>Subject</code> field that:</p>
+<p>a) includes the word <code>test</code>, <code>dev</code>, <code>demo</code> or <code>staging</code> (to reduce the
+chance of real certificates being mixed up with test certificates).</p>
+<p>b) identifies the organization that the test root is for (to allow easy
+classification of test traffic).</p>
+</li>
+<li>
+<p>not allow real certificates to chain to it, either because:</p>
+<p>a) it is a self-signed root CA certificate identified as a test certificate
+(as above).</p>
+<p>b) it is an intermediate CA certificate that chains to a root certificate
+that is also identified as a test certificate.</p>
+</li>
+<li>
+<p>be a CA certificate, by:</p>
+<p>a) having CA:TRUE in the Basic Constraints extension.</p>
+<p>b) include the &lsquo;Certificate Sign&rsquo; bit in the Key Usage extension.</p>
+</li>
+<li>
+<p>be in PEM format (with a .cer or .pem extension).</p>
+</li>
+</ol>
+<p>For historical reasons, Google's test logs include some test roots that do not
+comply with all of the above requirements.</p>
+<p>Google's test Logs are:</p>
+<pre>
+<b>https://ct.googleapis.com/logs/crucible/</b>
+Base64 Log ID: w78Dp+HKiEHGB7rj/0Jw/KXsRbGG675OLPP8d4Yw9fY=
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/solera2018/</b>
+Base64 Log ID: UutLIl7IlpdIUGdfI+Q7wdAh4yFM5S7NX6h8IDzfygM=
+Expiry range: Jan 01 2018 00:00:00Z inclusive to Jan 01 2019 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/solera2019/</b>
+Base64 Log ID: C3YOmouaaC+ImFsV6UdQGlZEa7qIMHhcOEKZQ4ZFDAA=
+Expiry range: Jan 01 2019 00:00:00Z inclusive to Jan 01 2020 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/solera2020/</b>
+Base64 Log ID: H8cs5aG3mfQAw1m/+WyjkTVI6GRCIGEJUum6F3T3usc=
+Expiry range: Jan 01 2020 00:00:00Z inclusive to Jan 01 2021 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/solera2021/</b>
+Base64 Log ID: o8mYRegKt84AFXs3Qt8CB90nKytgLs+Y7iwS25xa5+c=
+Expiry range: Jan 01 2021 00:00:00Z inclusive to Jan 01 2022 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/solera2022/</b>
+Base64 Log ID: aXqvyhprU2+uISBQRt661+Dq6hPSQy5unY+zefK5qvM=
+Expiry range: Jan 01 2022 00:00:00Z inclusive to Jan 01 2023 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/solera2023/</b>
+Base64 Log ID: +X6XuNM+96FZAqU6GeF5kOXcQGoDGCW6rZPpj5ucacs=
+Expiry range: Jan 01 2023 00:00:00Z inclusive to Jan 01 2024 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/testtube/</b>
+Base64 Log ID: sMyD5aX5fWuvfAnMKEkEhyrH6IsTLGNQt8b9JuFsbHc=
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+
+
+  </div>
+</section>
+
+
+      </div>
+
+      <div id="footer-container">
+
+<div id="footer">
+  <div class='row'>
+    <h3>Certificate Transparency</h3>
+    <ul class="footer-menu">
+      <li><a href='/howctworks'>How CT works</a></li>
+      <li><a href='/community'>Our story</a></li>
+    </ul>
+  </div>
+  <div class="row rev">
+    <ul class='footer-menu'>
+      <li>
+        <ul>
+          <li><a href='/logs'>Logs</a></li>
+          <li><a href='/monitors'>Monitors</a></li>
+          <li><a href='/useragents'>User agents</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul>
+          <li><a href="https://github.com/google/certificate-transparency-go">GitHub</a></li>
+          <li><a href="https://groups.google.com/forum/#!forum/certificate-transparency">Google Group</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class='tag'>
+      <span>
+        Started by engineers at Google,<br>
+        <strong>for the internet.</strong>
+      </span>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+  </body>
+
+
+</html>
