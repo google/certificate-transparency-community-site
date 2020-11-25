@@ -1,5 +1,9 @@
 # Table of Contents
 
+ - [Known Logs](#Known Logs)
+ - [Special Purpose Logs](##Special Purpose Logs)
+ - [Test Logs](##Test Logs)
+
 # Known Logs
 
 The list of CT Logs that are currently compliant with Chrome's CT policy (or
