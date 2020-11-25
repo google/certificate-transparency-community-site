@@ -1,8 +1,8 @@
 # Table of Contents
 
- - [Known Logs](#Known Logs)
- - [Special Purpose Logs](##Special Purpose Logs)
- - [Test Logs](##Test Logs)
+ - [Known Logs](#Known-Logs)
+ - [Special Purpose Logs](##Special-Purpose-Logs)
+ - [Test Logs](##Test-Logs)
 
 # Known Logs
 
