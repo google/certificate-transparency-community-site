@@ -34,7 +34,7 @@ Chrome's policy to check whether the provided SCTs are sufficient.
 ## CA
 
 A certificate authority can generate pre-certificates and submit them to CT logs
-in order to embed [SCTs](https://certificate.transparency.dev/how-ct-works) in
+in order to embed [SCTs](https://certificate.transparency.dev/howctworks) in
 the certificates they provide to their customers. So long as these SCTs are
 compliant with the CT policies of browsers (e.g.
 [Chrome's policy](https://github.com/chromium/ct-policy/blob/master/ct_policy.md#qualifying-certificate),
@@ -81,7 +81,7 @@ users using Certificate Transparency.
 
 The simplest thing that a user agent can do is verify that a certificate is
 accompanied by a reasonable number of
-[SCTs](https://certificate.transparency.dev/how-ct-works) with valid signatures.
+[SCTs](https://certificate.transparency.dev/howctworks) with valid signatures.
 This requires [a list of trusted CT logs] containing their public keys.
 
 ### Checking a certificate for inclusion in CT logs
