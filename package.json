@@ -5,7 +5,7 @@
     "autoprefixer": "^9.5.1",
     "postcss-cli": "^7.1.0",
     "postcss-custom-media": "^7.0.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "csv-parse": "^4.8.7"
   },
   "scripts": {
