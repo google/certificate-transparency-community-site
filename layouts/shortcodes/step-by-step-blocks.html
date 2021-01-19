@@ -26,9 +26,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>{{ add $index 1 }}</div>
+      <div class='index'><a href="#{{ urlize .Title }}">{{ add $index 1 }}</a></div>
       <div {{if .Params.overflowAt}}data-overflow-at='{{.Params.overflowAt}}' {{end}}class='description'>
-        <h3>{{.Title}}</h3>
+        <h3 id="{{ urlize .Title }}">{{.Title}}</h3>
         <div class='body'>
           {{.Content}}
         </div>
