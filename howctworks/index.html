@@ -178,9 +178,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>1</div>
+      <div class='index'><a href="#website-owner-requests-a-certificate-from-the-certificate-authority-ca">1</a></div>
       <div class='description'>
-        <h3>Website owner requests a certificate from the Certificate Authority (CA)</h3>
+        <h3 id="website-owner-requests-a-certificate-from-the-certificate-authority-ca">Website owner requests a certificate from the Certificate Authority (CA)</h3>
         <div class='body'>
           <p>A certificate ties together a domain and a public key. Certificate Transparency works with Web PKI/SSL certificate system, providing transparency and verification. The append-only log is tamper-proof, the User agent checks that logs are cryptographically consistent, and the Certificate Authority's monitors will check for suspicious logs.</p>
 
@@ -197,9 +197,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>2</div>
+      <div class='index'><a href="#ca-issues-a-precertificate">2</a></div>
       <div class='description'>
-        <h3>CA issues a precertificate</h3>
+        <h3 id="ca-issues-a-precertificate">CA issues a precertificate</h3>
         <div class='body'>
           <p>A CA receives a request for a certificate from a domain owner. It checks that the domain owner has the right to request the certificate, and creates a precertificate, which ties the domain to a public key. A precertificate contains all the information a certificate does. It also has a poison extension so that user agents won’t accept it. Precertificates help break a deadlock in CT. Before a CA can log a certificate, the certificate needs an SCT (Signed Certificate Timestamp). But for the certificate to get an SCT, it needs to have been submitted to a log.</p>
 
@@ -216,9 +216,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>3</div>
+      <div class='index'><a href="#ca-sends-precertificates-to-logs">3</a></div>
       <div class='description'>
-        <h3>CA sends precertificates to logs</h3>
+        <h3 id="ca-sends-precertificates-to-logs">CA sends precertificates to logs</h3>
         <div class='body'>
           <p>Anyone can submit a certificate to a log, but most of them are submitted by CAs. When a CA submits one of these to a log, the log responds with a signed certificate timestamp (SCT). This is a promise to add the certificate to the log within a time period called the Maximum Merge Delay (MMD).</p>
 
@@ -235,9 +235,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>4</div>
+      <div class='index'><a href="#precertificates-are-added-to-the-logs">4</a></div>
       <div data-overflow-at='420' class='description'>
-        <h3>Precertificates are added to the logs</h3>
+        <h3 id="precertificates-are-added-to-the-logs">Precertificates are added to the logs</h3>
         <div class='body'>
           <p>Logs maintain a record of certificates. They use a special cryptographic mechanism, a Merkle tree, to allow public audits. Logs are:</p>
 <ul>
@@ -260,9 +260,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>5</div>
+      <div class='index'><a href="#logs-return-scts-to-the-ca">5</a></div>
       <div data-overflow-at='260' class='description'>
-        <h3>Logs return SCTs to the CA</h3>
+        <h3 id="logs-return-scts-to-the-ca">Logs return SCTs to the CA</h3>
         <div class='body'>
           <p>Each log immediately returns an SCT to the CA, with a commitment to include the certificate within the Maximum Merge Delay. The MMD is usually 24 hours: this timespan is designed to give log operators the time to fix anything that's gone wrong before they are excluded from the list of approved logs. The MMD also helps ensure logs don’t block the issuance or use of certificates.</p>
 <p>CAs attach SCTs to a certificate using an X.509v3 extension. They sign the certificate and deliver the certificate to the server operator. (There are also two other, less common, ways of doing this: OCSP stapling and TLS extension.) CT doesn’t require server modification, so server operators can manage SSL certificates the way they always have.</p>
@@ -280,9 +280,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>6</div>
+      <div class='index'><a href="#cas-send-the-certificate-to-the-domain-owner">6</a></div>
       <div class='description'>
-        <h3>CAs send the certificate to the domain owner</h3>
+        <h3 id="cas-send-the-certificate-to-the-domain-owner">CAs send the certificate to the domain owner</h3>
         <div class='body'>
           <p>The SCTs accompany the certificate throughout its lifetime. A server must deliver the SCT with the certificate during a TLS handshake. (A TLS handshake is when two sides of an encrypted communication verify each other and agree which encryption algorithms and keys to use. Here, that process begins when a user goes to an HTTPS website, and the web server responds to the HTTPS request.)</p>
 
@@ -299,9 +299,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>7</div>
+      <div class='index'><a href="#browsers-and-user-agents-help-keep-the-web-secure">7</a></div>
       <div class='description'>
-        <h3>Browsers and user agents help keep the web secure</h3>
+        <h3 id="browsers-and-user-agents-help-keep-the-web-secure">Browsers and user agents help keep the web secure</h3>
         <div class='body'>
           <p>Some browsers, like Chrome and Safari, help enforce CT.</p>
 <p>Both the number of logs, and the selection of logs a CA chooses to log, is determined by user agent policy. Both <a href="https://support.apple.com/en-gb/HT205280">Safari</a> and <a href="https://github.com/chromium/ct-policy#chromium-certificate-transparency-policy">Chrome</a> user agents require at least 2 SCTs, depending on certificate lifetimes.</p>
@@ -319,9 +319,9 @@
     <div class='arm-and-description'>
       <div class='arm'>
       </div>
-      <div class='index'>8</div>
+      <div class='index'><a href="#logs-are-cryptographically-monitored">8</a></div>
       <div class='description'>
-        <h3>Logs are cryptographically monitored</h3>
+        <h3 id="logs-are-cryptographically-monitored">Logs are cryptographically monitored</h3>
         <div class='body'>
           <p>Monitors are publicly run servers. They periodically contact all log servers and watch for suspicious certificates. Monitors work with website operators to help them understand if an unauthorized certificate has been issued for a domain. They can watch for certificates that have unusual extensions or permissions, such as certificates that have CA capabilities. Monitors can prove, efficiently and quickly, that all certificates have been consistently appended to the log. They can also prove that a particular certificate has been appended to the log.</p>
 <p>For a monitor to check the consistency of a particular log, it computes a consistency proof itself and then uses this to verify the consistency of the log. A consistent later version includes everything in the earlier version, and following the entries from the older version.</p>
