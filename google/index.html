@@ -137,7 +137,16 @@ that is also identified as a test certificate.</p>
 </ol>
 <p>For historical reasons, Google's test logs include some test roots that do not
 comply with all of the above requirements.</p>
-<p>Google's test Logs are:</p>
+<p>To verify that your test root complies with the policy listed above, you can run the following <code>openssl</code> command:</p>
+<pre><code>$ openssl x509 -in google-test-monitor.cert -noout -serial -issuer -subject -ext keyUsage,basicConstraints
+serial=BF90A6BDBEFC149E
+issuer=C = GB, L = London, O = Google UK Ltd., OU = Certificate Transparency, CN = Test Monitor Root
+subject=C = GB, L = London, O = Google UK Ltd., OU = Certificate Transparency, CN = Test Monitor Root
+X509v3 Key Usage: critical
+    Digital Signature, Certificate Sign
+X509v3 Basic Constraints: critical
+    CA:TRUE
+</code></pre><p>Google's test Logs are:</p>
 <pre>
 <b>https://ct.googleapis.com/logs/crucible/</b>
 Base64 Log ID: w78Dp+HKiEHGB7rj/0Jw/KXsRbGG675OLPP8d4Yw9fY=
