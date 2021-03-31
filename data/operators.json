@@ -7,7 +7,7 @@
     },
     {
       "name": "Google",
-      "url": "https://github.com/chromium/ct-policy/blob/master/ct_policy.md#qualifying-certificate ",
+      "url": "https://github.com/chromium/ct-policy/blob/master/ct_policy.md#qualifying-certificate",
       "logo": "google.svg"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "Cloudflare",
-      "url": "https://developers.cloudflare.com/ssl/ct-monitoring/",
+      "url": "https://developers.cloudflare.com/ssl/certificate-transparency-monitoring",
       "logo": "cloudflare.svg"
     },
     {
