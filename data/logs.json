@@ -29,6 +29,12 @@
       "url": "https://github.com/sectigo/CTLogs-AcceptedRoots/",
       "description": "",
       "logo": "sectigo.svg"
+    },
+    {
+      "name": "TrustAsia",
+      "url": "https://ct.trustasia.com/blog/english/",
+      "description": "",
+      "logo": "trustasia.svg"
     }
   ]
 }
