@@ -46,7 +46,13 @@ $palettes: (
     "mid": #D6FFF8,
     "dark": #00B3B2,
     "full": #178270
-  )
+  ),
+  markdown: (
+    "tint": #fafaff,
+    "mid": #e5e5ff,
+    "dark": #7575f0,
+    "full": #3333cc
+  ),
 );
 
 @each $page, $colors in $palettes {
