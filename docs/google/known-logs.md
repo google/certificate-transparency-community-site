@@ -139,7 +139,7 @@ Base64 Log ID: aXqvyhprU2+uISBQRt661+Dq6hPSQy5unY+zefK5qvM=
 Expiry range: Jan 01 2022 00:00:00Z inclusive to Jan 01 2023 00:00:00Z exclusive
 Operator: Google
 Contact: google-ct-logs@googlegroups.com
-</pre>
+</pre> 
 
 <pre>
 <b>https://ct.googleapis.com/logs/solera2023/</b>
