@@ -25,9 +25,10 @@
       "logo": "facebook_nocrop.png"
     },
     {
-      "name": "Graham Edgecombe",
-      "url": "https://ct.grahamedgecombe.com/",
-      "description": "Monitor that includes a list of all known logs with latest timestamp, status and uptime."
+      "name": "EZMonitor",
+      "url": "https://www.keytos.io/ezmonitor_overview.html",
+      "description": "Proactively monitor the health of your SSL certificates and endpoints. Get notified before a problem occurs.",
+      "logo": "Keytos.svg"
     },
     {
       "name": "Google",
