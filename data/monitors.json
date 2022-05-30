@@ -31,12 +31,6 @@
       "logo": "Keytos.svg"
     },
     {
-      "name": "Google",
-      "url": "https://transparencyreport.google.com/https/certificates",
-      "description": "Search for a domain to see all associated certificates and the logs they’ve been added to.",
-      "logo": "google.svg"
-    },
-    {
       "name": "Hardenize",
       "url": "https://www.hardenize.com/product/ct",
       "description": "Comprehensive network infrastructure discovery and monitoring, with focus on PKI and Certificate Transparency.",
