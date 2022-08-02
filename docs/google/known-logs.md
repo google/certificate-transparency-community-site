@@ -150,6 +150,14 @@ Contact: google-ct-logs@googlegroups.com
 </pre>
 
 <pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2024/</b>
+Base64 Log ID: MCTOfusWiGJyS+pwLv/5ks/kVkNBkapZWyX4AibIABc=
+Expiry range: Jan 01 2024 00:00:00Z inclusive to Jan 01 2025 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+
+<pre>
 <b>https://ct.googleapis.com/testtube/</b>
 Base64 Log ID: sMyD5aX5fWuvfAnMKEkEhyrH6IsTLGNQt8b9JuFsbHc=
 Operator: Google
