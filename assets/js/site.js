@@ -72,7 +72,7 @@ function handleHomepageCounter() {
 function handleTableUpdate() {
   if(document.getElementById("logs-table")) {
     // get latest logs from google
-    const googLogsURL = "https://www.gstatic.com/ct/log_list/v2/all_logs_list.json";
+    const googLogsURL = "https://www.gstatic.com/ct/log_list/v3/all_logs_list.json";
     // get latest logs from apple
     const appleLogsURL = "https://valid.apple.com/ct/log_list/current_log_list.json";
     const uptimesURL = "https://www.gstatic.com/ct/compliance/uptime.csv";

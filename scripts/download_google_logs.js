@@ -39,7 +39,7 @@ function download(urlString, filename="", log=true) {
   });
 }
 
-const googleLogList = "https://www.gstatic.com/ct/log_list/v2/all_logs_list.json";
+const googleLogList = "https://www.gstatic.com/ct/log_list/v3/all_logs_list.json";
 
 const filePath = path.join(dataPath, 'log_list.json' );
 
