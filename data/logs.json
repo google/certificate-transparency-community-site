@@ -14,7 +14,7 @@
     },
     {
       "name": "Google",
-      "url": "https://transparencyreport.google.com/https/certificates",
+      "url": "https://github.com/google/certificate-transparency-community-site/blob/master/docs/google/known-logs.md",
       "description": "",
       "logo": "google.svg"
     },
