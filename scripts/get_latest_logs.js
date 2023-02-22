@@ -29,7 +29,7 @@ const logSources = [
   },
   {
     name: "google",
-    url: "https://www.gstatic.com/ct/log_list/v2/all_logs_list.json",
+    url: "https://www.gstatic.com/ct/log_list/v3/all_logs_list.json",
     tempfile: "google_current_logs.json",
   }
 ];

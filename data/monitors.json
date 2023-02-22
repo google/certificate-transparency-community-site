@@ -41,6 +41,12 @@
       "url": "https://sslmate.com/certspotter/",
       "description": "Monitor domains for expiring and unauthorized SSL certificates and get notified if there’s a problem.",
       "logo": "sslmate.svg"
+    },
+    {
+      "name": "Report URI",
+      "url": "https://report-uri.com/products/certificate_transparency_monitoring",
+      "description": "Receive notifications when certificates are issued for any of your domains.",
+      "logo": "report-uri.svg"
     }
   ]
 }
