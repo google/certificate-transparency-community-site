@@ -10,18 +10,23 @@ The list of CT Logs that are currently compliant with Chrome's CT policy (or
 have been and were disqualified), and are **included in Chrome**:
 https://www.gstatic.com/ct/log_list/v3/log_list.json
 
-`log_list.json` is signed by Google, the signature being hosted at:
-https://www.gstatic.com/ct/log_list/v3/log_list.sig
+The list of all known and announced CT Logs:
+https://www.gstatic.com/ct/log_list/v3/all_logs_list.json
+
+`log_list.json` and `all_logs_list.json` are signed by Google, the signatures
+being hosted at: https://www.gstatic.com/ct/log_list/v3/log_list.sig and
+https://www.gstatic.com/ct/log_list/v3/all_logs_list.sig respectively.
 
 `log_list.json` and the corresponding log_list.sig can also be obtained by
 downloading the zip file containing both of them, found at:
 https://www.gstatic.com/ct/log_list/v3/log_list.zip
 
-The public key to verify `log_list.sig` can be found at:
-https://www.gstatic.com/ct/log_list/v3/log_list_pubkey.pem
+Similarly, `all_logs_list.json` and the corresponding all_logs_list.sig can be
+obtained by downloading the zip file containing both of them, found at:
+https://www.gstatic.com/ct/log_list/v3/all_logs_list.zip
 
-The list of all known and announced CT Logs:
-https://www.gstatic.com/ct/log_list/v3/all_logs_list.json
+The public key to verify `log_list.sig` and `all_logs_list.sig` can be found at:
+https://www.gstatic.com/ct/log_list/v3/log_list_pubkey.pem
 
 Both `log_list.json` and `all_logs_list.json` conform with the following schema:
 https://www.gstatic.com/ct/log_list/v3/log_list_schema.json
