@@ -19,6 +19,12 @@
       "logo": "digicert.svg"
     },
     {
+      "name": "Entrust",
+      "url": "https://ui.ctsearch.entrust.com/ui/ctsearchui",
+      "description": "",
+      "logo": "entrust.svg"
+    },
+    {
       "name": "Facebook",
       "url": "https://developers.facebook.com/tools/ct/search/",
       "description": "Get a Facebook notification or Webhook callback every time a certificate is issued for one of your monitored domains.",
