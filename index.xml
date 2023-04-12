@@ -4,12 +4,7 @@
     <title>Certificate Transparency</title>
     <link>https://certificate.transparency.dev/</link>
     <description>Recent content on Certificate Transparency</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 30 Nov 2019 15:26:08 +0000</lastBuildDate>
-    
-	<atom:link href="https://certificate.transparency.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://certificate.transparency.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home</title>
       <link>https://certificate.transparency.dev/</link>
@@ -35,7 +30,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://certificate.transparency.dev/google/</guid>
-      <description>Known Logs The list of CT Logs that are currently compliant with Chrome&#39;s CT policy (or have been and were disqualified), and are included in Chrome: https://www.gstatic.com/ct/log_list/v3/log_list.json
+      <description>Known Logs The list of CT Logs that are currently compliant with Chrome&amp;rsquo;s CT policy (or have been and were disqualified), and are included in Chrome: https://www.gstatic.com/ct/log_list/v3/log_list.json
 log_list.json is signed by Google, the signature being hosted at: https://www.gstatic.com/ct/log_list/v3/log_list.sig
 log_list.json and the corresponding log_list.sig can also be obtained by downloading the zip file containing both of them, found at: https://www.gstatic.com/ct/log_list/v3/log_list.zip
 The public key to verify log_list.sig can be found at: https://www.</description>

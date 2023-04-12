@@ -17,7 +17,7 @@
 
 
 <link href="https://fonts.googleapis.com/css?family=Inter:700,800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/ct.a7e52886660c442783cb9f171af13122ee0363847e60ed3aad406e082c59a333.css">
+<link rel="stylesheet" href="/css/ct.3c38b8f1bac6027a40d6e59aa53eb26a70ab09dc63416aeea9e0ae7d7801a2e5.css">
 
   
   
@@ -25,7 +25,7 @@
   
 
   
-  <script type='text/javascript' src='https://certificate.transparency.dev/js/bundle.min.12eaf2b02059d0e569231600a97d98e4b175312c903475dc8016562a4f0ca0df.js'></script>
+  <script type='text/javascript' src='https://certificate.transparency.dev/js/bundle.min.e12a79eeae0fa6c527c27a5a9c89f79501e8fb4c04fe63224de2648bb895f535.js'></script>
 </head>
 
   <body id='scheme-howctworks'>
@@ -182,7 +182,7 @@
       <div class='description'>
         <h3 id="website-owner-requests-a-certificate-from-the-certificate-authority-ca">Website owner requests a certificate from the Certificate Authority (CA)</h3>
         <div class='body'>
-          <p>A certificate ties together a domain and a public key. Certificate Transparency works with Web PKI/SSL certificate system, providing transparency and verification. The append-only log is tamper-proof, the User agent checks that logs are cryptographically consistent, and the Certificate Authority's monitors will check for suspicious logs.</p>
+          <p>A certificate ties together a domain and a public key. Certificate Transparency works with Web PKI/SSL certificate system, providing transparency and verification. The append-only log is tamper-proof, the User agent checks that logs are cryptographically consistent, and the Certificate Authority&rsquo;s monitors will check for suspicious logs.</p>
 
         </div>
       </div>
@@ -264,7 +264,7 @@
       <div data-overflow-at='260' class='description'>
         <h3 id="logs-return-scts-to-the-ca">Logs return SCTs to the CA</h3>
         <div class='body'>
-          <p>Each log immediately returns an SCT to the CA, with a commitment to include the certificate within the Maximum Merge Delay. The MMD is usually 24 hours: this timespan is designed to give log operators the time to fix anything that's gone wrong before they are excluded from the list of approved logs. The MMD also helps ensure logs don’t block the issuance or use of certificates.</p>
+          <p>Each log immediately returns an SCT to the CA, with a commitment to include the certificate within the Maximum Merge Delay. The MMD is usually 24 hours: this timespan is designed to give log operators the time to fix anything that&rsquo;s gone wrong before they are excluded from the list of approved logs. The MMD also helps ensure logs don’t block the issuance or use of certificates.</p>
 <p>CAs attach SCTs to a certificate using an X.509v3 extension. They sign the certificate and deliver the certificate to the server operator. (There are also two other, less common, ways of doing this: OCSP stapling and TLS extension.) CT doesn’t require server modification, so server operators can manage SSL certificates the way they always have.</p>
 
         </div>
