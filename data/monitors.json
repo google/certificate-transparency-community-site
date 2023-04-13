@@ -13,6 +13,12 @@
       "logo": "cloudflare.svg"
     },
     {
+      "name": "crt.sh",
+      "url": "https://crt.sh/",
+      "description": "Certificate Search, by Sectigo.",
+      "logo": "crt.sh.svg"
+    },
+    {
       "name": "Digicert",
       "url": "https://docs.digicert.com/certificate-tools/ct-log-monitoring-service",
       "description": "",
