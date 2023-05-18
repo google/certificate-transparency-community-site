@@ -61,7 +61,7 @@ previous point
 [announcement blog post](https://security.googleblog.com/2016/03/certificate-transparency-for-untrusted.html).
 
 ## Mirrors
-These logs are hosted by Google and mirror the logs hosted at `Source URL`.
+These logs are hosted by Google and mirror the logs served at `Source URL`.
 These mirrors run with no SLA.
 
 <pre>
