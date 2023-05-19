@@ -2,6 +2,7 @@
 
  - [Known Logs](#known-logs)
  - [Special Purpose Logs](#special-purpose-logs)
+ - [Mirrors](#mirrors)
  - [Test Logs](#test-logs)
 
 # Known Logs
