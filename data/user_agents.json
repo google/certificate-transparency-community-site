@@ -15,6 +15,14 @@
       "logo": "apple.svg",
       "customWidth": 70,
       "textTitle": true
+    },
+    {
+      "name": "Brave",
+      "url": "https://github.com/brave/brave-browser/wiki/TLS-Policy#certificate-transparency",
+      "description": "Supporting CT since 2023",
+      "logo": "brave.svg",
+      "customWidth": 75,
+      "textTitle": true
     }
   ]
 }
