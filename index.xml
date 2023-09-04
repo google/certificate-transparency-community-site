@@ -71,7 +71,7 @@ Go to Logs Go to User Agents                   Get an email every time a certifi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://certificate.transparency.dev/useragents/</guid>
-      <description>User Agents User agents using CT  User agents are typically browsers and help perform certificate auditing by verifying that certificates have legimitately been added to a log.
+      <description>User Agents User agents using CT  User agents are typically browsers and help perform certificate auditing by verifying that certificates have legitimately been added to a log.
 Go to Logs Go to Monitors          Google Chrome Supporting CT since early 2015         Apple Safari Supporting CT since 2018         Brave Supporting CT since 2023       Add CT to your user agent</description>
     </item>
     
