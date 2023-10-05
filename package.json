@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
+    "autoprefixer": "^10.4.16",
     "axios": "^0.21.1",
     "csv-parse": "^4.8.7",
     "deepmerge": "^4.2.2",
     "lodash": "^4.17.19",
-    "postcss-cli": "^7.1.0",
-    "postcss-custom-media": "^7.0.8"
+    "postcss-cli": "^10.1.0",
+    "postcss-custom-media": "^10.0.1"
   },
   "scripts": {
     "get_latest_logs": "node scripts/get_latest_logs.js",
