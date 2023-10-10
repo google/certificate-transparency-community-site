@@ -130,6 +130,22 @@ Contact: ct-logs@cloudflare.com
 </pre>
 
 <pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2024/</b>
+Source URL: https://ct.cloudflare.com/logs/nimbus2024/
+Base64 Log ID: 2ra/az+1tiKfm8K7XGvocJFxbLtRhIU0vaQ9MEjX+6s=
+Operator: Cloudflare
+Contact: ct-logs@cloudflare.com
+</pre>
+
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2025/</b>
+Source URL: https://ct.cloudflare.com/logs/nimbus2025/
+Base64 Log ID: zPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbA=
+Operator: Cloudflare
+Contact: ct-logs@cloudflare.com
+</pre>
+
+<pre>
 <b>https://ct.googleapis.com/logs/us1/mirrors/comodo_mammoth/</b>
 Source URL: https://mammoth.ct.comodo.com/
 Base64 Log ID: b1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RM=
