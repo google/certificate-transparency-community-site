@@ -18,15 +18,17 @@ When fetching entries from a log, always keep in mind that:
  "get-entries" request`: this means that if you make a
  `get-entries?start=10&end=40`, request the server might return a smaller slice,
  such as `start=10&end=20`. The number of entries returned might vary between
- requests, so always check how many entries each response contains, to
- dynamically adjust the start index of the next reques should be. In Trillian
- with a CT personality (which powers most of the CT logs at the time of
- writing), there are three main parameters that can influence this behaviour:
-     - [`max_get_entries`](https://github.com/search?q=repo%3Agoogle%2Fcertificate-transparency-go+max_get_entries+path%3Atrillian%2Fctfe%2Fct_server%2Fmain.go&type=code): the maximum number of entries in each response
-     - [`aligned_get_entries`](https://github.com/search?q=repo%3Agoogle%2Fcertificate-transparency-go+aligned_get_entries+path%3Atrillian%2Fctfe%2Fhandlers.go&type=code): whether the server will truncate responses
-        such that the last leaf index is a multiplier of a constant, to
-        increase caching likelihood
-     - [`MaxGetEntriesAllowed`](https://github.com/search?q=repo%3Agoogle%2Fcertificate-transparency-go+MaxGetEntriesAllowed+path%3Atrillian%2Fctfe%2Fhandlers.go&type=code): the maximum number of entries per request
+ requests, so always check how many entries each response contains, to adjust
+ the start index of the next request. In Trillian with a CT personality (which
+ powers most of the CT logs at the time of writing), there are two main
+ mechanisms that limits the number of entries in responses:
+     - Static: a log will never return more than X entries per reponse, where
+     X is set by the log operator.
+     - Dynamic: the server might [trucate responses to align the last leaf
+     index](https://github.com/google/certificate-transparency-go/blob/afde1b22ba618518e928a0379546db969803afb9/trillian/ctfe/handlers.go#L979-L988)
+     of a reponses on a geometric sequence. This increases the likelihood that
+     two different requests lead to the same response, hence making caching more
+     effective.
 
  2. Serving infrastructure might rate limit requests to protect logs, based on
  various parameters. Clients should react to rate limits, with exponential
@@ -36,7 +38,6 @@ When fetching entries from a log, always keep in mind that:
  on the most recent server reponses. Rate limits are often due to:
      - network DoS protection mechanisms specific to each log operator
      - a log server quota system, such as [Trillian's](https://github.com/google/trillian/blob/master/quota/quota.go)
- 
 
 # Self-hosted tools
 Here is a list of currently known tools to fetch entries from logs. This table
@@ -56,7 +57,6 @@ attempts to provide a high level overview of them, with info on:
 |[Scrape CT Log](https://github.com/mpalmer/scrape-ct-log)                                              |files (json, cbor)           |[yes](https://github.com/mpalmer/scrape-ct-log/blob/02314930ac59c23f6b0782fe156239aeff86b667/src/runner/mod.rs#L72)                      |[yes](https://github.com/mpalmer/scrape-ct-log/blob/02314930ac59c23f6b0782fe156239aeff86b667/src/fetcher/mod.rs#L246)             |[randomized](https://github.com/mpalmer/scrape-ct-log/blob/02314930ac59c23f6b0782fe156239aeff86b667/src/fetcher/mod.rs#L183)|
 |[crt.sh](https://github.com/crtsh)                                                                     |SQL                          |[yes](https://github.com/crtsh/ct_monitor/blob/174e0d8d4954dacd80eaf45dedd90061d7e7a6f4/ct/logList.go#L24)                               |[yes](https://github.com/crtsh/ct_monitor/blob/174e0d8d4954dacd80eaf45dedd90061d7e7a6f4/ct/getEntries.go#L77)                     |[static](https://github.com/crtsh/ct_monitor/blob/174e0d8d4954dacd80eaf45dedd90061d7e7a6f4/ct/logList.go#L75)               |
 |[CertStream](https://github.com/CaliDog/certstream-server?tab=readme-ov-file)                          |files (json), last 25 entries|[yes](https://github.com/CaliDog/certstream-server/blob/41c054704316f9ade21a0cc89db19d51e10469e6/lib/certstream/ct_watcher.ex#L165)      |[no](https://github.com/CaliDog/certstream-server-python/blob/790718da384d3710e7842bd32b8367d2e142cc14/certstream/watcher.py#L143)|no                                                                                                                          |
-
 
 If you know of any other tool, or spot any error in this table, please send a PR!
 
