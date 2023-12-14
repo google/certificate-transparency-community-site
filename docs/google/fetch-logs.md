@@ -28,18 +28,19 @@ When fetching entries from a log, always keep in mind that:
         increase caching likelihood
      - [`MaxGetEntriesAllowed`](https://github.com/search?q=repo%3Agoogle%2Fcertificate-transparency-go+MaxGetEntriesAllowed+path%3Atrillian%2Fctfe%2Fhandlers.go&type=code): the maximum number of entries per request
 
- 2. Serving infrastructures might rate limit requests to protect logs, based on various parameters. Clients
- should react to rate limits, with exponential backoff for instance, in order to
- release pressure on the servers until they can serve a steady stream of
- entries. Rate limiting is dynamic, and clients should react to react limits on
- a per-query basis. Rate limits could be the results of various systems on the
- serving infrastructure, which typically include:
+ 2. Serving infrastructure might rate limit requests to protect logs, based on
+ various parameters. Clients should react to rate limits, with exponential
+ backoff for instance, in order to release pressure on the servers until they
+ can serve a steady stream of entries. Rate limiting is dynamic and can vary 
+ over time, so always re-evaluate the number of queries your clients sends based
+ on the most recent server reponses. Rate limits are often due to:
      - network DoS protection mechanisms specific to each log operator
      - a log server quota system, such as [Trillian's](https://github.com/google/trillian/blob/master/quota/quota.go)
  
 
 # Self-hosted tools
-Here is a list of tools to fetch entries from logs. They all have various features, this table only lists a few of them:
+Here is a list of currently known tools to fetch entries from logs. This table
+attempts to provide a high level overview of them, with info on:
    - Storage: how the entries are stored
    - Parallelism: whether it allows making multiple queries to the same log in parallel
    - Dynamic ranges: whether it checks the number of entries in `get-entries` responses and adjusts the start of following
