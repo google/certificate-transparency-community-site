@@ -1,14 +1,14 @@
 # Table of Contents
 
  - [API and server behaviours](#api-and-server-behaviours)
- - [Self-hosted Tools](#self-hosted-tools)
+ - [Self-hosted tools](#self-hosted-tools)
  - [Online services](#online-services)
 
 This document describes how to read data from the Certificate Transparency
 logs.
 
 # API and server behaviours
-Certificate Transparency logs make the entries available through the
+Certificate Transparency logs make their entries available through the
 `get-entries` endpoint, as defined in
 [RFC6962](https://www.rfc-editor.org/rfc/rfc6962#section-4.6).
 
@@ -41,12 +41,11 @@ When fetching entries from a log, always keep in mind that:
 # Self-hosted tools
 Here is a list of tools to fetch entries from logs. They all have various features, this table only lists a few of them:
    - Storage: how the entries are stored
-   - Parallelism: whether it allows to make multiple queries to the same log in parallel
-   - Dynamic ranges: whether it checks the number of entries in `get-entries` responses and adjusts the start of the following
+   - Parallelism: whether it allows making multiple queries to the same log in parallel
+   - Dynamic ranges: whether it checks the number of entries in `get-entries` responses and adjusts the start of following
    requests
    - Backoff: how it reacts to HTTP `429 Too Many Requests`
 
-The following tools will fetch entries from the logs
 |Tool                                                                                                   |Storage                      |Parallelism                                                                                                                              |Dynamic indexes                                                                                                                   |Backoff                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 |[ScanLog](https://github.com/google/certificate-transparency-go/blob/master/scanner/scanlog/scanlog.go)|files (der)                  |[yes](https://github.com/google/certificate-transparency-go/blob/041b29b9b82cf2eb8972c5afef04e692524af8f0/scanner/scanlog/scanlog.go#L58)|[yes](https://github.com/google/certificate-transparency-go/blob/041b29b9b82cf2eb8972c5afef04e692524af8f0/scanner/fetcher.go#L298)|[exponential](https://github.com/google/certificate-transparency-go/blob/master/jsonclient/backoff.go)                      |
@@ -58,9 +57,9 @@ The following tools will fetch entries from the logs
 |[CertStream](https://github.com/CaliDog/certstream-server?tab=readme-ov-file)                          |files (json), last 25 entries|[yes](https://github.com/CaliDog/certstream-server/blob/41c054704316f9ade21a0cc89db19d51e10469e6/lib/certstream/ct_watcher.ex#L165)      |[no](https://github.com/CaliDog/certstream-server-python/blob/790718da384d3710e7842bd32b8367d2e142cc14/certstream/watcher.py#L143)|no                                                                                                                          |
 
 
-If you know of any other tool, or spot any error in this table, feel free to send a PR!
+If you know of any other tool, or spot any error in this table, please send a PR!
 
 # Online services 
-If you do not want to run a service yourself, various online service will fetch the data and make it available through
-various APIs. This [Let's Encrypt wiki](https://community.letsencrypt.org/t/certificate-transparency-search-resources/203368)
-lists them.
+If you don't want to run your own log downloading and indexing system, there
+exist various online services which do this and offer the results via API or
+HTTP UIs, Let's Encrypt has a list [here](https://community.letsencrypt.org/t/certificate-transparency-search-resources/203368)
