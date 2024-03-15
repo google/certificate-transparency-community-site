@@ -51,7 +51,7 @@
     border-radius: 2px;
     background: map-get(map-get($palettes, "community"), "tint");
 
-    flex: 0 0;
+    flex: 1 0;
 
     @include sm {
       margin: 0 0 1rem;
