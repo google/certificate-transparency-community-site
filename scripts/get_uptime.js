@@ -36,4 +36,4 @@ function download(urlString, filename="", log=true) {
 }
 
 const outputPath = "uptime.csv"
-download("https://www.gstatic.com/ct/compliance/uptime.csv", outputPath);
+download("https://www.gstatic.com/ct/compliance/min_uptime.csv", outputPath);
