@@ -75,7 +75,7 @@ function handleTableUpdate() {
     const googLogsURL = "https://www.gstatic.com/ct/log_list/v3/all_logs_list.json";
     // get latest logs from apple
     const appleLogsURL = "https://valid.apple.com/ct/log_list/current_log_list.json";
-    const uptimesURL = "https://www.gstatic.com/ct/compliance/uptime.csv";
+    const uptimesURL = "https://www.gstatic.com/ct/compliance/min_uptime.csv";
 
     try {
       Promise.all([googLogsURL, appleLogsURL, uptimesURL].map(url =>
@@ -167,7 +167,7 @@ function handleTableUpdate() {
             <td>
               ${log.temporal_interval ? log.temporal_interval.end_exclusive.split("T")[0] : ""}
             </td>
-            <td class='uptime'>${log.uptime}</td>
+            <td class='uptime'>${log.uptime ? log.uptime : ""}</td>
           </tr>
           `;
           return markup;
