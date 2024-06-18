@@ -280,6 +280,22 @@ Contact: google-ct-logs@googlegroups.com
 </pre>
 
 <pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2026h1/</b>
+Base64 Log ID: yEuQege+qimmFMJFhLej9mJDlGh7Jf5ig4tx7EIq0vk=
+Expiry range: Jan 01 2026 00:00:00Z inclusive to Jul 01 2026 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2026h2/</b>
+Base64 Log ID: YukAYASjB5VadUS01YSpYmjKHW5Fha3wkW3+X9wfBNs=
+Expiry range: Jul 01 2025 00:00:00Z inclusive to Jan 01 2027 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+
+<pre>
 <b>https://ct.googleapis.com/testtube/</b>
 Base64 Log ID: sMyD5aX5fWuvfAnMKEkEhyrH6IsTLGNQt8b9JuFsbHc=
 Operator: Google
