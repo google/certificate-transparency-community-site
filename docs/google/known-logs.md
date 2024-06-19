@@ -290,7 +290,7 @@ Contact: google-ct-logs@googlegroups.com
 <pre>
 <b>https://ct.googleapis.com/logs/eu1/solera2026h2/</b>
 Base64 Log ID: YukAYASjB5VadUS01YSpYmjKHW5Fha3wkW3+X9wfBNs=
-Expiry range: Jul 01 2025 00:00:00Z inclusive to Jan 01 2027 00:00:00Z exclusive
+Expiry range: Jul 01 2026 00:00:00Z inclusive to Jan 01 2027 00:00:00Z exclusive
 Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>
