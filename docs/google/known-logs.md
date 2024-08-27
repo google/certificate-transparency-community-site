@@ -34,7 +34,7 @@ https://www.gstatic.com/ct/log_list/v3/log_list_schema.json
 
 To check whether Logs are currently **pending inclusion in Chrome**, check the
 Chromium inclusion bugs:
-[https://crbug.com/?q=component%3AInternals>Network>CertTrans](https://crbug.com/?q=component%3AInternals>Network>CertTrans)
+[https://issues.chromium.org/issues?q=status:open%20componentid:1456813](https://issues.chromium.org/issues?q=status:open%20componentid:1456813)
 
 ## Special Purpose Logs
 
