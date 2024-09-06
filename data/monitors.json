@@ -66,6 +66,12 @@
       "url": "https://report-uri.com/products/certificate_transparency_monitoring",
       "description": "Receive notifications when certificates are issued for any of your domains.",
       "logo": "report-uri.svg"
+    },
+    {
+      "name": "Merklemap",
+      "url": "https://www.merklemap.com/",
+      "description": "Certificate transparency search engine.",
+      "logo": "merklemap.svg"
     }
   ]
 }
