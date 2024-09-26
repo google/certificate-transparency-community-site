@@ -1,0 +1,21 @@
+{{ define "main"}}
+
+<section>
+  <div class='wrap-outer'>
+    <div class='wrap'>
+      <div class='markdown'>
+        <div class='markdown-heading'>
+          <h1>{{ .Title }}</h1>
+          {{ if .Params.show_table_of_contents }}
+            <h4>Contents:</h4>
+            {{ .TableOfContents }}
+          {{ end }}
+        </div>
+        <div class="markdown-content">
+          {{ .Content }}
+        </div>
+    </div>
+  </div>
+</div>
+
+{{end}}
