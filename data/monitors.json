@@ -72,6 +72,12 @@
       "url": "https://www.merklemap.com/",
       "description": "Certificate transparency search engine.",
       "logo": "merklemap.svg"
+    },
+    {
+      "name": "RedSift",
+      "url": "https://redsift.com/pulse-platform/certificates-lite",
+      "description": "Track and manage certificate expirations effortlessly.",
+      "logo": "RedSift.svg"
     }
   ]
 }
