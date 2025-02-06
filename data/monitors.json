@@ -3,7 +3,7 @@
     {
       "name": "Censys",
       "url": "https://censys.io/certificates",
-      "description": "Search Certificate Transparency and Pre-certificates in Censys",
+      "description": "Identify expired or misconfigured SSL/TLS certificates and track vendor compliance.",
       "logo": "censys.png"
     },
     {
