@@ -3,7 +3,7 @@
     {
       "name": "Censys",
       "url": "https://censys.io/certificates",
-      "description": "",
+      "description": "Search Certificate Transparency and Pre-certificates in Censys",
       "logo": "censys.png"
     },
     {
@@ -21,20 +21,14 @@
     {
       "name": "Digicert",
       "url": "https://docs.digicert.com/certificate-tools/ct-log-monitoring-service",
-      "description": "",
+      "description": "Monitor Certificate Transparency logs for your domains. Available to Secure Site Pro certificate orders",
       "logo": "digicert.svg"
     },
     {
       "name": "Entrust",
       "url": "https://ui.ctsearch.entrust.com/ui/ctsearchui",
-      "description": "",
+      "description": "See Who’s Issued SSL/TLS Certificates to Your Domain Name",
       "logo": "entrust.svg"
-    },
-    {
-      "name": "Facebook",
-      "url": "https://developers.facebook.com/tools/ct/search/",
-      "description": "Get a Facebook notification or Webhook callback every time a certificate is issued for one of your monitored domains.",
-      "logo": "facebook_nocrop.png"
     },
     {
       "name": "EZMonitor",
@@ -43,29 +37,16 @@
       "logo": "Keytos.svg"
     },
     {
+      "name": "Facebook",
+      "url": "https://developers.facebook.com/tools/ct/search/",
+      "description": "Get a Facebook notification or Webhook callback every time a certificate is issued for one of your monitored domains.",
+      "logo": "facebook_nocrop.png"
+    },
+    {
       "name": "Hardenize",
       "url": "https://www.hardenize.com/product/ct",
       "description": "Comprehensive network infrastructure discovery and monitoring, with focus on PKI and Certificate Transparency.",
       "logo": "hardenize.svg"
-    },
-    {
-      "name": "SSLMate",
-      "url": "https://sslmate.com/certspotter/",
-      "description": "Monitor domains for expiring and unauthorized SSL certificates and get notified if there’s a problem.",
-      "logo": "sslmate.svg"
-    },
-    
-    {
-      "name": "Stellastra",
-      "url": "https://stellastra.com/solution/certificate-transparency-log-monitor/",
-      "description": "Monitor for Unauthorized, Expiring, and Maliciously Issued SSL/TLS Certificates.",
-      "logo": "stellastra.svg"
-    },
-    {
-      "name": "Report URI",
-      "url": "https://report-uri.com/products/certificate_transparency_monitoring",
-      "description": "Receive notifications when certificates are issued for any of your domains.",
-      "logo": "report-uri.svg"
     },
     {
       "name": "Merklemap",
@@ -78,6 +59,24 @@
       "url": "https://redsift.com/pulse-platform/certificates-lite",
       "description": "Track and manage certificate expirations effortlessly.",
       "logo": "RedSift.svg"
+    }
+    {
+      "name": "Report URI",
+      "url": "https://report-uri.com/products/certificate_transparency_monitoring",
+      "description": "Receive notifications when certificates are issued for any of your domains.",
+      "logo": "report-uri.svg"
+    },
+    {
+      "name": "SSLMate",
+      "url": "https://sslmate.com/certspotter/",
+      "description": "Monitor domains for expiring and unauthorized SSL certificates and get notified if there’s a problem.",
+      "logo": "sslmate.svg"
+    },
+    {
+      "name": "Stellastra",
+      "url": "https://stellastra.com/solution/certificate-transparency-log-monitor/",
+      "description": "Monitor for Unauthorized, Expiring, and Maliciously Issued SSL/TLS Certificates.",
+      "logo": "stellastra.svg"
     }
   ]
 }
