@@ -62,7 +62,7 @@ Go to Monitors Go to User Agents                                                
       
       <guid>https://certificate.transparency.dev/monitors/</guid>
       <description>Monitors The list of existing monitors  Monitors make sure that all logged certificates are visible in the log and watch for suspicious certificates in logs
-Go to Logs Go to User Agents                   Get an email every time a certificate is issued for one of your monitored domains.         Certificate Search, by Sectigo.</description>
+Go to Logs Go to User Agents          Identify expired or misconfigured SSL/TLS certificates and track vendor compliance.         Get an email every time a certificate is issued for one of your monitored domains.</description>
     </item>
     
     <item>
