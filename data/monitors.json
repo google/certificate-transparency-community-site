@@ -21,7 +21,7 @@
     {
       "name": "Digicert",
       "url": "https://docs.digicert.com/certificate-tools/ct-log-monitoring-service",
-      "description": "Monitor Certificate Transparency logs for your domains. Available to Secure Site Pro certificate orders",
+      "description": "Monitor Certificate Transparency logs for your domains. Available to Secure Site Pro certificate orders.",
       "logo": "digicert.svg"
     },
     {
