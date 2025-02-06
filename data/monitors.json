@@ -2,7 +2,7 @@
   "monitors": [
     {
       "name": "Censys",
-      "url": "https://censys.io/certificates",
+      "url": "https://search.censys.io",
       "description": "Identify expired or misconfigured SSL/TLS certificates and track vendor compliance.",
       "logo": "censys.png"
     },
