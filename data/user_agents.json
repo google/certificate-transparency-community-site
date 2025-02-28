@@ -23,6 +23,14 @@
       "logo": "brave.svg",
       "customWidth": 75,
       "textTitle": true
+    },
+    {
+      "name": "Firefox",
+      "url": "https://wiki.mozilla.org/SecurityEngineering/Certificate_Transparency#CT_Policy",
+      "description": "Supporting CT since 2025",
+      "logo": "Fx-Browser-icon-fullColor.svg",
+      "customWidth": 75,
+      "textTitle": true
     }
   ]
 }
