@@ -24,7 +24,7 @@ jobs:
     name: Build and deploy Hugo site
     runs-on: ubuntu-22.04
     permissions:
-      pages: write
+      contents: write
 
     steps:
     - uses: actions/checkout@v3
