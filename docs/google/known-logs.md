@@ -7,34 +7,11 @@
 
 # Known Logs
 
-The list of CT Logs that are currently compliant with Chrome's CT policy (or
-have been and were disqualified), and are **included in Chrome**:
-https://www.gstatic.com/ct/log_list/v3/log_list.json
+Lists of known CT Logs are maintained by each CT-enforcing user agent.
 
-The list of all known and announced CT Logs:
-https://www.gstatic.com/ct/log_list/v3/all_logs_list.json
-
-`log_list.json` and `all_logs_list.json` are signed by Google, the signatures
-being hosted at: https://www.gstatic.com/ct/log_list/v3/log_list.sig and
-https://www.gstatic.com/ct/log_list/v3/all_logs_list.sig respectively.
-
-`log_list.json` and the corresponding log_list.sig can also be obtained by
-downloading the zip file containing both of them, found at:
-https://www.gstatic.com/ct/log_list/v3/log_list.zip
-
-Similarly, `all_logs_list.json` and the corresponding all_logs_list.sig can be
-obtained by downloading the zip file containing both of them, found at:
-https://www.gstatic.com/ct/log_list/v3/all_logs_list.zip
-
-The public key to verify `log_list.sig` and `all_logs_list.sig` can be found at:
-https://www.gstatic.com/ct/log_list/v3/log_list_pubkey.pem
-
-Both `log_list.json` and `all_logs_list.json` conform with the following schema:
-https://www.gstatic.com/ct/log_list/v3/log_list_schema.json
-
-To check whether Logs are currently **pending inclusion in Chrome**, check the
-Chromium inclusion bugs:
-[https://issues.chromium.org/issues?q=status:open%20componentid:1456813](https://issues.chromium.org/issues?q=status:open%20componentid:1456813)
+Learn more about the list of CT Logs that are currently compliant with
+**Chrome's** CT policy (or have been and were disqualified) at
+https://googlechrome.github.io/CertificateTransparency/log_lists.html
 
 ## Special Purpose Logs
 
@@ -45,7 +22,7 @@ Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>
 
-Daedalus is not trusted by Chrome. It only logs certificates that have expired.
+Daedalus is not trusted by CT-enforcing user agents such as Chrome. It only logs certificates that have expired.
 See the
 [announcement post](https://groups.google.com/forum/#!topic/certificate-transparency/GUgWzCSN30I).
 
@@ -56,7 +33,7 @@ Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>
 
-Submariner is not trusted by Chrome. It only logs certificates that chain to
+Submariner is not trusted by CT-enforcing user agents such as Chrome. It only logs certificates that chain to
 roots that are on track for inclusion in browser roots or were trusted at some
 previous point
 [announcement blog post](https://security.googleblog.com/2016/03/certificate-transparency-for-untrusted.html).
