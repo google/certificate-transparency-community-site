@@ -31,6 +31,14 @@
       "logo": "firefox.svg",
       "customWidth": 75,
       "textTitle": true
+    },
+    {
+      "name": "Android",
+      "url": "https://developer.android.com/privacy-and-security/certificate-transparency-policy",
+      "description": "Supporting CT since 2025",
+      "logo": "android.svg",
+      "customWidth": 90,
+      "textTitle": true
     }
   ]
 }
