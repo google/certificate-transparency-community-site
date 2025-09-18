@@ -175,6 +175,18 @@ A test root should:
 For historical reasons, Google's test logs include some test roots that do not
 comply with all of the above requirements.
 
+To verify that your test root complies with the policy listed above, you can run the following `openssl` command:
+```sh
+$ openssl x509 -in google-test-monitor.cert -noout -serial -issuer -subject -ext keyUsage,basicConstraints
+serial=BF90A6BDBEFC149E
+issuer=C = GB, L = London, O = Google UK Ltd., OU = Certificate Transparency, CN = Test Monitor Root
+subject=C = GB, L = London, O = Google UK Ltd., OU = Certificate Transparency, CN = Test Monitor Root
+X509v3 Key Usage: critical
+    Digital Signature, Certificate Sign
+X509v3 Basic Constraints: critical
+    CA:TRUE
+```
+
 Google's test Logs are:
 
 <pre>
