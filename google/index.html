@@ -67,24 +67,18 @@
 <div id="nav-shield"></div>
 <section>
   <div class='wrap'>
-        <h1 id="known-logs">Known Logs</h1>
-<p>The list of CT Logs that are currently compliant with Chrome&rsquo;s CT policy (or
-have been and were disqualified), and are <strong>included in Chrome</strong>:
-<a href="https://www.gstatic.com/ct/log_list/v3/log_list.json">https://www.gstatic.com/ct/log_list/v3/log_list.json</a></p>
-<p><code>log_list.json</code> is signed by Google, the signature being hosted at:
-<a href="https://www.gstatic.com/ct/log_list/v3/log_list.sig">https://www.gstatic.com/ct/log_list/v3/log_list.sig</a></p>
-<p><code>log_list.json</code> and the corresponding log_list.sig can also be obtained by
-downloading the zip file containing both of them, found at:
-<a href="https://www.gstatic.com/ct/log_list/v3/log_list.zip">https://www.gstatic.com/ct/log_list/v3/log_list.zip</a></p>
-<p>The public key to verify <code>log_list.sig</code> can be found at:
-<a href="https://www.gstatic.com/ct/log_list/v3/log_list_pubkey.pem">https://www.gstatic.com/ct/log_list/v3/log_list_pubkey.pem</a></p>
-<p>The list of all known and announced CT Logs:
-<a href="https://www.gstatic.com/ct/log_list/v3/all_logs_list.json">https://www.gstatic.com/ct/log_list/v3/all_logs_list.json</a></p>
-<p>Both <code>log_list.json</code> and <code>all_logs_list.json</code> conform with the following schema:
-<a href="https://www.gstatic.com/ct/log_list/v3/log_list_schema.json">https://www.gstatic.com/ct/log_list/v3/log_list_schema.json</a></p>
-<p>To check whether Logs are currently <strong>pending inclusion in Chrome</strong>, check the
-Chromium inclusion bugs:
-<a href="https://issues.chromium.org/issues?q=status:open%20componentid:1456813">https://issues.chromium.org/issues?q=status:open%20componentid:1456813</a></p>
+        <h1 id="table-of-contents">Table of Contents</h1>
+<ul>
+<li><a href="#known-logs">Known Logs</a></li>
+<li><a href="#special-purpose-logs">Special Purpose Logs</a></li>
+<li><a href="#mirrors">Mirrors</a></li>
+<li><a href="#test-logs">Test Logs</a></li>
+</ul>
+<h1 id="known-logs">Known Logs</h1>
+<p>Lists of known CT Logs are maintained by each CT-enforcing user agent.</p>
+<p>Learn more about the list of CT Logs that are currently compliant with
+<strong>Chrome&rsquo;s</strong> CT policy (or have been and were disqualified) at
+<a href="https://googlechrome.github.io/CertificateTransparency/log_lists.html">https://googlechrome.github.io/CertificateTransparency/log_lists.html</a></p>
 <h2 id="special-purpose-logs">Special Purpose Logs</h2>
 <pre>
 <b>https://ct.googleapis.com/daedalus/</b>
@@ -92,7 +86,7 @@ Base64 Log ID: HQJLjrFJizRN/YfqPvwJlvdQbyNdHUlwYaR3PEOcJfs=
 Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>
-<p>Daedalus is not trusted by Chrome. It only logs certificates that have expired.
+<p>Daedalus is not trusted by CT-enforcing user agents such as Chrome. It only logs certificates that have expired.
 See the
 <a href="https://groups.google.com/forum/#!topic/certificate-transparency/GUgWzCSN30I">announcement post</a>.</p>
 <pre>
@@ -101,10 +95,97 @@ Base64 Log ID: qJnYeAySkKr0YvMYgMz71SRR6XDQ+/WR73Ww2ZtkVoE=
 Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>
-<p>Submariner is not trusted by Chrome. It only logs certificates that chain to
+<p>Submariner is not trusted by CT-enforcing user agents such as Chrome. It only logs certificates that chain to
 roots that are on track for inclusion in browser roots or were trusted at some
 previous point
 <a href="https://security.googleblog.com/2016/03/certificate-transparency-for-untrusted.html">announcement blog post</a>.</p>
+<h2 id="mirrors">Mirrors</h2>
+<p>These logs are hosted by Google and mirror the logs served at <code>Source URL</code>.
+These mirrors run with no SLA.</p>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/mirrors/letsencrypt_oak2023/</b>
+Source URL: https://oak.ct.letsencrypt.org/2023/
+Base64 Log ID: tz77JN+cTbp18jnFulj0bF38Qs96nzXEnh0JgSXttJk=
+Operator: Let’s Encrypt
+Contact: sre@letsencrypt.org
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/mirrors/letsencrypt_oak2022/</b>
+Source URL: https://oak.ct.letsencrypt.org/2022/
+Base64 Log ID: 36Veq2iCTx9sre64X04+WurNohKkal6OOxLAIERcKnM=
+Operator: Let’s Encrypt
+Contact: sre@letsencrypt.org
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/mirrors/digicert_yeti2022_2/</b>
+Source URL: https://yeti2022-2.ct.digicert.com/log/
+Base64 Log ID: BZwB0yDgB4QTlYBJjRF8kDJmr69yULWvO0akPhGEDUo=
+Operator: DigiCert
+Contact: ctops@digicert.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/mirrors/digicert_yeti2023/</b>
+Source URL: https://yeti2023.ct.digicert.com/log/
+Base64 Log ID: Nc8ZG7+xbFe/D61MbULLu7YnICZR6j/hKu+oA8M71kw=
+Operator: DigiCert
+Contact: ctops@digicert.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/digicert_nessie2022/</b>
+Source URL: https://nessie2022.ct.digicert.com/log/
+Base64 Log ID: UaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeU=
+Operator: DigiCert
+Contact: ctops@digicert.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/digicert_nessie2023/</b>
+Source URL: https://nessie2023.ct.digicert.com/log/
+Base64 Log ID: s3N3B+GEUPhjhtYFqdwRCUp5LbFnDAuH3PADDnk2pZo=
+Operator: DigiCert
+Contact: ctops@digicert.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2022/</b>
+Source URL: https://ct.cloudflare.com/logs/nimbus2022/
+Base64 Log ID: QcjKsd8iRkoQxqE6CUKHXk4xixsD6+tLx2jwkGKWBvY=
+Operator: Cloudflare
+Contact: ct-logs@cloudflare.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2023/</b>
+Source URL: https://ct.cloudflare.com/logs/nimbus2023/
+Base64 Log ID: ejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS61I=
+Operator: Cloudflare
+Contact: ct-logs@cloudflare.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2024/</b>
+Source URL: https://ct.cloudflare.com/logs/nimbus2024/
+Base64 Log ID: 2ra/az+1tiKfm8K7XGvocJFxbLtRhIU0vaQ9MEjX+6s=
+Operator: Cloudflare
+Contact: ct-logs@cloudflare.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2025/</b>
+Source URL: https://ct.cloudflare.com/logs/nimbus2025/
+Base64 Log ID: zPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbA=
+Operator: Cloudflare
+Contact: ct-logs@cloudflare.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/comodo_mammoth/</b>
+Source URL: https://mammoth.ct.comodo.com/
+Base64 Log ID: b1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RM=
+Operator: Sectigo
+Contact: ctops@sectigo.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/us1/mirrors/comodo_sabre/</b>
+Source URL: https://sabre.ct.comodo.com/
+Base64 Log ID: VYHUwhaQNgFK6gubVzxT8MDkOHhwJQgXL6OqHQcT0ww=
+Operator: Sectigo
+Contact: ctops@sectigo.com
+</pre>
 <h2 id="test-logs">Test Logs</h2>
 <p>These logs are intended for <strong>testing purposes only</strong> and will only log
 certificates that chain to a test root explicitly added to it.</p>
@@ -138,15 +219,15 @@ that is also identified as a test certificate.</p>
 <p>For historical reasons, Google&rsquo;s test logs include some test roots that do not
 comply with all of the above requirements.</p>
 <p>To verify that your test root complies with the policy listed above, you can run the following <code>openssl</code> command:</p>
-<pre><code>$ openssl x509 -in google-test-monitor.cert -noout -serial -issuer -subject -ext keyUsage,basicConstraints
-serial=BF90A6BDBEFC149E
-issuer=C = GB, L = London, O = Google UK Ltd., OU = Certificate Transparency, CN = Test Monitor Root
-subject=C = GB, L = London, O = Google UK Ltd., OU = Certificate Transparency, CN = Test Monitor Root
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ openssl x509 -in google-test-monitor.cert -noout -serial -issuer -subject -ext keyUsage,basicConstraints
+serial<span style="color:#f92672">=</span>BF90A6BDBEFC149E
+issuer<span style="color:#f92672">=</span>C <span style="color:#f92672">=</span> GB, L <span style="color:#f92672">=</span> London, O <span style="color:#f92672">=</span> Google UK Ltd., OU <span style="color:#f92672">=</span> Certificate Transparency, CN <span style="color:#f92672">=</span> Test Monitor Root
+subject<span style="color:#f92672">=</span>C <span style="color:#f92672">=</span> GB, L <span style="color:#f92672">=</span> London, O <span style="color:#f92672">=</span> Google UK Ltd., OU <span style="color:#f92672">=</span> Certificate Transparency, CN <span style="color:#f92672">=</span> Test Monitor Root
 X509v3 Key Usage: critical
     Digital Signature, Certificate Sign
 X509v3 Basic Constraints: critical
     CA:TRUE
-</code></pre><p>Google&rsquo;s test Logs are:</p>
+</code></pre></div><p>Google&rsquo;s test Logs are:</p>
 <pre>
 <b>https://ct.googleapis.com/logs/crucible/</b>
 Base64 Log ID: w78Dp+HKiEHGB7rj/0Jw/KXsRbGG675OLPP8d4Yw9fY=
@@ -192,6 +273,41 @@ Contact: google-ct-logs@googlegroups.com
 <b>https://ct.googleapis.com/logs/solera2023/</b>
 Base64 Log ID: +X6XuNM+96FZAqU6GeF5kOXcQGoDGCW6rZPpj5ucacs=
 Expiry range: Jan 01 2023 00:00:00Z inclusive to Jan 01 2024 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2024/</b>
+Base64 Log ID: MCTOfusWiGJyS+pwLv/5ks/kVkNBkapZWyX4AibIABc=
+Expiry range: Jan 01 2024 00:00:00Z inclusive to Jan 01 2025 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2025h1/</b>
+Base64 Log ID: P+HLRu1HNXmvAUH5ck2dxENHLXVuhedxnFWCSF3U4eQ=
+Expiry range: Jan 01 2025 00:00:00Z inclusive to Jul 01 2025 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2025h2/</b>
+Base64 Log ID: JgI5SIdM9/zQ+2RxpD6EfrsgCubi+iQjbfbRpgZjD7E=
+Expiry range: Jul 01 2025 00:00:00Z inclusive to Jan 01 2026 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2026h1/</b>
+Base64 Log ID: yEuQege+qimmFMJFhLej9mJDlGh7Jf5ig4tx7EIq0vk=
+Expiry range: Jan 01 2026 00:00:00Z inclusive to Jul 01 2026 00:00:00Z exclusive
+Operator: Google
+Contact: google-ct-logs@googlegroups.com
+</pre>
+<pre>
+<b>https://ct.googleapis.com/logs/eu1/solera2026h2/</b>
+Base64 Log ID: YukAYASjB5VadUS01YSpYmjKHW5Fha3wkW3+X9wfBNs=
+Expiry range: Jul 01 2026 00:00:00Z inclusive to Jan 01 2027 00:00:00Z exclusive
 Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>

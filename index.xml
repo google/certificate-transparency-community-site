@@ -30,10 +30,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://certificate.transparency.dev/google/</guid>
-      <description>Known Logs The list of CT Logs that are currently compliant with Chrome&amp;rsquo;s CT policy (or have been and were disqualified), and are included in Chrome: https://www.gstatic.com/ct/log_list/v3/log_list.json
-log_list.json is signed by Google, the signature being hosted at: https://www.gstatic.com/ct/log_list/v3/log_list.sig
-log_list.json and the corresponding log_list.sig can also be obtained by downloading the zip file containing both of them, found at: https://www.gstatic.com/ct/log_list/v3/log_list.zip
-The public key to verify log_list.sig can be found at: https://www.</description>
+      <description>Table of Contents  Known Logs Special Purpose Logs Mirrors Test Logs  Known Logs Lists of known CT Logs are maintained by each CT-enforcing user agent.
+Learn more about the list of CT Logs that are currently compliant with Chrome&amp;rsquo;s CT policy (or have been and were disqualified) at https://googlechrome.github.io/CertificateTransparency/log_lists.html
+Special Purpose Logs  https://ct.googleapis.com/daedalus/ Base64 Log ID: HQJLjrFJizRN/YfqPvwJlvdQbyNdHUlwYaR3PEOcJfs= Operator: Google Contact: google-ct-logs@googlegroups.com  Daedalus is not trusted by CT-enforcing user agents such as Chrome.</description>
     </item>
     
     <item>
