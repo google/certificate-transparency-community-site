@@ -41,6 +41,11 @@ mergedLogs.operators.forEach(operator => {
     log.operator = operator.name;
     allLogs.push(log);
   })
+  operator.tiled_logs.forEach(log => {
+    log.operator = operator.name;
+    log.url = log.submission_url;
+    allLogs.push(log);
+  })
 });
 
 // sort
