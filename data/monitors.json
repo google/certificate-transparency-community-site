@@ -77,6 +77,12 @@
       "url": "https://stellastra.com/solution/certificate-transparency-log-monitor/",
       "description": "Monitor for Unauthorized, Expiring, and Maliciously Issued SSL/TLS Certificates.",
       "logo": "stellastra.svg"
+    },
+    {
+      "name": "CertKit",
+      "url": "https://www.certkit.io/tools/ct-logs/",
+      "description": "Certificate Lifecycle Management and Certificate Monitoring with CT Log API Access",
+      "logo": "certkit-logo.svg"
     }
   ]
 }
