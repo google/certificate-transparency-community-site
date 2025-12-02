@@ -35,6 +35,18 @@
       "url": "https://ct.trustasia.com/blog/english/",
       "description": "",
       "logo": "trustasia.svg"
+    },
+    {
+      "name": "Geomys",
+      "url": "https://geomys.org/",
+      "description": "",
+      "logo": "Geomys.svg"
+    },
+    {
+      "name": "Ipng",
+      "url": "https://ipng.ch/s/ct/",
+      "description": "",
+      "logo": "IPngLogo.png"
     }
   ]
 }
