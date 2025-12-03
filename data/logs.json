@@ -13,10 +13,22 @@
       "logo": "digicert.svg"
     },
     {
+      "name": "Geomys",
+      "url": "https://geomys.org/",
+      "description": "",
+      "logo": "Geomys.svg"
+    },
+    {
       "name": "Google",
       "url": "https://github.com/google/certificate-transparency-community-site/blob/master/docs/google/known-logs.md",
       "description": "",
       "logo": "google.svg"
+    },
+    {
+      "name": "Ipng",
+      "url": "https://ipng.ch/s/ct/",
+      "description": "",
+      "logo": "IPngLogo.png"
     },
     {
       "name": "Let's Encrypt",
@@ -35,18 +47,6 @@
       "url": "https://ct.trustasia.com/blog/english/",
       "description": "",
       "logo": "trustasia.svg"
-    },
-    {
-      "name": "Geomys",
-      "url": "https://geomys.org/",
-      "description": "",
-      "logo": "Geomys.svg"
-    },
-    {
-      "name": "Ipng",
-      "url": "https://ipng.ch/s/ct/",
-      "description": "",
-      "logo": "IPngLogo.png"
     }
   ]
 }
