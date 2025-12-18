@@ -43,12 +43,6 @@
       "logo": "Keytos.svg"
     },
     {
-      "name": "Facebook",
-      "url": "https://developers.facebook.com/tools/ct/search/",
-      "description": "Get a Facebook notification or Webhook callback every time a certificate is issued for one of your monitored domains.",
-      "logo": "facebook_nocrop.png"
-    },
-    {
       "name": "Hardenize",
       "url": "https://www.hardenize.com/product/ct",
       "description": "Comprehensive network infrastructure discovery and monitoring, with focus on PKI and Certificate Transparency.",
