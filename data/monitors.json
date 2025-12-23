@@ -31,12 +31,6 @@
       "logo": "digicert.svg"
     },
     {
-      "name": "Entrust",
-      "url": "https://ui.ctsearch.entrust.com/ui/ctsearchui",
-      "description": "See Who’s Issued SSL/TLS Certificates to Your Domain Name.",
-      "logo": "entrust.svg"
-    },
-    {
       "name": "EZMonitor",
       "url": "https://www.keytos.io/ezmonitor_overview.html",
       "description": "Proactively monitor the health of your SSL certificates and endpoints. Get notified before a problem occurs.",
@@ -53,6 +47,12 @@
       "url": "https://www.merklemap.com/",
       "description": "Certificate transparency search engine.",
       "logo": "merklemap.svg"
+    },
+    {
+      "name": "oh dear",
+      "url": "https://ohdear.app/features/continuous-certificate-monitoring",
+      "description": "Continuous certificate monitoring.",
+      "logo": "oh-dear.svg"
     },
     {
       "name": "Red Sift",
