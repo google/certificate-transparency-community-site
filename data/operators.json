@@ -27,9 +27,14 @@
       "logo": "digicert.svg"
     },
     {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/notes/protect-the-graph/introducing-our-certificate-transparency-monitoring-tool/1811919779048165/",
-      "logo": "facebook.png"
+      "name": "Geomys",
+      "url": "https://geomys.org/",
+      "logo": "Geomys.svg"
+    },
+    {
+      "name": "IPng Networks",
+      "url": "https://ipng.ch/s/ct/",
+      "logo": "IPngLogo.png"
     },
     {
       "name": "Let's Encrypt",
@@ -45,6 +50,11 @@
       "name": "SSLMate",
       "url": "https://sslmate.com/certspotter/",
       "logo": "sslmate.svg"
+    },
+    {
+      "name": "TrustAsia",
+      "url": "https://ct.trustasia.com/blog/english/",
+      "logo": "trustasia.svg"
     }
   ]
 }
