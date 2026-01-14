@@ -2,8 +2,8 @@
 
  - [Known Logs](#known-logs)
  - [Special Purpose Logs](#special-purpose-logs)
- - [Mirrors](#mirrors)
  - [Test Logs](#test-logs)
+ - [Archived Logs](#archived-logs)
 
 # Known Logs
 
@@ -37,106 +37,6 @@ Submariner is not trusted by CT-enforcing user agents such as Chrome. It only lo
 roots that are on track for inclusion in browser roots or were trusted at some
 previous point
 [announcement blog post](https://security.googleblog.com/2016/03/certificate-transparency-for-untrusted.html).
-
-## Mirrors
-These logs are hosted by Google and mirror the logs served at `Source URL`.
-These mirrors run with no SLA.
-
-<pre>
-<b>https://ct.googleapis.com/logs/eu1/mirrors/letsencrypt_oak2023/</b>
-Source URL: https://oak.ct.letsencrypt.org/2023/
-Base64 Log ID: tz77JN+cTbp18jnFulj0bF38Qs96nzXEnh0JgSXttJk=
-Operator: Let’s Encrypt
-Contact: sre@letsencrypt.org
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/eu1/mirrors/letsencrypt_oak2022/</b>
-Source URL: https://oak.ct.letsencrypt.org/2022/
-Base64 Log ID: 36Veq2iCTx9sre64X04+WurNohKkal6OOxLAIERcKnM=
-Operator: Let’s Encrypt
-Contact: sre@letsencrypt.org
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/eu1/mirrors/digicert_yeti2022_2/</b>
-Source URL: https://yeti2022-2.ct.digicert.com/log/
-Base64 Log ID: BZwB0yDgB4QTlYBJjRF8kDJmr69yULWvO0akPhGEDUo=
-Operator: DigiCert
-Contact: ctops@digicert.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/eu1/mirrors/digicert_yeti2023/</b>
-Source URL: https://yeti2023.ct.digicert.com/log/
-Base64 Log ID: Nc8ZG7+xbFe/D61MbULLu7YnICZR6j/hKu+oA8M71kw=
-Operator: DigiCert
-Contact: ctops@digicert.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/digicert_nessie2022/</b>
-Source URL: https://nessie2022.ct.digicert.com/log/
-Base64 Log ID: UaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeU=
-Operator: DigiCert
-Contact: ctops@digicert.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/digicert_nessie2023/</b>
-Source URL: https://nessie2023.ct.digicert.com/log/
-Base64 Log ID: s3N3B+GEUPhjhtYFqdwRCUp5LbFnDAuH3PADDnk2pZo=
-Operator: DigiCert
-Contact: ctops@digicert.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2022/</b>
-Source URL: https://ct.cloudflare.com/logs/nimbus2022/
-Base64 Log ID: QcjKsd8iRkoQxqE6CUKHXk4xixsD6+tLx2jwkGKWBvY=
-Operator: Cloudflare
-Contact: ct-logs@cloudflare.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2023/</b>
-Source URL: https://ct.cloudflare.com/logs/nimbus2023/
-Base64 Log ID: ejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS61I=
-Operator: Cloudflare
-Contact: ct-logs@cloudflare.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2024/</b>
-Source URL: https://ct.cloudflare.com/logs/nimbus2024/
-Base64 Log ID: 2ra/az+1tiKfm8K7XGvocJFxbLtRhIU0vaQ9MEjX+6s=
-Operator: Cloudflare
-Contact: ct-logs@cloudflare.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/cloudflare_nimbus2025/</b>
-Source URL: https://ct.cloudflare.com/logs/nimbus2025/
-Base64 Log ID: zPsPaoVxCWX+lZtTzumyfCLphVwNl422qX5UwP5MDbA=
-Operator: Cloudflare
-Contact: ct-logs@cloudflare.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/comodo_mammoth/</b>
-Source URL: https://mammoth.ct.comodo.com/
-Base64 Log ID: b1N2rDHwMRnYmQCkURX/dxUcEdkCwQApBo2yCJo32RM=
-Operator: Sectigo
-Contact: ctops@sectigo.com
-</pre>
-
-<pre>
-<b>https://ct.googleapis.com/logs/us1/mirrors/comodo_sabre/</b>
-Source URL: https://sabre.ct.comodo.com/
-Base64 Log ID: VYHUwhaQNgFK6gubVzxT8MDkOHhwJQgXL6OqHQcT0ww=
-Operator: Sectigo
-Contact: ctops@sectigo.com
-</pre>
 
 ## Test Logs
 
@@ -298,3 +198,8 @@ Base64 Log ID: sMyD5aX5fWuvfAnMKEkEhyrH6IsTLGNQt8b9JuFsbHc=
 Operator: Google
 Contact: google-ct-logs@googlegroups.com
 </pre>
+
+## Archived Logs
+
+See https://github.com/geomys/ct-archive. This list includes some logs that
+Google used to mirror and that have now been archived on the Internet Archive.
