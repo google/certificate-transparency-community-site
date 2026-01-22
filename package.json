@@ -3,7 +3,7 @@
     "autoprefixer": "^10.4.16",
     "csv-parse": "^4.8.7",
     "deepmerge": "^4.2.2",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.23",
     "postcss-cli": "^10.1.0",
     "postcss-custom-media": "^10.0.1"
   },
