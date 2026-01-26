@@ -1,0 +1,116 @@
+.markdown {
+  margin-bottom: 10rem;
+
+  @include md {
+    width: 75%;
+    margin-left: 12.5%;
+  }
+
+  nav {
+    ul {
+      list-style: decimal;
+      font-family: $font-mono, monospace;
+      line-height: 1.75rem;
+      margin-left: 0;
+      margin-top: 0;
+      li {
+        margin-bottom:0;
+        margin-left: 0;
+        a {
+          color: map-get(map-get($palettes, "markdown"), "full");
+        }
+      }
+    }
+  }
+
+  .markdown-heading {
+    margin: 4rem 0 4rem 0;
+
+    h4 {
+      font-family: $font-mono, monospace;
+      font-weight: bold;
+      font-size: 1rem;
+      margin: 0;
+      line-height: 1.75rem;
+      padding-bottom: 0;
+    }
+  }
+
+  h1 {
+    margin: 0 0 2rem;
+    font-size: 3rem;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+    line-height: 1.1;
+
+    @include sm {
+      font-size: 2.6rem;
+      br {
+        display: none;
+      }
+    }
+
+    @include md {
+      margin: 0 0 1rem;
+    }
+  }
+
+  h2 {
+    font-weight: 600;
+    line-height: 1;
+    color: $col-greyish;
+    line-height: 115%;
+    letter-spacing: -0.035em;
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    @include sm {
+      margin: 9.5vw 0 4.75vw 0;
+      // padding: 0 1rem;
+      padding: 0;
+    }
+    @include md {
+      margin: 3.5rem 0 1rem 0;
+    }
+  }
+
+  h3 {
+    font-weight: 700;
+    margin: 2rem 0 1rem;
+    font-size: 1.3rem;
+    letter-spacing: -0.035em;
+    line-height: 105%;
+    color: $col-greyish;
+  }
+
+  p, li {
+    margin: 0 0 1rem;
+    font-family: $font-mono, monospace;
+    font-size: 0.8rem;
+    line-height: 1.75;
+  }
+}
+
+.log-callout {
+    padding: 10px 12px;
+    border: 1px solid $col-black;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    background: map-get(map-get($palettes, "markdown"), "tint");
+    h4 {
+      font-weight: 700;
+      letter-spacing: -0.035em;
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      color: $col-black;
+    }
+    p {
+      font-family: $font-mono, monospace;
+      font-size: 0.8rem;
+      margin: 0 0 0;
+      &:last-child {
+        margin: 0;
+      }
+    }
+}
+
