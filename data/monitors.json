@@ -43,6 +43,12 @@
       "logo": "hardenize.svg"
     },
     {
+      "name": "Hurricane Electric",
+      "url": "https://bgp.he.net/certs",
+      "description": "Search Certificate Transparency logs on the Hurricane Electric Super Looking Glass ",
+      "logo": "hurricane-electric.svg"
+    },
+    {
       "name": "Merklemap",
       "url": "https://www.merklemap.com/",
       "description": "Certificate transparency search engine.",
