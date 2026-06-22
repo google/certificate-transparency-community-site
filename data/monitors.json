@@ -13,6 +13,12 @@
       "logo": "certkit-logo.svg"
     },
     {
+      "name": "CertObserver",
+      "url": "https://certobserver.com/",
+      "description": "Monitor certificates across your inventory, CT logs, and TLS endpoints.",
+      "logo": "certobserver.svg"
+    },
+    {
       "name": "Cloudflare",
       "url": "https://blog.cloudflare.com/introducing-certificate-transparency-monitoring/",
       "description": "Get an email every time a certificate is issued for one of your monitored domains.",
