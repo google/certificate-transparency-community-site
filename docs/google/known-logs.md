@@ -72,6 +72,10 @@ A test root should:
 
 4.  be in PEM format (with a .cer or .pem extension).
 
+5.  use a supported signature algorithm (RSA, RSA-PSS, ECDSA, or Ed25519).
+    Post-quantum (e.g. ML-DSA) and hybrid algorithms are not supported by the
+    legacy log software.
+
 For historical reasons, Google's test logs include some test roots that do not
 comply with all of the above requirements.
 
