@@ -27,8 +27,15 @@ fetch(dataUrl)
     return response.text();
   })
   .then(count => {
+    // The endpoint returns a bare number followed by a newline (e.g. "123456789\n").
+    // Trim it and store the count as a number; the certcount shortcode passes this
+    // value to lang.NumFmt, which cannot parse the raw newline-terminated string.
+    const trimmed = count.trim();
+    if (!/^\d+$/.test(trimmed)) {
+      throw new Error(`Unexpected count value: ${JSON.stringify(trimmed)}`);
+    }
     const asof = new Date().toISOString().slice(0, 10);
-    const countString = JSON.stringify({ count, asof }, false, 2);
+    const countString = JSON.stringify({ count: Number(trimmed), asof }, false, 2);
     const dataPath = path.join(__dirname, '..', 'data', 'certcount.json');
     fs.writeFileSync(dataPath, countString);
   })
