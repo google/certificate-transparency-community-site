@@ -1,6 +1,12 @@
 {
   "monitors": [
     {
+      "name": "CAlert",
+      "url": "https://calert.net/",
+      "description": "Get notified by email or webhook when a certificate is issued for your domains.",
+      "logo": "calert.svg"
+    },
+    {
       "name": "Censys",
       "url": "https://search.censys.io",
       "description": "Identify expired or misconfigured SSL/TLS certificates and track vendor compliance.",
