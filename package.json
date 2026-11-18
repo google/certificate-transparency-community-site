@@ -11,7 +11,6 @@
     "get_latest_logs": "node scripts/get_latest_logs.js",
     "get_uptime": "node scripts/get_uptime.js",
     "process_logs": "node scripts/process_logs.js",
-    "download_and_process_logs": "npm run get_latest_logs && npm run get_uptime && npm run process_logs",
-    "update_certificate_count": "node scripts/update_certcount.js"
+    "download_and_process_logs": "npm run get_latest_logs && npm run get_uptime && npm run process_logs"
   }
 }
