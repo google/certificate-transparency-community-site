@@ -43,6 +43,12 @@
       "logo": "digicert.svg"
     },
     {
+      "name": "DNS Assistant",
+      "url": "https://dnsassistant.com/certificate-transparency-monitoring",
+      "description": "Alerts on certificates from unauthorized CAs, unknown subdomains, and unexpected wildcards. Discovered names feed subdomain takeover and DNS attack surface checks.",
+      "logo": "dnsassistant.png"
+    },
+    {
       "name": "EZMonitor",
       "url": "https://www.keytos.io/ezmonitor_overview.html",
       "description": "Proactively monitor the health of your SSL certificates and endpoints. Get notified before a problem occurs.",
