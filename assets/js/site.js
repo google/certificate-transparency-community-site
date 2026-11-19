@@ -19,8 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
   handleSubMenuHover();
   handleResize();
 
-  handleHomepageCounter();
-
   handleTableUpdate();
 
   prepareEventGrids();
@@ -40,34 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
-
-function handleHomepageCounter() {
-  if(document.getElementById("cert-count")) {
-    fetch("https://ct.cloudflare.com/data/total", {cache: "no-store"})
-      .then((response) => response.text())
-      .then((data) => {
-        console.log(data);
-        const newNum = parseInt(data);
-        const el = document.getElementById("cert-count");
-        let oldNum = parseInt(el.innerText.replace(/\,/g, ""));
-        if(oldNum == newNum) {
-          oldNum = newNum - (Math.floor(Math.random() * 1000));
-        }
-        const counter = new CountUp(el, oldNum, newNum);
-        if (!counter.error) {
-          const waypoint = new Waypoint({
-            element: el,
-            offset: 800,
-            handler: function () {
-              counter.start();
-            }
-          })
-        } else {
-          console.error(counter.error);
-        }
-      });
-  }
-}
 
 function handleTableUpdate() {
   if(document.getElementById("logs-table")) {

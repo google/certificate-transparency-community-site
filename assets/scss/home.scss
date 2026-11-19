@@ -254,27 +254,6 @@
         color: $col-black;
       }
 
-      .small {
-        font-family: $font-mono;
-        font-size: 1rem;
-        color: $col-bodyblack;
-        font-weight: normal;
-        line-height: 1.75;
-        letter-spacing: -0.025em;
-        display: block;
-      }
-
-      .cert-count {
-        font-size: 4.5rem;
-        display: block;
-        letter-spacing: -0.04em;
-        font-weight: 700;
-        line-height: 1.5;
-        @include sm {
-          font-size: 3rem;
-        }
-      }
-
       .inner {
         @include md {
           padding: 1rem 3rem;
