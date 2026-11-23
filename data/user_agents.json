@@ -39,6 +39,14 @@
       "logo": "android.svg",
       "customWidth": 90,
       "textTitle": true
+    },
+    {
+      "name": "Cloud Fellows Web Gateway",
+      "url": "https://www.cloudfellows.de/certificate-transparency-policy.html",
+      "description": "TLS-intercepting proxy, supporting CT since 2026",
+      "logo": "CloudFellows.svg",
+      "customWidth": 120,
+      "textTitle": true
     }
   ]
 }
