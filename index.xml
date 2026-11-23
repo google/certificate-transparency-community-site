@@ -68,8 +68,8 @@ Go to Logs Go to User Agents          Identify expired or misconfigured SSL/TLS 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://certificate.transparency.dev/useragents/</guid>
-      <description>User Agents User agents using CT  User agents are typically browsers and help perform certificate auditing by verifying that certificates have legitimately been added to a log.
-Go to Logs Go to Monitors          Google Chrome Supporting CT since early 2015         Apple Safari Supporting CT since 2018         Brave Supporting CT since 2023         Firefox Supporting CT since 2025         Android Supporting CT since 2025       Add CT to your user agent</description>
+      <description>User Agents User agents using CT  User agents are typically browsers and help perform certificate auditing by verifying that certificates have legitimately been added to a log. TLS-intercepting proxies, which validate the origin certificate in place of the browser, enforce CT on their upstream connections in the same way.
+Go to Logs Go to Monitors          Google Chrome Supporting CT since early 2015         Apple Safari Supporting CT since 2018         Brave Supporting CT since 2023         Firefox Supporting CT since 2025         Android Supporting CT since 2025         Cloud Fellows Web Gateway TLS-intercepting proxy, supporting CT since 2026       Add CT to your user agent</description>
     </item>
     
   </channel>
