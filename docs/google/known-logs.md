@@ -7,6 +7,11 @@
 
 # Known Logs
 
+> [!IMPORTANT]
+> All the logs on this page [have been made READONLY](https://groups.google.com/a/chromium.org/g/ct-policy/c/Y9t44bJqpkc),
+> and do not accept new submissions. They will be turned down in 2026Q4/2027Q1.
+> New Google test logs are listed on the [TesseraCT repo](https://github.com/transparency-dev/tesseract#test_tube-public-test-instances).
+
 Lists of known CT Logs are maintained by each CT-enforcing user agent.
 
 Learn more about the list of CT Logs that are currently compliant with
